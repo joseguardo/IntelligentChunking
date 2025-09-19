@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDF Drag & Drop Processor</title>
+  <!-- External stylesheet as requested -->
+  <link rel="stylesheet" href="/static/style.css" />
+  <!-- THEME: Simplified theme system -->
+  <script>
+    // Global theme storage and functions
+    window.themeStorage = { current: null };
+    
+    window.setTheme = function(mode) {
+      window.themeStorage.current = mode;
+      
+      if (mode === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+      
+      // Update UI elements if they exist
+      const toggle = document.getElementById('themeToggle');
+      const label = document.getElementById('themeToggleLabel');
+      
+      if (toggle) toggle.setAttribute('aria-pressed', mode === 'dark' ? 'true' : 'false');
+      if (label) label.textContent = mode === 'dark' ? 'Dark' : 'Light';
+    };
+    
+    // Initialize theme
+    const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialTheme = systemPrefersDark ? 'dark' : 'light';
+    window.setTheme(initialTheme);
+  </script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h3>Processed Documents</h3>
+      <button id="closeSidebar" class="close-btn" aria-label="Close sidebar">×</button>
+    </div>
+    <div class="sidebar-content">
+      <div id="documentsList" class="documents-list">
+        <div class="loading-docs">Loading documents...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overlay for mobile -->
+  <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <div class="header-controls">
+          <button id="showDocsBtn" class="docs-btn" type="button" aria-label="Show processed documents">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            Documents
+          </button>
+          <a href="static/chatbot.html" class="docs-btn" style="text-decoration: none; display: flex; align-items: center; gap: 0.5rem;" aria-label="Open contract analysis chatbot">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+            </svg>
+            Chatbot
+          </a>
+          <!-- THEME: toggle button -->
+          <button id="themeToggle" class="docs-btn" type="button" aria-pressed="false" aria-label="Toggle color theme">
+            <svg id="themeToggleIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path id="sunIcon" d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.8 1.42-1.42zM1 13h3v-2H1v2zm10 10h2v-3h-2v3zm9.66-3.54l1.41-1.41-1.79-1.8-1.41 1.42 1.79 1.79zM20 13h3v-2h-3v2zM4.22 19.78l1.41 1.41 1.8-1.79-1.42-1.41-1.79 1.79zM12 6a6 6 0 100 12 6 6 0 000-12zm0-5h2v3h-2V1z"/>
+                <path id="moonIcon" d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.06 7 9.54 0 4.48-2.94 8.27-7 9.54.95.3 1.95.46 3 .46 5.52 0 10-4.48 10-10S14.52 2 9 2z" style="display: none;"/>
+            </svg>
+            <span id="themeToggleLabel">Light</span>
+          </button>
+          <div class="logo" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.88L18.18 22 12 18.77 5.82 22 7 14.15l-5-4.88 6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <h1>Contract Extractor</h1>
+          <p class="subtitle">Drop your contract and extract all the information that you need.</p>
+        </div>
+      </div>
+      <div>
+        <button id="pickBtn" class="btn" type="button">Choose PDF</button>
+      </div>
+    </header>
+
+    <!-- STACKED LAYOUT: Dropzone on top, results beneath. Width is constrained by .wrap and card max-widths in CSS. -->
+    <main class="stack">
+      <section class="panel">
+        <div id="dropzone" class="dropzone" role="button" tabindex="0" aria-label="Drag and drop a PDF or click to select">
+          <div class="dz-inner">
+            <div class="dz-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M19 15v4H5v-4H3v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4h-2zM11 16h2V7h3l-4-4-4 4h3z"/>
+              </svg>
+            </div>
+            <div class="dz-title">Drag & drop a PDF here</div>
+            <div class="dz-sub">or click / press <span class="kbd">Enter</span> to choose</div>
+            <div class="status" id="status"><span class="dot idle" id="statusDot"></span><span id="statusText">Idle</span></div>
+            <div class="progress" aria-hidden="true"><div id="bar" class="bar"></div></div>
+          </div>
+        </div>
+        <input id="fileInput" type="file" accept="application/pdf" hidden />
+      </section>
+
+      <!-- RESULTS: grows downward. Each card has a max-width to keep lines readable. -->
+      <section class="results">
+        <div class="card" id="summaryCard" style="display:none">
+          <h3>Processing Summary</h3>
+          <div class="summary-stats" id="summaryStats"></div>
+        </div>
+
+        <div class="card" id="structureCard" style="display:none">
+          <h3>Document Structure</h3>
+          <div class="structure-list" id="structureList"></div>
+        </div>
+
+        <div class="card" id="filesCard" style="display:none">
+          <h3>Document Status</h3>
+          <div class="files-info" id="filesInfo"></div>
+        </div>
+
+        <div id="placeholder" class="card">
+          <h3>How it works</h3>
+          <p class="subtitle" style="margin:0">Drop a PDF and the app will POST it to <code>http://localhost:8000/upload/</code>, extract the document structure, create chunked sections, and display the results.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // ====== JS logic adapted for new endpoint structure ======
+    const dropzone = document.getElementById('dropzone');
+    const fileInput = document.getElementById('fileInput');
+    const pickBtn = document.getElementById('pickBtn');
+
+    const statusEl = document.getElementById('status');
+    const statusDot = document.getElementById('statusDot');
+    const statusText = document.getElementById('statusText');
+    const bar = document.getElementById('bar');
+
+    const summaryCard = document.getElementById('summaryCard');
+    const summaryStats = document.getElementById('summaryStats');
+    const structureCard = document.getElementById('structureCard');
+    const structureList = document.getElementById('structureList');
+    const filesCard = document.getElementById('filesCard');
+    const filesInfo = document.getElementById('filesInfo');
+    const placeholder = document.getElementById('placeholder');
+
+    // Sidebar elements
+    const sidebar = document.getElementById('sidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    const showDocsBtn = document.getElementById('showDocsBtn');
+    const closeSidebar = document.getElementById('closeSidebar');
+    const documentsList = document.getElementById('documentsList');
+
+    const toast = document.getElementById('toast');
+
+    const ENDPOINT = 'http://localhost:8000/upload/';
+    const DOCUMENTS_ENDPOINT = 'http://localhost:8000/documents/';
+
+    function setStatus(kind, text) {
+      statusDot.className = 'dot ' + (kind || 'idle');
+      statusText.textContent = text || 'Idle';
+    }
+
+    function showToast(text, type = 'ok') {
+      toast.textContent = text;
+      toast.className = 'toast show ' + type;
+      clearTimeout(showToast._t);
+      showToast._t = setTimeout(() => { toast.className = 'toast'; }, 2500);
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;');
+    }
+
+    function formatDate(isoString) {
+      if (!isoString) return 'Unknown';
+      try {
+        return new Date(isoString).toLocaleDateString() + ' ' + new Date(isoString).toLocaleTimeString();
+      } catch {
+        return 'Invalid date';
+      }
+    }
+
+    function getCompletionStatus(completionScore) {
+      if (completionScore >= 1.0) return { text: 'Complete', class: 'complete' };
+      if (completionScore >= 0.8) return { text: 'Ready', class: 'ready' };
+      if (completionScore >= 0.6) return { text: 'Processing', class: 'processing' };
+      return { text: 'Incomplete', class: 'incomplete' };
+    }
+
+    function formatFileSize(bytes) {
+      if (!bytes) return 'Unknown';
+      const units = ['B', 'KB', 'MB', 'GB'];
+      let size = bytes;
+      let unitIndex = 0;
+      while (size >= 1024 && unitIndex < units.length - 1) {
+        size /= 1024;
+        unitIndex++;
+      }
+      return `${size.toFixed(1)} ${units[unitIndex]}`;
+    }
+
+    // Sidebar functions
+    function openSidebar() {
+      sidebar.classList.add('open');
+      sidebarOverlay.classList.add('show');
+      document.body.style.overflow = 'hidden';
+      loadDocuments();
+    }
+
+    function closeSidebarFn() {
+      sidebar.classList.remove('open');
+      sidebarOverlay.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    async function loadDocuments() {
+      try {
+        documentsList.innerHTML = '<div class="loading-docs">Loading documents...</div>';
+        
+        const response = await fetch(DOCUMENTS_ENDPOINT);
+        const data = await response.json();
+        
+        if (!response.ok) {
+          throw new Error(data.detail || 'Failed to load documents');
+        }
+        
+        renderDocumentsList(data.documents || []);
+      } catch (error) {
+        documentsList.innerHTML = `<div class="error-docs">Error loading documents: ${escapeHtml(error.message)}</div>`;
+      }
+    }
+
+    function renderDocumentsList(documents) {
+      if (documents.length === 0) {
+        documentsList.innerHTML = '<div class="no-docs">No processed documents found</div>';
+        return;
+      }
+
+      documentsList.innerHTML = '';
+      
+      documents.forEach(doc => {
+        const docEl = document.createElement('div');
+        docEl.className = 'document-item';
+        
+        // Use new response structure
+        const originalFilename = doc.metadata?.original_filename || doc.name;
+        const fileSize = formatFileSize(doc.metadata?.file_size);
+        const processingTime = doc.metadata?.processing_time ? `${doc.metadata.processing_time.toFixed(1)}s` : 'Unknown';
+        const sections = doc.stats?.sections || 0;
+        const completionScore = doc.completion_score || 0;
+        const status = getCompletionStatus(completionScore);
+        const lastProcessed = doc.last_processed || doc.created_at;
+        
+        docEl.innerHTML = `
+          <div class="doc-header">
+            <h4 class="doc-name">${escapeHtml(originalFilename)}</h4>
+            <span class="doc-status ${status.class}">${status.text}</span>
+            <button class="doc-delete" onclick="deleteDocument('${escapeHtml(doc.id)}')" aria-label="Delete document">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M16 9v10H8V9h8m-1.5-6h-5l-1 1H5v2h14V4h-2.5l-1-1zM18 7H6v12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="doc-stats">
+            <div class="doc-stat">
+              <span class="stat-label">Last Updated:</span>
+              <span class="stat-value">${formatDate(lastProcessed)}</span>
+            </div>
+            <div class="doc-stat">
+              <span class="stat-label">File Size:</span>
+              <span class="stat-value">${fileSize}</span>
+            </div>
+            <div class="doc-stat">
+              <span class="stat-label">Sections:</span>
+              <span class="stat-value">${sections}</span>
+            </div>
+            <div class="doc-stat">
+              <span class="stat-label">Processing:</span>
+              <span class="stat-value">${processingTime}</span>
+            </div>
+          </div>
+        `;
+        
+        // Add click handler to view document details
+        docEl.addEventListener('click', (e) => {
+          if (!e.target.closest('.doc-delete')) {
+            viewDocument(doc.id);
+          }
+        });
+        
+        documentsList.appendChild(docEl);
+      });
+    }
+
+    async function deleteDocument(documentId) {
+      if (!confirm(`Are you sure you want to delete this document?`)) {
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${DOCUMENTS_ENDPOINT}${documentId}`, {
+          method: 'DELETE'
+        });
+        
+        const data = await response.json();
+        
+        if (!response.ok) {
+          throw new Error(data.detail || 'Failed to delete document');
+        }
+        
+        // Handle new response structure
+        if (data.status === 'success' || data.status === 'partial_success') {
+          const message = data.status === 'partial_success' ? 
+            'Document partially deleted (some files may remain)' : 
+            'Document deleted successfully';
+          showToast(message);
+        } else {
+          throw new Error(data.message || 'Delete operation failed');
+        }
+        
+        loadDocuments(); // Refresh the list
+      } catch (error) {
+        showToast('Failed to delete document: ' + error.message, 'err');
+      }
+    }
+
+    async function viewDocument(documentId) {
+      // For now, just show a toast. Later you can implement detail view
+      showToast(`Viewing document: ${documentId}`);
+      // You could implement a detail view here or load specific document data
+    }
+
+    // Event listeners for sidebar
+    showDocsBtn.addEventListener('click', openSidebar);
+    closeSidebar.addEventListener('click', closeSidebarFn);
+    sidebarOverlay.addEventListener('click', closeSidebarFn);
+
+    // Close sidebar with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && sidebar.classList.contains('open')) {
+        closeSidebarFn();
+      }
+    });
+
+    function renderSummary(data) {
+      // Use new response structure
+      const processing = data.processing_summary || {};
+      const pdfProcessing = processing.pdf_processing || {};
+      const structureExtraction = processing.structure_extraction || {};
+      const rechunking = processing.rechunking || {};
+      const embeddings = processing.embeddings || {};
+      
+      summaryStats.innerHTML = `
+        <div class="stat-row">
+          <span class="stat-label">Document:</span>
+          <span class="stat-value success">${escapeHtml(data.document_id || 'Unknown')}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Processing Time:</span>
+          <span class="stat-value">${pdfProcessing.processing_time ? pdfProcessing.processing_time.toFixed(1) + 's' : 'Unknown'}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Pages Processed:</span>
+          <span class="stat-value">${pdfProcessing.pages_processed || 'Unknown'}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Sections Found:</span>
+          <span class="stat-value">${structureExtraction.sections_count || 0}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Content Chunks:</span>
+          <span class="stat-value">${rechunking.final_chunks_count || structureExtraction.initial_chunks || 0}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Search Ready:</span>
+          <span class="stat-value ${embeddings.success ? 'success' : 'warning'}">${embeddings.success ? 'Yes' : 'No'}</span>
+        </div>
+      `;
+    }
+
+    function renderStructure(sections) {
+      structureList.innerHTML = '';
+      
+      if (!sections || sections.length === 0) {
+        structureList.innerHTML = '<div class="no-sections">No sections found</div>';
+        return;
+      }
+
+      sections.forEach((section, index) => {
+        const sectionEl = document.createElement('div');
+        sectionEl.className = 'section-item';
+        
+        const hasSubsections = section.subsections_count > 0;
+        const subsectionText = hasSubsections ? 
+          ` <span class="subsection-count">(${section.subsections_count} subsections)</span>` : '';
+        
+        sectionEl.innerHTML = `
+          <div class="section-number">${index + 1}.</div>
+          <div class="section-content">
+            <div class="section-title">${escapeHtml(section.title)}</div>
+            ${subsectionText}
+          </div>
+        `;
+        
+        structureList.appendChild(sectionEl);
+      });
+    }
+
+    function renderFiles(data) {
+      // Focus on processing status rather than technical file paths
+      const processing = data.processing_summary || {};
+      const stages = [
+        { name: 'PDF Analysis', success: processing.pdf_processing?.success, detail: 'Document text extraction' },
+        { name: 'Structure Detection', success: processing.structure_extraction?.success, detail: 'Table of contents and sections' },
+        { name: 'Content Chunking', success: processing.rechunking?.success, detail: 'Content organization for analysis' },
+        { name: 'Search Index', success: processing.embeddings?.success, detail: 'Semantic search capabilities' }
+      ];
+      
+      filesInfo.innerHTML = stages.map(stage => `
+        <div class="file-row">
+          <span class="file-label">${stage.name}:</span>
+          <span class="file-status ${stage.success ? 'success' : 'warning'}">${stage.success ? 'Complete' : 'Pending'}</span>
+          <span class="file-detail">${stage.detail}</span>
+        </div>
+      `).join('');
+    }
+
+    function showResults(data) {
+      placeholder.style.display = 'none';
+      
+      // Show all result cards
+      summaryCard.style.display = 'block';
+      structureCard.style.display = 'block';
+      filesCard.style.display = 'block';
+      
+      // Populate the cards with data
+      renderSummary(data);
+      renderStructure(data.document_structure?.sections || []);
+      renderFiles(data);
+      
+      // Scroll the first result into view
+      summaryCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function simulateProgress() {
+      bar.style.width = '0%';
+      let w = 0;
+      const id = setInterval(() => {
+        w = Math.min(95, w + Math.random() * 10);
+        bar.style.width = w.toFixed(0) + '%';
+      }, 250);
+      return () => { clearInterval(id); bar.style.width = '100%'; };
+    }
+
+    async function uploadFile(file) {
+      if (!file) return;
+      if (!file.name.toLowerCase().endsWith('.pdf')) {
+        showToast('Please select a .pdf file', 'err');
+        setStatus('err', 'Invalid file type');
+        return;
+      }
+
+      setStatus('warn', 'Uploading and processing…');
+      const stop = simulateProgress();
+      try {
+        const formData = new FormData();
+        formData.append('file', file);
+
+        const resp = await fetch(ENDPOINT, { method: 'POST', body: formData });
+        const data = await resp.json().catch(() => ({ error: 'Invalid JSON response' }));
+
+        stop();
+
+        if (!resp.ok || data.error) {
+          const msg = data.error || data.detail || ('HTTP ' + resp.status);
+          setStatus('err', 'Error: ' + msg);
+          showToast('Upload failed: ' + msg, 'err');
+          return;
+        }
+
+        setStatus('ok', 'Done');
+        showToast('Processed successfully');
+        showResults(data);
+      } catch (err) {
+        stop();
+        setStatus('err', 'Network error');
+        showToast('Network error: ' + (err?.message || err), 'err');
+      }
+    }
+
+    // Drag & drop interactions
+    dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+    dropzone.addEventListener('dragleave', () => { dropzone.classList.remove('dragover'); });
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('dragover');
+      const file = e.dataTransfer?.files?.[0];
+      uploadFile(file);
+    });
+
+    // Click + keyboard access
+    dropzone.addEventListener('click', () => fileInput.click());
+    dropzone.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        fileInput.click();
+      }
+    });
+
+    fileInput.addEventListener('change', () => uploadFile(fileInput.files[0]));
+    pickBtn.addEventListener('click', () => fileInput.click());
+
+    // Theme toggle setup
+    document.addEventListener('DOMContentLoaded', function() {
+      const btn = document.getElementById('themeToggle');
+      if (!btn) return;
+
+      // Set initial state
+      const isDark = document.documentElement.hasAttribute('data-theme');
+      btn.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+      
+      // Add click handler
+      btn.addEventListener('click', () => {
+        const currentlyDark = document.documentElement.hasAttribute('data-theme');
+        window.setTheme(currentlyDark ? 'light' : 'dark');
+      });
+    });
+  </script>
+</body>
+</html>

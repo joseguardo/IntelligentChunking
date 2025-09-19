@@ -1,0 +1,15 @@
+<!-- Document ID: original -->
+<!-- Title: 24. INFORMATION UNDERTAKINGS -->
+<!-- Chunk: 39/195 -->
+<!-- Length: 2725 characters -->
+obliges the Facility Agent or any Lender (or, in the case of paragraph (iii) above, any prospective new Lender) to comply with "know your customer" or similar identification procedures in circumstances where the necessary information is not already available to it, each Obligor shall promptly upon the request of the Facility Agent or any Lender supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself or on behalf of any Lender) or any Lender (for itself or, in the case of the event described in paragraph (iii) above, on behalf of any prospective new Lender) in order for the Facility Agent, such Lender or, in the case of the event described in clause paragraph (iii) above, any prospective new Lender to carry out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the transactions contemplated in the Senior Finance Documents.
+
+(b) Each Lender shall promptly upon the request of the Facility Agent supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself) in order for the Facility Agent to carry
+
+out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the transactions contemplated in the Senior Finance Documents.
+
+(c) The Parent shall, by not less than ten Business Days' prior written notice to the Facility Agent, notify the Facility Agent (which shall promptly notify the Lenders) of its intention to request that one of its Subsidiaries becomes an Additional Obligor pursuant to clause 30 (Changes to the Obligors).
+
+(d) Following the giving of any notice pursuant to paragraph (c) above, if the accession of such Additional Obligor obliges the Facility Agent or any Lender to comply with "know your customer" or similar identification procedures in circumstances where the necessary information is not already available to it, the Parent shall promptly upon the request of the Facility Agent or any Lender supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself or on behalf of any Lender) or any Lender (for itself or on behalf of any prospective new Lender) in order for the Facility Agent or such Lender or any prospective new Lender to carry out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the accession of such Subsidiary to this agreement as an Additional Obligor.
+
+#

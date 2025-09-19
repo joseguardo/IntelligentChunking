@@ -1,0 +1,11 @@
+<!-- Document ID: original -->
+<!-- Title: Agreed Security Principles -->
+<!-- Chunk: 131/195 -->
+<!-- Length: 1887 characters -->
+Agreed Security Principles, an Obligor shall grant Security over its bank accounts but (other than in the case of the Mandatory Prepayment Account, Holding Account or any other blocked account) it shall be free to deal with those accounts in the ordinary course of its business until a Declared Default, save to the extent agreed otherwise in respect of cash collateral and mandatory prepayment accounts.
+
+(b) If required by local law to perfect the security, notice of the Security will be served on the account bank as soon as reasonably practicable (but in any case within five Business Days of the security being granted) and the Obligor shall use its reasonable endeavours to obtain an acknowledgement of that notice within 20 Business Days of service. If the Obligor has used its reasonable endeavours but has not been able to obtain acknowledgement, its obligation to obtain acknowledgement shall cease on the expiry of that 20 Business Day period irrespective of whether notice of the Security is required for perfection, if the service of notice would prevent the Obligor from using a bank account, other than in the case of the Mandatory Prepayment Account, Holding Account or any other blocked account, in the ordinary course of its business no notice of security shall be served until the occurrence of a Declared Default.
+
+(c) Any security over bank accounts shall be subject to any prior security interests in favour of the account bank which is created either by law or in the standard terms and conditions of the account bank. The notice of Security may request these are waived by the account bank but the Obligor shall not be required to change its banking arrangements if these Security interests are not waived or only partially waived.
+
+(d) If required under local law security over bank accounts will be registered subject to the general principles set out in these

@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-09-18T16:59:44.291229",
+    "operation": "process_file_start",
+    "success": true,
+    "duration": 0.0,
+    "data": {
+      "document_id": "original",
+      "original_filename": "original_temp.pdf",
+      "file_size": 1879449,
+      "file_type": ".pdf",
+      "start_time": "2025-09-18T16:59:44.291205"
+    },
+    "document_id": "original",
+    "processor": "LlamaParse"
+  },
+  {
+    "timestamp": "2025-09-18T17:01:31.799845",
+    "operation": "process_file_complete",
+    "success": true,
+    "duration": 105.79769110679626,
+    "data": {
+      "token_count": 132366,
+      "content_length": 626829,
+      "pages_processed": 242,
+      "file_saved": true,
+      "metadata_saved": true
+    },
+    "document_id": "original",
+    "processor": "LlamaParse"
+  },
+  {
+    "timestamp": "2025-09-18T17:01:31.800410",
+    "operation": "save_processed_content",
+    "success": true,
+    "duration": 0.0,
+    "data": {
+      "content_length": 626829,
+      "output_path": "data/processed/original/processed_content.md"
+    },
+    "document_id": "original",
+    "processor": "LlamaParse"
+  }
+]
