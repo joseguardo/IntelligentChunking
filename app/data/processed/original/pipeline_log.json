@@ -1,22 +1,6 @@
 [
   {
-    "timestamp": "2025-09-18T16:52:08.584522",
-    "operation": "pipeline_complete",
-    "success": true,
-    "duration": 0.0,
-    "data": {
-      "status": "failed",
-      "success": false,
-      "total_execution_time": 0.042136,
-      "completed_steps": [],
-      "failed_steps": [],
-      "error_summary": "DocumentProcessingOrchestrator._execute_step_with_retry() got multiple values for argument 'required'"
-    },
-    "document_id": "original",
-    "processor": "DocumentProcessingOrchestrator"
-  },
-  {
-    "timestamp": "2025-09-18T16:59:44.290626",
+    "timestamp": "2025-09-28T18:52:12.496197",
     "operation": "pipeline_start",
     "success": true,
     "duration": 0.0,
@@ -33,14 +17,14 @@
     "processor": "DocumentProcessingOrchestrator"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.521779",
+    "timestamp": "2025-09-28T18:53:32.686528",
     "operation": "pipeline_complete",
     "success": true,
     "duration": 0.0,
     "data": {
       "status": "completed",
       "success": true,
-      "total_execution_time": 142.270078,
+      "total_execution_time": 80.235089,
       "completed_steps": [
         "pdf_processing",
         "structure_extraction",

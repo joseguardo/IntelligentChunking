@@ -36,9 +36,11 @@ Without prejudice to the generality of clause 22.4 (Waiver of Defences), each Gu
 
 # 22.6 Immediate Recourse
 
-Each Guarantor waives any right it may have of first requiring any Senior Finance Party (or any trustee or agent on its behalf) to proceed against or enforce any other rights or security or claim payment from any person before claiming from that Guarantor under this.
+Each Guarantor waives any right it may have of first requiring any Senior Finance Party (or any trustee or agent on its behalf) to proceed against or enforce any other rights or security or claim payment from any person before claiming from that Guarantor under this
 
-UK - 205885966.10 97
+# 22. Guarantee and Indemnity
+
+This waiver applies irrespective of any law or any provision of a Senior Finance Document to the contrary.
 
 # 22.7 Appropriations
 

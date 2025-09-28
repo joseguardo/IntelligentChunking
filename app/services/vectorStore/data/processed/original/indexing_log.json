@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": "2025-09-18T17:01:31.921008",
+    "operation": "extract_pdf_preview",
+    "success": true,
+    "duration": 0.1134178638458252,
+    "data": {
+      "input_path": "data/temp/original_temp.pdf",
+      "output_path": "data/processed/original/temp/preview.pdf",
+      "pages_extracted": 10,
+      "total_pages": 242
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.428645",
+    "operation": "extract_index_openai",
+    "success": true,
+    "duration": 34.50740909576416,
+    "data": {
+      "pdf_path": "data/processed/original/temp/preview.pdf",
+      "model": "gpt-4.1-2025-04-14",
+      "index_elements_count": 58,
+      "sub_index_elements_count": 13
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.449429",
+    "operation": "split_markdown_to_chunks",
+    "success": true,
+    "duration": 0.0196993350982666,
+    "data": {
+      "markdown_path": "data/processed/original/processed_content.md",
+      "output_dir": "data/processed/original/chunks",
+      "chunks_created": 101,
+      "structure_sections": 58
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.453733",
+    "operation": "run_index_and_chunking_pipeline",
+    "success": true,
+    "duration": 34.64616012573242,
+    "data": {
+      "pdf_path": "data/temp/original_temp.pdf",
+      "markdown_path": "data/processed/original/processed_content.md",
+      "structure_sections": 58,
+      "chunks_created": 101,
+      "structure_saved": true
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.495367",
+    "operation": "load_chunks_from_directory",
+    "success": true,
+    "duration": 0.0406491756439209,
+    "data": {
+      "chunks_dir": "data/processed/original/chunks",
+      "sections_loaded": 82
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.504117",
+    "operation": "process_chunks_rechunk",
+    "success": true,
+    "duration": 0.0494232177734375,
+    "data": {
+      "chunks_dir": "data/processed/original/chunks",
+      "input_sections": 82,
+      "target_size": 10000,
+      "tolerance": 1500,
+      "final_chunks_count": 195,
+      "chunk_statistics": {
+        "count": 195,
+        "total_length": 476024,
+        "avg_length": 2441.148717948718,
+        "min_length": 10,
+        "max_length": 11497
+      }
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  },
+  {
+    "timestamp": "2025-09-18T17:02:06.521150",
+    "operation": "save_final_chunks",
+    "success": true,
+    "duration": 0.0165560245513916,
+    "data": {
+      "output_dir": "data/processed/original/final_chunks",
+      "chunks_saved": 195,
+      "total_characters": 476024
+    },
+    "document_id": "original",
+    "processor": "DocumentIndexingPipeline"
+  }
+]

@@ -25,8 +25,6 @@ The address and fax number (and the department or officer, if any, for whose att
 
 # 36. Communication
 
-# 36.3 General Provisions
-
 (d) Any communication or document made or delivered to the Parent in accordance with this clause 36.3 will be deemed to have been made or delivered to each of the Obligors.
 
 (e) Any communication or document which becomes effective, in accordance with paragraphs (a) to (d) (inclusive) above, after 5.00 p.m. in the place of receipt shall be deemed only to become effective on the following day.

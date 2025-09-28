@@ -383,6 +383,8 @@ as adjusted to reflect any repayment, prepayment, consolidation or division of a
 
 
 
+# Definitions
+
 "Base Reference Bank Rate" means the arithmetic mean of the rates (rounded upwards to four decimal places) as supplied to the Facility Agent at its request by the Base Reference Banks:
 
 - (a) in relation to LIBOR, as the rate at which the relevant Base Reference Bank could borrow funds in the London interbank market; or
@@ -614,9 +616,9 @@ UK - 205885966.10 9
 
 "Defaulting Lender" means any Lender (other than a Lender which is a Sponsor Affiliate):
 
-- (a) which has failed to make its participation in a Loan available or has notified the Facility Agent or the Parent (which has notified the Facility Agent) that it will not make its participation in a Loan available by the Utilisation Date of that Loan in accordance with clause 6.4 (Lenders' Participation);
-- (b) which has otherwise rescinded or repudiated a Senior Finance Document; or
-- (c) with respect to which an Insolvency Event has occurred and is continuing;
+1. which has failed to make its participation in a Loan available or has notified the Facility Agent or the Parent (which has notified the Facility Agent) that it will not make its participation in a Loan available by the Utilisation Date of that Loan in accordance with clause 6.4 (Lenders' Participation);
+2. which has otherwise rescinded or repudiated a Senior Finance Document; or
+3. with respect to which an Insolvency Event has occurred and is continuing;
 
 "Delegate" means any delegate, agent, attorney or co-trustee appointed by the Security Agent;
 
@@ -630,8 +632,8 @@ UK - 205885966.10 9
 
 "Disruption Event" means either or both of:
 
-- (a) a material disruption to those payment or communications systems or to those financial markets which are, in each case, required to operate in order for payments to be made in connection with the Facilities (or otherwise in order for the transactions contemplated by the Senior Finance Documents to be carried out) which disruption is not caused by, and is beyond the control of, any of the Parties; or
-- (b) the occurrence of any other event which results in a disruption (of a technical or systems-related nature) to the treasury or payments operations of a Party preventing that, or any other Party;
+1. a material disruption to those payment or communications systems or to those financial markets which are, in each case, required to operate in order for payments to be made in connection with the Facilities (or otherwise in order for the transactions contemplated by the Senior Finance Documents to be carried out) which disruption is not caused by, and is beyond the control of, any of the Parties; or
+2. the occurrence of any other event which results in a disruption (of a technical or systems-related nature) to the treasury or payments operations of a Party preventing that, or any other Party;
 
 (i) from performing its payment obligations under the Senior Finance Documents; or
 
@@ -716,6 +718,8 @@ as of, in the case of paragraphs (a) and (c) above, the Specified Time on the Qu
 1. in relation to a "withholdable payment" described in section 1473(1)(A)(i) of the Code (which relates to payments of interest and certain other payments from sources within the US), 1 July 2014;
 2. in relation to a "withholdable payment" described in section 1473(1)(A)(ii) of the Code (which relates to "gross proceeds" from the disposition of property of a type that can produce interest from sources within the US), no earlier than 1 January 2019;
 
+UK - 205885966.10
+
 
 
 
@@ -786,41 +790,41 @@ but excluding any liability (i) under any lease of Real Property which is or wou
 
 
 
-Guarantor means an Original Guarantor or an Additional Guarantor, unless it has ceased to be a Guarantor in accordance with clause 30 (Changes to the Obligors);
+"Guarantor" means an Original Guarantor or an Additional Guarantor, unless it has ceased to be a Guarantor in accordance with clause 30 (Changes to the Obligors);
 
-Hedge Counterparty means:
+"Hedge Counterparty" means:
 
-- (a) any Original Hedge Counterparty; and
-- (b) any entity which has become a Party as a Hedge Counterparty in accordance with clause 28.9 (Accession of Hedge Counterparties),
+1. any Original Hedge Counterparty; and
+2. any entity which has become a Party as a Hedge Counterparty in accordance with clause 28.9 (Accession of Hedge Counterparties),
 
 which, in each case, is or has become, a party to the Intercreditor Agreement as a Hedge Counterparty in accordance with the provisions of the Intercreditor Agreement;
 
-Hedging Agreement means any master agreement, confirmation, schedule or other agreement entered into or to be entered into by the Company and a Hedge Counterparty for the purpose of hedging the types of liabilities and/or risks in relation to the Term Facility or a CAR Facility which the Hedging Letter (by reference to its form at the time that agreement is entered into) either requires or had required, to be hedged;
+"Hedging Agreement" means any master agreement, confirmation, schedule or other agreement entered into or to be entered into by the Company and a Hedge Counterparty for the purpose of hedging the types of liabilities and/or risks in relation to the Term Facility or a CAR Facility which the Hedging Letter (by reference to its form at the time that agreement is entered into) either requires or had required, to be hedged;
 
-Hedging Letter means the letter dated on or before the date of this agreement and made between the Arrangers and the Parent describing the hedging arrangements to be entered into in respect of the interest rate liabilities of the Borrower of, and in relation to, the Term Facility or a CAR Facility;
+"Hedging Letter" means the letter dated on or before the date of this agreement and made between the Arrangers and the Parent describing the hedging arrangements to be entered into in respect of the interest rate liabilities of the Borrower of, and in relation to, the Term Facility or a CAR Facility;
 
-Holding Account means an account:
+"Holding Account" means an account:
 
-- (a) held by a Group Company with the Facility Agent or Security Agent;
-- (b) designated by the Parent and the Facility Agent as a Holding Account; and
-- (c) subject to Security in favour of the Security Agent which Security is in form and substance satisfactory to the Security Agent and in accordance with the Agreed Security Principles,
+1. held by a Group Company with the Facility Agent or Security Agent;
+2. designated by the Parent and the Facility Agent as a Holding Account; and
+3. subject to Security in favour of the Security Agent which Security is in form and substance satisfactory to the Security Agent and in accordance with the Agreed Security Principles,
 
 (as the same may be redesignated, substituted or replaced from time to time);
 
-Holding Company means, in relation to a person, any other person in respect of which it is a Subsidiary;
+"Holding Company" means, in relation to a person, any other person in respect of which it is a Subsidiary;
 
-IFRS means international accounting standards within the meaning of IAS Regulation 1606/2002 to the extent applicable to the relevant financial statements;
+"IFRS" means international accounting standards within the meaning of IAS Regulation 1606/2002 to the extent applicable to the relevant financial statements;
 
-Impaired Agent means the Facility Agent at any time when:
+"Impaired Agent" means the Facility Agent at any time when:
 
-- (a) it has failed to make (or has notified a Party that it will not make) a payment required to be made by it under the Senior Finance Documents by the due date for payment;
-- (b) the Facility Agent otherwise rescinds or repudiates a Senior Finance Document;
-- (c) (if the Facility Agent is also a Lender) it is a Defaulting Lender under paragraph (a) or (b) of the definition of "Defaulting Lender"; or
-- (d) an Insolvency Event has occurred and is continuing with respect to the Facility Agent;
+1. it has failed to make (or has notified a Party that it will not make) a payment required to be made by it under the Senior Finance Documents by the due date for payment;
+2. the Facility Agent otherwise rescinds or repudiates a Senior Finance Document;
+3. (if the Facility Agent is also a Lender) it is a Defaulting Lender under paragraph (a) or (b) of the definition of "Defaulting Lender"; or
+4. an Insolvency Event has occurred and is continuing with respect to the Facility Agent;
 
 unless, in the case of paragraph (a) above:
 
-- (i) its failure to pay is caused by:
+1. its failure to pay is caused by:
 
 UK - 205885966.10 15
 
@@ -828,6 +832,8 @@ UK - 205885966.10 15
 
 
 
+
+# Definitions
 
 (A) administrative or technical error; or
 
@@ -837,19 +843,19 @@ payment is made within three Business Days of its due date; or
 
 (ii) the Facility Agent is disputing in good faith whether it is contractually obliged to make the payment in question;
 
-# "Increase Confirmation"
+# Increase Confirmation
 
 means a confirmation substantially in the form set out in schedule 12 (Form of Increase Confirmation);
 
-# "Increase Lender"
+# Increase Lender
 
 has the meaning given to that term in clause 2.2 (Increase);
 
-# "Information Package"
+# Information Package
 
 means the Reports and the Base Case Model;
 
-# "Insolvency Event"
+# Insolvency Event
 
 in relation to a Senior Finance Party means that the Senior Finance Party:
 
@@ -871,11 +877,11 @@ in relation to a Senior Finance Party means that the Senior Finance Party:
 
 # Definitions
 
-(i) has a secured party take possession of all or substantially all its assets or has a distress, execution, attachment, sequestration or other legal process levied, enforced or sued on or against all or substantially all its assets and such secured party maintains possession, or any such process is not dismissed, discharged, stayed or restrained, in each case within 30 days thereafter;
+or regulation not to be publicly disclosed, any such appointment which is to be made, or is made, by a person or entity described in paragraph (d) above);
 
-(j) causes or is subject to any event with respect to it which, under the applicable laws of any jurisdiction, has an analogous effect to any of the events specified in paragraphs (a) to (i) (inclusive) above; or
-
-(k) takes any action in furtherance of, or indicating its consent to, approval of, or acquiescence in, any of the foregoing acts;
+1. has a secured party take possession of all or substantially all its assets or has a distress, execution, attachment, sequestration or other legal process levied, enforced or sued on or against all or substantially all its assets and such secured party maintains possession, or any such process is not dismissed, discharged, stayed or restrained, in each case within 30 days thereafter;
+2. causes or is subject to any event with respect to it which, under the applicable laws of any jurisdiction, has an analogous effect to any of the events specified in paragraphs (a) to (i) (inclusive) above; or
+3. takes any action in furtherance of, or indicating its consent to, approval of, or acquiescence in, any of the foregoing acts;
 
 "Insurance Proceeds" has the meaning given to that term in clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow);
 
@@ -883,8 +889,8 @@ in relation to a Senior Finance Party means that the Senior Finance Party:
 
 "Intellectual Property" means:
 
-- (a) any patents, trademarks, service marks, designs, business names, copyrights, database rights, design rights, domain names, moral rights, inventions, confidential information, knowhow and other intellectual property rights and interests (which may now or in the future subsist), whether registered or unregistered; and
-- (b) the benefit of all applications and rights to use such assets of each Obligor (which may now or in the future subsist);
+1. any patents, trademarks, service marks, designs, business names, copyrights, database rights, design rights, domain names, moral rights, inventions, confidential information, knowhow and other intellectual property rights and interests (which may now or in the future subsist), whether registered or unregistered; and
+2. the benefit of all applications and rights to use such assets of each Obligor (which may now or in the future subsist);
 
 "Intercreditor Agreement" means the intercreditor agreement dated the same date as this agreement and made between, among others, the Parent, the Debtors (as defined therein), AgenSynd S.L. as Security Agent, AgenSynd S.L. as Agent, the Lenders, the Arranger, (each as defined therein), the holders of legal and beneficial title to the Loan Notes and Management Loan Notes and the Intra-Group Lenders (as defined therein);
 
@@ -892,8 +898,8 @@ in relation to a Senior Finance Party means that the Senior Finance Party:
 
 "Interpolated Screen Rate" means, in relation to LIBOR or EURIBOR for any Loan, the rate which results from interpolating on a linear basis, using the method recommended by the International Swaps and Derivatives Association (ISDA), between:
 
-- (a) the applicable Screen Rate for the longest period (for which that Screen Rate is available) which is less than the Interest Period of that Loan; and
-- (b) the applicable Screen Rate for the shortest period (for which that Screen Rate is available) which exceeds the Interest Period of that Loan,
+1. the applicable Screen Rate for the longest period (for which that Screen Rate is available) which is less than the Interest Period of that Loan; and
+2. the applicable Screen Rate for the shortest period (for which that Screen Rate is available) which exceeds the Interest Period of that Loan,
 
 each as of the Specified Time on the Quotation Day for the currency of that Loan;
 
@@ -935,38 +941,56 @@ UK - 205885966.10 18
 
 
 
-# Lender means:
+# Lender
 
-- (a) any Original Lender;
-- (b) any CAR Facility Lender; and
-- (c) any bank, financial institution, trust, fund or other entity which has become a Party as a Lender in accordance with clause 2.2 (Increase) or clause 28 (Changes to the Lenders),
+means:
+
+1. any Original Lender;
+2. any CAR Facility Lender; and
+3. any bank, financial institution, trust, fund or other entity which has become a Party as a Lender in accordance with clause 2.2 (Increase) or clause 28 (Changes to the Lenders),
 
 which in each case has not ceased to be a Lender in accordance with the terms of this agreement;
 
-# "Leverage" has the meaning given to that term in clause 25.1 (Financial Definitions);
+# Leverage
 
-# "LIBOR" means, in relation to any Loan:
+has the meaning given to that term in clause 25.1 (Financial Definitions);
 
-- (a) the applicable Screen Rate;
-- (b) (if no Screen Rate is available for the Interest Period of that Loan) the Interpolated Screen Rate for that Loan; or
-- (c) if:
+# LIBOR
+
+means, in relation to any Loan:
+
+1. the applicable Screen Rate;
+2. (if no Screen Rate is available for the Interest Period of that Loan) the Interpolated Screen Rate for that Loan; or
+3. if:
 
 as of, in the case of paragraphs (a) and (c) above, the Specified Time on the Quotation Day for the currency of that Loan and for a period equal in length to the Interest Period of that Loan but such that in the case of a Facility A Loan if the relevant amount is less than 1 per cent per annum, then LIBOR shall be 1 per cent per annum;
 
-# "LMA" means the Loan Market Association;
+# LMA
 
-# "Loan" means a Term Loan, CAR Facility Loan or a Revolving Facility Loan;
+means the Loan Market Association;
 
-# "Loan Note Documents" means the Loan Notes, Loan Note Instruments, the Management Loan Notes, Subordinated Security Documents, and when entered into, any New Shareholder Injection Documents made in the form of a debt instrument and any other documents entered into pursuant to any of them;
+# Loan
 
-# "Loan Note Instruments" means the instruments dated on or before the Closing Date pursuant to which the Loan Notes are, or are to be, constituted;
+means a Term Loan, CAR Facility Loan or a Revolving Facility Loan;
 
-# "Loan Notes" means:
+# Loan Note Documents
 
-- (a) the investor series A1 £6,923,929 secured loan stock 2023 of the Company to be constituted by the Loan Note Instruments; and
-- (b) the investor series B1 £10,385,894 unsecured loan stock 2023 of the Company to be constituted by the Loan Note Instruments;
+means the Loan Notes, Loan Note Instruments, the Management Loan Notes, Subordinated Security Documents, and when entered into, any New Shareholder Injection Documents made in the form of a debt instrument and any other documents entered into pursuant to any of them;
 
-# "Loan Note Security Documents" means the second ranking debenture and guarantee ranking behind the Transaction Security granted by the Obligors in favour of the Loan
+# Loan Note Instruments
+
+means the instruments dated on or before the Closing Date pursuant to which the Loan Notes are, or are to be, constituted;
+
+# Loan Notes
+
+means:
+
+1. the investor series A1 £6,923,929 secured loan stock 2023 of the Company to be constituted by the Loan Note Instruments; and
+2. the investor series B1 £10,385,894 unsecured loan stock 2023 of the Company to be constituted by the Loan Note Instruments;
+
+# Loan Note Security Documents
+
+means the second ranking debenture and guarantee ranking behind the Transaction Security granted by the Obligors in favour of the Loan
 
 
 
@@ -1008,18 +1032,18 @@ Note Security Trustee as security trustee for the holders of the Loan Notes prov
 
 # Management Loan Note Security Trustee
 
-"Management Loan Note Security Trustee" means the Security Trustee (as that term is defined in the Management Loan Note Security Documents);
+means the Security Trustee (as that term is defined in the Management Loan Note Security Documents);
 
 # Management Loan Notes
 
-"Management Loan Notes" means:
+means:
 
-- (a) the management series A2 £144,686 secured loan stock 2023 of the Company to be constituted by the Management Loan Note Instruments; and
+- (a) the management series A2 £144,686 secured loan stock 2023 of the Company to be constituted by the Management Loan Note Instruments;
 - (b) the management series B2 £217,029 secured loan stock 2023 of the Company to be constituted by the Management Loan Note Instruments;
 
 # Margin
 
-"Margin" means:
+means:
 
 - (a) in relation to any Facility A Loan, 7.00 per cent per annum;
 - (b) in relation to any Revolving Facility Loan, 3.00 per cent per annum;
@@ -1053,30 +1077,26 @@ However:
 
 
 
-# Compliance Certificate Provisions
-
 Facility Agent of the Compliance Certificate for that Relevant Period pursuant to clause 24.2 (Provisions and Contents of Compliance Certificate);
 
-1. If the effect of the above would be to cause the Margin to reduce by more than one level on any reset date then the Margin will decrease to the relevant level (even if it involves more reducing by more than one level) on that reset date;
-2. If, following receipt by the Facility Agent of the Compliance Certificate related to the relevant Annual Financial Statements, that Compliance Certificate does not confirm the basis for the Margin, then clause 13.2(b) (Payment of Interest) shall apply and the Margin for that Loan shall be the percentage per annum determined using the table above and the revised ratio of Leverage calculated using the figures in that Compliance Certificate;
-3. While an Event of Default is continuing, the Margin for each Loan under Facility A and the CAR Facility shall be the highest percentage per annum set out above (or in the relevant CAR Facility Establishment Notice) for a Loan under that Facility provided that once the Event of Default is no longer continuing, the Margin shall immediately revert to the level calculated pursuant to the most recent Compliance Certificate delivered under this agreement;
-4. For the purpose of determining the Margin, Leverage and Relevant Period shall be determined in accordance with clause 25.1 (Financial Definitions);
-
-# Definitions
+1. if the effect of the above would be to cause the Margin to reduce by more than one level on any reset date then the Margin will decrease to the relevant level (even if it involves more reducing by more than one level) on that reset date;
+2. if, following receipt by the Facility Agent of the Compliance Certificate related to the relevant Annual Financial Statements, that Compliance Certificate does not confirm the basis for the Margin, then clause 13.2(b) (Payment of Interest) shall apply and the Margin for that Loan shall be the percentage per annum determined using the table above and the revised ratio of Leverage calculated using the figures in that Compliance Certificate;
+3. while an Event of Default is continuing, the Margin for each Loan under Facility A and the CAR Facility shall be the highest percentage per annum set out above (or in the relevant CAR Facility Establishment Notice) for a Loan under that Facility provided that once the Event of Default is no longer continuing, the Margin shall immediately revert to the level calculated pursuant to the most recent Compliance Certificate delivered under this agreement;
+4. for the purpose of determining the Margin, Leverage and Relevant Period shall be determined in accordance with clause 25.1 (Financial Definitions);
 
 "Market Report" means the market report prepared by Apex Insight Ltd and dated on or about the date of this agreement and addressed to, and/or capable of being relied upon by the Reliance Parties;
 
 "Material Adverse Effect" means a material adverse effect on:
 
-1. The business, operations, assets, financial condition or prospects of the Group taken as a whole; or
-2. The ability of the Obligors (taken as a whole) to perform their payment obligations under the Senior Finance Documents; or
-3. Subject to the Legal Reservations and any Perfection Requirements, the validity or enforceability of any Senior Finance Document or the effectiveness or ranking of any Security granted or purporting to be granted pursuant to any of, the Senior Finance Documents which if capable of remedy is not remedied within 20 Business Days of the Facility Agent giving notice to the Parent or the relevant Obligor;
+1. the business, operations, assets, financial condition or prospects of the Group taken as a whole; or
+2. the ability of the Obligors (taken as a whole) to perform their payment obligations under the Senior Finance Documents; or
+3. subject to the Legal Reservations and any Perfection Requirements, the validity or enforceability of any Senior Finance Document or the effectiveness or ranking of any Security granted or purporting to be granted pursuant to any of, the Senior Finance Documents which if capable of remedy is not remedied within 20 Business Days of the Facility Agent giving notice to the Parent or the relevant Obligor;
 
 "Material Company" means, at any time:
 
-1. An Obligor; or
-2. A Group Company that holds shares in an Obligor; or
-3. A Subsidiary of the Parent which has earnings before interest, tax, depreciation and amortisation calculated on the same basis as Consolidated EBITDA (as defined in clause 25.1 (Financial Definitions)) representing 5 per cent or more of Consolidated EBITDA, as defined in clause 25.1 (Financial Definitions) or has gross assets representing 5 per cent, or more of the gross assets of the Group, calculated on a consolidated basis (but excluding intra-group items and goodwill).
+1. an Obligor; or
+2. a Group Company that holds shares in an Obligor; or
+3. a Subsidiary of the Parent which has earnings before interest, tax, depreciation and amortisation calculated on the same basis as Consolidated EBITDA (as defined in clause 25.1 (Financial Definitions)) representing 5 per cent or more of Consolidated EBITDA, as defined in clause 25.1 (Financial Definitions) or has gross assets representing 5 per cent, or more of the gross assets of the Group, calculated on a consolidated basis (but excluding intra-group items and goodwill).
 
 Compliance with the conditions set out in paragraph (c) above shall be determined by reference to the most recent Compliance Certificate supplied by the Parent and/or the
 
@@ -1149,6 +1169,8 @@ The above exceptions will only apply to the last Month of any period;
 
 "Original Investors" means Sovereign Capital IV Limited Partnership, Stewart Odes, SCLP IV Investment LP and any Sovereign Co-Investor;
 
+UK - 205885966.10 24
+
 
 
 
@@ -1205,6 +1227,8 @@ UK - 205885966.10
 
 
 
+
+# 27
 
 (aa) such cost savings or cost synergies shall be set out in reasonable detail and certified by the finance director of the Parent in a certificate detailing such pro forma adjustments together with all reasonable detail; and
 
@@ -1278,7 +1302,7 @@ and only if such acquisition is not funded by a Revolving Facility Utilisation;
 1. of trading stock or cash made by any Group Company in the ordinary course of trading of the disposing entity;
 2. of any asset by a Group Company (the "Disposing Company") to another Group Company (the "Acquiring Company"), but if:
 1. the Disposing Company is an Obligor, the Acquiring Company must also be an Obligor;
-2. the Disposing Company had given Security over the asset, the Acquiring Company must give equivalent Security over that asset;
+2. the Disposing Company had given Security over the asset, the Acquiring Company must give equivalent Security over that asset; and
 3. the Disposing Company is a Guarantor, the Acquiring Company must be a Guarantor guaranteeing at all times an amount no less than that guaranteed by the Disposing Company; and
 4. the Disposing Company is an Obligor and the Acquiring Company is not an Obligor, the aggregate amount transferred (net of the value of any assets transferred from any members of the Group which are not Obligors to Obligors) must not exceed £160,000 (or its equivalent at any time;
 3. of cash which would otherwise be permitted under any Senior Finance Document;
@@ -1286,8 +1310,6 @@ and only if such acquisition is not funded by a Revolving Facility Utilisation;
 5. of obsolete or redundant vehicles, plant and equipment for cash (unless it is not commercially feasible to dispose of such assets for cash);
 6. of Cash Equivalent Investments for cash or in exchange for other Cash Equivalent Investments;
 7. constituted by a licence of intellectual property rights permitted by clause 26.28 (Intellectual Property);
-
-UK - 205885966.10
 
 
 
@@ -1380,7 +1402,7 @@ UK - 205885966.10
 
 # Guarantees and Indemnities
 
-Guarantee is discharged within three months of the Permitted Acquisition completing;
+guarantee is discharged within three months of the Permitted Acquisition completing;
 
 - (h) any guarantee or indemnity given in the ordinary course of the documentation of an acquisition or disposal transaction which is a Permitted Acquisition or Permitted Disposal which guarantee or indemnity is in a customary form and subject to customary limitations;
 - (i) any guarantee or indemnity (other than a guarantee of Financial Indebtedness) entered into by an Obligor under any contract entered into in the ordinary course of business of the Group on or before the Closing Date, or thereafter in the ordinary course of business (excluding, for the avoidance of doubt, with any Investor);
@@ -1413,7 +1435,7 @@ Guarantee is discharged within three months of the Permitted Acquisition complet
 2. the contingent liabilities of any Group Company under any guarantee given in respect of the liabilities of any such Joint Venture; and
 3. the market value of any assets transferred by any Group Company to any such Joint Venture (other than a transfer of goods or assets for value and cash in the normal course of trading),
 
-does not (net of repayments of loans and investments and terminated guarantees) exceed £250,000 (or its equivalent in other currencies) in that Financial Year (and does not cumulatively exceed £500,000 (or its equivalent in other currencies);
+does not (net of repayments of loans and investments and terminated guarantees) exceed £250,000 (or its equivalent in other currencies) in that Financial Year (and does not cumulatively exceed £500,000 (or its equivalent in other currencies));
 
 "Permitted Loan" means:
 
@@ -1426,8 +1448,6 @@ does not (net of repayments of loans and investments and terminated guarantees) 
 7. any loan made to an employee benefit trust or similar for the purpose of the operation of an employee share scheme or similar subject to the maximum total amount of all such loans not exceeding £150,000 (or its equivalent in other currencies) at any time;
 8. any deferred consideration on Permitted Disposals and/or any loans or other extensions of credit made by a member of the Group that are or may become due or remain outstanding as a result of or following such disposal provided that the aggregate outstanding amount of such credit or consideration does not at any time exceed £200,000;
 9. loans or extensions of credit resulting from any guarantee, netting or set-off under arrangements described under paragraph (e) of the definition of "Permitted Guarantee";
-
-UK - 205885966.10 33
 
 
 
@@ -1496,7 +1516,7 @@ UK - 205885966.10 34
 | Relevant Period expiring 30 June 2019      | £6,115,229 |
 | Relevant Period expiring 30 September 2019 | £6,239,082 |
 
-UK - 205885966.10 35
+
 
 
 
@@ -1533,6 +1553,8 @@ To the extent a Proposed Payment made in full would cause a breach of paragraph 
 
 
 
+# 11.2 Disposal, Insurance and Acquisition Proceeds and Excess Cashflow
+
 (ii) funded entirely from Excess Cashflow not required to repay the Term Loans pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow) and provided that:
 
 - (A) no Default is continuing or would occur immediately after making such payment; and
@@ -1558,8 +1580,6 @@ To the extent a Proposed Payment made in full would cause a breach of paragraph 
 (o) any payment of Deferred Consideration (as such term is defined in the Acquisition Agreement) to any or all Vendors which is funded solely from the Retention Fund (as such term is defined in the Acquisition Agreement);
 
 UK - 205885966.10 37
-
-
 
 
 
@@ -1789,12 +1809,9 @@ or, in each case, on the appropriate page of such other information service whic
 
 
 
-
-# Selection Notice
+Selection Notice
 
 "Selection Notice" means a notice substantially in the form set out in part 2 of schedule 3 (Requests and Notices) given in accordance with clause 14 (Interest Periods) in relation to a Term Facility;
-
-# Senior Finance Document
 
 "Senior Finance Document" means this agreement, any Accession Deed, any Ancillary Document, any CAR Facility Documents, any Compliance Certificate, any Fee Letter, any Hedging Agreement, the Intercreditor Agreement, any Resignation Letter, any Selection Notice, any Transaction Security Document, any Utilisation Request and any other document designated as a "Senior Finance Document" by the Parent and the Facility Agent provided that where the term "Senior Finance Document" is used in, and construed for the purposes of, this agreement or the Intercreditor Agreement, a Hedging Agreement shall be a Senior Finance Document only for the purposes of:
 
@@ -1806,8 +1823,6 @@ or, in each case, on the appropriate page of such other information service whic
 - (f) clause 22 (Guarantee and Indemnity); and
 - (g) clause 27 (Events of Default) (other than clause 27.16(b) (Repudiation and Rescission of Agreements), clause 27.19 (Acceleration) and clause 27.20 (Revolving Facility Acceleration);
 
-# Senior Finance Party
-
 "Senior Finance Party" means the Facility Agent, an Arranger, the Security Agent, a Lender, a Hedge Counterparty and any Ancillary Lender provided that where the term "Senior Finance Party" is used in, and construed for the purposes of, this agreement or the Intercreditor Agreement, a Hedge Counterparty shall be a Senior Finance Party only for the purposes of:
 
 - (a) the definition of "Secured Parties";
@@ -1816,23 +1831,15 @@ or, in each case, on the appropriate page of such other information service whic
 - (d) clause 22 (Guarantee and Indemnity); and
 - (e) clause 32 (Conduct of Business by the Senior Finance Parties);
 
-# Senior Management
-
 "Senior Management" means each and all of David Tracey, Nick Frogbrook, Scott McGinley, Scott Merrick and Stewart Oades and any of their replacements from time to time;
-
-# Separate Loan
 
 "Separate Loan" has the meaning given to that term in clause 9.3 (Repayment of Revolving Facility Loans);
 
-# Service Contract
-
 "Service Contract" means a service contract of each member of Senior Management in agreed form;
-
-# Shareholders' Agreement
 
 "Shareholders' Agreement" means the subscription and shareholders agreement dated the same date as this agreement;
 
-
+UK - 205885966.10 44
 
 
 
@@ -1914,14 +1921,16 @@ or, in each case, on the appropriate page of such other information service whic
 
 
 
+# Transaction Security Documents
+
 "Transaction Security Documents" means each of the documents listed as being a Transaction Security Document in paragraph 3 of part 1 schedule 2 (Conditions Precedent) and any document required to be delivered to the Facility Agent under paragraph 12 of part 2 of schedule 2 (Conditions Precedent) or clause 26.38(e) (Conditions Subsequent) together with any other document entered into by any Obligor creating or expressed to create any Security over all or any part of its assets in respect of the obligations of any of the Obligors under any of the Senior Finance Documents;
 
 "Transfer Certificate" means a certificate substantially in the form set out in schedule 4 (Form of Transfer Certificate) or any other form agreed between the Facility Agent and the Parent;
 
 "Transfer Date" means, in relation to a transfer, the later of:
 
-- (a) the proposed Transfer Date specified in the relevant Assignment Agreement or Transfer Certificate; and
-- (b) the date on which the Facility Agent executes the relevant Assignment Agreement or Transfer Certificate;
+1. (a) the proposed Transfer Date specified in the relevant Assignment Agreement or Transfer Certificate; and
+2. (b) the date on which the Facility Agent executes the relevant Assignment Agreement or Transfer Certificate;
 
 "Treasury Transactions" means any derivative transaction entered into in connection with protection against or benefit from fluctuation in any rate or price;
 
@@ -1937,8 +1946,8 @@ or, in each case, on the appropriate page of such other information service whic
 
 "VAT" means:
 
-- (a) any tax imposed in compliance with the Council Directive of 28 November 2006 on the common system of value added tax (EC Directive 2006/112); and
-- (b) any other tax of a similar nature, whether imposed in a member state of the European Union in substitution for, or levied in addition to, such tax referred to in paragraph (a) above, or imposed elsewhere;
+1. (a) any tax imposed in compliance with the Council Directive of 28 November 2006 on the common system of value added tax (EC Directive 2006/112); and
+2. (b) any other tax of a similar nature, whether imposed in a member state of the European Union in substitution for, or levied in addition to, such tax referred to in paragraph (a) above, or imposed elsewhere;
 
 "Vendor" means Mick White and the other persons named in schedule 1 to the Acquisition Agreement as Sellers.
 
@@ -1946,7 +1955,7 @@ or, in each case, on the appropriate page of such other information service whic
 
 (a) Unless a contrary indication appears, a reference in this agreement to:
 
-- (i) any "Arranger", the "Facility Agent", any "Hedge Counterparty", any "Lender", any "Obligor", any "Party", any "Secured Party", the "Security Agent", any "Senior Finance Party" or any other person shall be construed so as to include its successors in title, permitted assigns and permitted transferees to, or of, its rights and/or obligations under the Senior Finance Documents and, in the case of the Security Agent, any person for
+1. (i) any "Arranger", the "Facility Agent", any "Hedge Counterparty", any "Lender", any "Obligor", any "Party", any "Secured Party", the "Security Agent", any "Senior Finance Party" or any other person shall be construed so as to include its successors in title, permitted assigns and permitted transferees to, or of, its rights and/or obligations under the Senior Finance Documents and, in the case of the Security Agent, any person for
 
 
 
@@ -1979,12 +1988,13 @@ For the time being appointed as Security Agent or Security Agents in accordance 
 
 
 
+
 Document has the same meaning in that Senior Finance Document or notice as in this agreement.
 
 (d) A Borrower providing "cash cover" for an Ancillary Facility means a Borrower paying an amount in the currency of the Ancillary Facility to an interest-bearing account in the name of the Borrower and the following conditions being met:
 
 1. the account is with the Security Agent or with the Ancillary Lender;
-2. until no amount is or may be outstanding under the Ancillary Facility, withdrawals from that account may only be made to pay that Ancillary Lender amounts due and payable to it in respect of that Ancillary Facility or to pay the relevant third party; and
+2. until no amount is or may be outstanding under the Ancillary Facility, withdrawals from that account may only be made to pay that Ancillary Lender amounts due and payable to it in respect of that Ancillary Facility or to pay the relevant third party;
 3. the Borrower has executed a security document over that account, in form and substance satisfactory to the Senior Finance Party with which that account is held, creating a first ranking security interest over that account.
 
 (e) A Default, an Event of Default or Material Event of Default is "continuing" if it has not been waived in writing by the Facility Agent or remedied.
@@ -2005,8 +2015,9 @@ and the amount by which Ancillary Outstandings are repaid or prepaid under parag
 
 # 1.4 Third Party Rights
 
-1. Unless expressly provided to the contrary in a Senior Finance Document a person who is not a Party has no right under the Contracts (Rights of Third Parties) Act 1999 (the "Third Parties Act") to enforce or enjoy the benefit of any term of this agreement.
-2. Notwithstanding any term of any Senior Finance Document, the consent of any person who is not a Party is not required to rescind or vary this agreement at any time.
+(a) Unless expressly provided to the contrary in a Senior Finance Document a person who is not a Party has no right under the Contracts (Rights of Third Parties) Act 1999 (the "Third Parties Act") to enforce or enjoy the benefit of any term of this agreement.
+
+(b) Notwithstanding any term of any Senior Finance Document, the consent of any person who is not a Party is not required to rescind or vary this agreement at any time.
 
 # 1.5 Provision of Information by Directors
 
@@ -2048,6 +2059,8 @@ request that the Commitments relating to any Facility be increased (and the Comm
 
 
 
+# 2.2 Increase in Commitments
+
 (iii) the increased Commitments will be assumed by one or more Lenders or other banks, financial institutions, trusts, funds or other entities (each an "Increase Lender") selected by the Parent (each of which shall not be a Sponsor Affiliate or a Group Company) and each of which confirms in writing (whether in the relevant Increase Confirmation or otherwise) its willingness to assume and does assume all the obligations of a Lender corresponding to that part of the increased Commitments which it is to assume, as if it had been an Original Lender;
 
 (iv) each of the Obligors and any Increase Lender shall assume obligations towards one another and/or acquire rights against one another as the Obligors and the Increase Lender would have assumed and/or acquired had the Increase Lender been an Original Lender;
@@ -2058,20 +2071,29 @@ request that the Commitments relating to any Facility be increased (and the Comm
 
 (vii) any increase in the Commitments relating to a Facility shall take effect on the date specified by the Parent in the notice referred to above or any later date on which the conditions set out in paragraph (b) below are satisfied.
 
-(b) An increase in the Commitments relating to a Facility will only be effective on:
+# (b) Conditions for Increase
+
+An increase in the Commitments relating to a Facility will only be effective on:
 
 (i) the execution by the Facility Agent of an Increase Confirmation from the relevant Increase Lender;
 
 (ii) in relation to an Increase Lender which is not a Lender immediately prior to the relevant increase:
 
-- (A) the Increase Lender entering into the documentation required for it to accede as a party to the Intercreditor Agreement; and
-- (B) the Facility Agent being satisfied that it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to the assumption of the increased Commitments by that Increase Lender. The Facility Agent shall promptly notify the Parent and the Increase Lender upon being so satisfied.
+(A) the Increase Lender entering into the documentation required for it to accede as a party to the Intercreditor Agreement; and
 
-(c) Each Increase Lender, by executing the Increase Confirmation, confirms (for the avoidance of doubt) that the Facility Agent has authority to execute on its behalf any amendment or waiver that has been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement on or prior to the date on which the increase becomes effective.
+(B) the Facility Agent being satisfied that it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to the assumption of the increased Commitments by that Increase Lender. The Facility Agent shall promptly notify the Parent and the Increase Lender upon being so satisfied.
 
-(d) The Parent shall within 3 Business Days of demand pay the Facility Agent and the Security Agent the amount of all costs and expenses (including legal fees subject to any agreed cap) reasonably and properly incurred by either of them and, in the case of the Security Agent, by any Receiver or Delegate in connection with any increase in Commitments under this clause 2.2.
+# (c) Confirmation by Increase Lender
 
-(e) The Increase Lender shall, on the date upon which the increase takes effect, pay to the Facility Agent (for its own account) a fee in an amount equal to the fee which
+Each Increase Lender, by executing the Increase Confirmation, confirms (for the avoidance of doubt) that the Facility Agent has authority to execute on its behalf any amendment or waiver that has been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement on or prior to the date on which the increase becomes effective.
+
+# (d) Payment of Costs
+
+The Parent shall within 3 Business Days of demand pay the Facility Agent and the Security Agent the amount of all costs and expenses (including legal fees subject to any agreed cap) reasonably and properly incurred by either of them and, in the case of the Security Agent, by any Receiver or Delegate in connection with any increase in Commitments under this clause 2.2.
+
+# (e) Fee Payment by Increase Lender
+
+The Increase Lender shall, on the date upon which the increase takes effect, pay to the Facility Agent (for its own account) a fee in an amount equal to the fee which
 
 
 
@@ -2173,20 +2195,32 @@ Upon receipt of a duly completed CAR Facility Establishment Notice, the Facility
 
 
 
-3.8 The Facility Agent shall notify the Parent and the Lenders of the changed amounts of the CAR Facility Commitments promptly after receipt of each CAR Facility Establishment Notice.
+# 3.8
 
-3.9 The terms and conditions relating to each CAR Facility are set out in this agreement with specific detail set out in each separate CAR Facility Establishment Notice entered into by the Parent and the CAR Facility Lenders or other entities providing the relevant CAR Facility Commitments.
+The Facility Agent shall notify the Parent and the Lenders of the changed amounts of the CAR Facility Commitments promptly after receipt of each CAR Facility Establishment Notice.
 
-3.10 The Lenders hereby authorise and empower the Security Agent to execute any necessary amendments to the Transaction Security Documents to ensure that the Loans under any CAR Facility shall rank pari passu with the other Senior Liabilities (as defined in the Intercreditor Agreement) and that any Transaction Security granted over any assets purchased with the proceeds of CAR Facility Loans which are required to be subject to the Transaction Security Documents is shared pari passu by all Finance Parties.
+# 3.9
 
-3.11 If the other provisions of this Clause 3 (CAR Facility) are complied with, each Party:
+The terms and conditions relating to each CAR Facility are set out in this agreement with specific detail set out in each separate CAR Facility Establishment Notice entered into by the Parent and the CAR Facility Lenders or other entities providing the relevant CAR Facility Commitments.
+
+# 3.10
+
+The Lenders hereby authorise and empower the Security Agent to execute any necessary amendments to the Transaction Security Documents to ensure that the Loans under any CAR Facility shall rank pari passu with the other Senior Liabilities (as defined in the Intercreditor Agreement) and that any Transaction Security granted over any assets purchased with the proceeds of CAR Facility Loans which are required to be subject to the Transaction Security Documents is shared pari passu by all Finance Parties.
+
+# 3.11
+
+If the other provisions of this Clause 3 (CAR Facility) are complied with, each Party:
 
 - (a) agrees that CAR Facility Commitments may be made available to the relevant Borrowers; and
 - (b) authorises and instructs the Facility Agent and the Security Agent to countersign a CAR Facility Establishment Notice to record the CAR Facility Commitments as set out in the relevant CAR Facility Establishment Notice and accordingly the establishment of (or the increase in CAR Facility Commitments in respect of) a CAR Facility.
 
-3.12 Subject to the relevant CAR Facility Establishment Notice being signed by the Facility Agent, the Security Agent, the Parent and the relevant Lenders, the relevant CAR Facility and corresponding CAR Facility Commitments will be established for the purpose of this agreement and the other Senior Finance Documents as from the relevant CAR Facility Date.
+# 3.12
 
-3.13 Each Obligor:
+Subject to the relevant CAR Facility Establishment Notice being signed by the Facility Agent, the Security Agent, the Parent and the relevant Lenders, the relevant CAR Facility and corresponding CAR Facility Commitments will be established for the purpose of this agreement and the other Senior Finance Documents as from the relevant CAR Facility Date.
+
+# 3.13
+
+Each Obligor:
 
 - (a) confirms without prejudice to the obligations of each Obligor under paragraph (c) below, the authority of the Parent to agree and implement the establishment of CAR Facility Commitments and the CAR Facility in accordance with the procedures and up to the amounts permitted by this Agreement;
 - (b) confirms without prejudice to the obligations of each Obligor under paragraph (c) below, that all its guarantee and indemnity obligations recorded in Clause 22 (Guarantee and Indemnity) and/or in any Accession Deed or other Senior Finance Document will extend to include the CAR Facility Loans and other obligations arising under the CAR Facility subject to any limits as specifically recorded in Clause 22 (Guarantee and Indemnity), the relevant Accession Deed or elsewhere in the Senior Finance Documents;
@@ -2288,9 +2322,11 @@ Subject to clause 5.1 (Initial Conditions Precedent), the Lenders will only be o
 
 
 
-# 5. Conditions Precedent
+# 5.2 Conditions Precedent to Utilisation
 
-proposed Loan and, in the case of any other Utilisation no Default is continuing or would result from the proposed Utilisation; and
+(a) The Parent must ensure that:
+
+(i) no Default is continuing or would result from the proposed Loan and, in the case of any other Utilisation no Default is continuing or would result from the proposed Utilisation; and
 
 (b) in relation to any Utilisation on the Closing Date, all the representations and warranties in clause 23 (Representations) or, in relation to any other Utilisation, the Repeating Representations, to be made by each Obligor are true in all material respects.
 
@@ -2332,9 +2368,7 @@ proposed Loan and, in the case of any other Utilisation no Default is continuing
 
 
 
-# 5.4
 
-(c) Any Separate Loan shall not be taken into account in this clause 5.4.
 
 # 6. UTILISATION – LOANS
 
@@ -2372,6 +2406,8 @@ or in each case, if less, the Available Facility; or
 (ii) if the currency selected is euros or US dollars, a minimum of 100,000 euros or as the case may be US dollars;
 - (iii) if the currency selected is an Optional Currency other than euros or US dollars, the minimum amount (and, if required, integral multiple) specified by the Facility Agent pursuant to clause 5.3(b)(ii) (Conditions Relating to Optional Currencies) or, if less, the Available Facility; and
 - (iv) in any event such that its Base Currency Amount is less than or equal to the Available Facility.
+
+
 
 
 
@@ -2489,8 +2525,6 @@ An Ancillary Facility may be by way of:
 
 
 
-# 8. Ancillary Facilities
-
 # 8.4 Repayment of Ancillary Facility
 
 (a) An Ancillary Facility shall cease to be available on the Termination Date applicable to the Revolving Facility or such earlier date on which its expiry date occurs or on which it is cancelled in accordance with the terms of this agreement.
@@ -2531,7 +2565,6 @@ Each Borrower shall procure that:
 (b) If a notice is served under clauses 27.19 (Acceleration) or 27.20 (Revolving Facility Acceleration) (other than a notice declaring Utilisations to be due on demand), each Lender and each Ancillary Lender shall (subject to paragraph (g) below) promptly adjust (by making or receiving (as the case may be) corresponding transfers of rights and obligations under the Senior Finance Documents relating to Revolving Outstandings) their claims in respect of amounts outstanding to them under the Revolving Facility and each Ancillary Facility to the extent necessary to ensure that after such transfers the Revolving Outstandings of each Lender bear the same proportion to the Total Revolving Outstandings as such Lender's Revolving Facility Commitment bears to the Total Revolving Facility Commitments, each as at the date the notice is served under clauses 27.19 (Acceleration) or 27.20 (Revolving Facility Acceleration).
 
 (c) If an amount outstanding under an Ancillary Facility is a contingent liability and that contingent liability becomes an actual liability or is reduced to zero after the original adjustment is made under paragraph (b) above, then each Lender and Ancillary Lender will make a further adjustment (by making or receiving (as the case may be) corresponding transfers of rights and obligations under the Senior Finance Documents relating to Revolving Outstandings to the extent necessary) to put themselves in the position they would have been in had the original adjustment been determined by reference to the actual liability or, as the case may be, zero liability and not the contingent liability.
-
 
 
 
@@ -2636,6 +2669,16 @@ the aggregate amount of the new Revolving Facility Loans shall, unless the relev
 
 
 
+# 10. ILLEGALITY, VOLUNTARY PREPAYMENT AND CANCELLATION
+
+# 10.1 Illegality
+
+If it becomes unlawful in any applicable jurisdiction for a Lender to perform any of its obligations as contemplated by this agreement or to fund, issue or maintain its participation in any Utilisation or it becomes unlawful for any Affiliate of a Lender for that Lender to do so:
+
+1. that Lender shall promptly notify the Facility Agent upon becoming aware of that event;
+2. upon the Facility Agent notifying the Parent, each Available Commitment of that Lender will be immediately cancelled; and
+3. to the extent that the Lender's participation has not been transferred pursuant to clause 40.8 (Replacement of Lender), each Borrower shall repay that Lender's participation in the Utilisations made to that Borrower on the last day of the
+
 (bb) each Lender will be required to make a payment under clause 34.1 (Payments to the Facility Agent) in respect of its participation in the new Revolving Facility Loans only to the extent that its participation in the new Revolving Facility Loans exceeds that Lender's participation in the maturing Revolving Facility Loan and the remainder of that Lender's participation in the new Revolving Facility Loans shall be treated as having been made available and applied by the Borrower in or towards repayment of that Lender's participation in the maturing Revolving Facility Loan.
 
 (c) At any time when a Lender becomes a Defaulting Lender, the maturity date of each of the participations of that Lender in the Revolving Facility Loans then outstanding will be automatically extended to the last day of the Availability Period applicable to the Revolving Facility and will be treated as separate Revolving Facility Loans (the "Separate Loans") denominated in the currency in which the relevant participations are outstanding.
@@ -2646,24 +2689,10 @@ the aggregate amount of the new Revolving Facility Loans shall, unless the relev
 
 (f) The terms of this agreement relating to Revolving Facility Loans generally shall continue to apply to Separate Loans other than to the extent inconsistent with paragraphs (c) to (e) (inclusive) above, in which case those paragraphs shall prevail in respect of any Separate Loan.
 
-# 10. ILLEGALITY, VOLUNTARY PREPAYMENT AND CANCELLATION
-
-# 10.1 Illegality
-
-If it becomes unlawful in any applicable jurisdiction for a Lender to perform any of its obligations as contemplated by this agreement or to fund, issue or maintain its participation in any Utilisation or it becomes unlawful for any Affiliate of a Lender for that Lender to do so:
-
-(a) that Lender shall promptly notify the Facility Agent upon becoming aware of that event;
-
-(b) upon the Facility Agent notifying the Parent, each Available Commitment of that Lender will be immediately cancelled; and
-
-(c) to the extent that the Lender's participation has not been transferred pursuant to clause 40.8 (Replacement of Lender), each Borrower shall repay that Lender's participation in the Utilisations made to that Borrower on the last day of the
 
 
 
 
-
-
-Interest Period for each Utilisation occurring after the Facility Agent has notified the Parent or, if earlier, the date specified by the Lender in the notice delivered to the Facility Agent (being no earlier than the last day of any applicable grace period permitted by law) and that Lender's corresponding Commitment(s) shall be cancelled in the amount of the participations repaid.
 
 # 10.2 Voluntary Cancellation
 
@@ -2685,20 +2714,19 @@ A Borrower to which a Revolving Facility Utilisation has been made may, if it or
 
 (a) If:
 
-- (i) any sum payable to any Lender by an Obligor is required to be increased under clause 17.2(c) (Tax Gross-up); or
-- (ii) any Lender claims indemnification from the Parent or an Obligor under clause 17.3 (Tax Indemnity) or clause 18.1 (Increased Costs),
+(i) any sum payable to any Lender by an Obligor is required to be increased under clause 17.2(c) (Tax Gross-up); or
 
-the Parent may, whilst the circumstance giving rise to the requirement for that increase or indemnification continues, give the Facility Agent notice (if such circumstances relate to a Lender) of cancellation of the Commitment of that Lender and its intention to procure the repayment of that Lender's participation in the Utilisations; or may, if such circumstances relate to a Lender, instead exercise its rights under clause 40.8 (Replacement of Lender).
+(ii) any Lender claims indemnification from the Parent or an Obligor under clause 17.3 (Tax Indemnity) or clause 18.1 (Increased Costs),
 
+the Parent may, whilst the circumstance giving rise to the requirement for that increase or indemnification continues, give the Facility Agent notice (if such circumstances relate to a Lender) of cancellation of the Commitment of that Lender and its intention to procure the repayment of that Lender's participation in the Utilisations;
 
-
-
-
+or may, if such circumstances relate to a Lender, instead exercise its rights under clause 40.8 (Replacement of Lender).
 
 
-(b) On receipt of a notice referred to in paragraph (a) above in relation to a Lender, the Commitment(s) of that Lender shall immediately be reduced to zero.
 
-(c) On the last day of each Interest Period which ends after the Parent has given notice under paragraph (a) above in relation to a Lender (or, if earlier, the date specified by the Parent in that notice), each Borrower to which a Utilisation is outstanding shall repay that Lender's participation in that Utilisation together with all interest and other amounts accrued under the Senior Finance Documents.
+
+
+
 
 # 10.6 Right of Cancellation in Relation to a Defaulting Lender
 
@@ -2716,16 +2744,19 @@ the Parent may, whilst the circumstance giving rise to the requirement for that 
 
 "Flotation" means:
 
-- (i) a successful application being made for the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to the Official List maintained by the FCA and the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to trading on the London Stock Exchange plc; or
-- (ii) the grant of permission to deal in any part of the issued share capital of any Group Company (or Holding Company of any Group Company) on the Alternative Investment Market or the Main Board or the Growth Market of the ICAP Securities &#x26; Derivatives Exchange (ISDX) or on any recognised investment exchange (as that term is used in the Financial Services and Markets Act 2000) or in or on any exchange or market replacing the same or any other exchange or market in any country.
+(i) a successful application being made for the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to the Official List maintained by the FCA and the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to trading on the London Stock Exchange plc; or
+
+(ii) the grant of permission to deal in any part of the issued share capital of any Group Company (or Holding Company of any Group Company) on the Alternative Investment Market or the Main Board or the Growth Market of the ICAP Securities &#x26; Derivatives Exchange (ISDX) or on any recognised investment exchange (as that term is used in the Financial Services and Markets Act 2000) or in or on any exchange or market replacing the same or any other exchange or market in any country.
 
 "FCA" means the United Kingdom Financial Conduct Authority acting in accordance with Part 6 of the Financial Services and Markets Act 2000.
 
 (b) Upon the occurrence of:
 
-- (i) any Flotation; or
-- (ii) a Change of Control; or
-- (iii) the sale of all or substantially all of the assets of the Group whether in a single transaction or a series of related transactions,
+(i) any Flotation; or
+
+(ii) a Change of Control; or
+
+(iii) the sale of all or substantially all of the assets of the Group whether in a single transaction or a series of related transactions,
 
 the Facilities will be cancelled and all outstanding Utilisations and Ancillary Outstandings, together with accrued interest, and all other amounts accrued under the Senior Finance Documents, shall become immediately due and payable.
 
@@ -2819,6 +2850,7 @@ UK - 205885966.10 72
 
 
 
+
 (c) Subject to paragraph (d) below, the Parent may elect that any prepayment under clause 11.1 (Exit) or under clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow) be applied in prepayment of a Loan on the last day of the Interest Period relating to that Loan. If the Parent makes that election, then a proportion of the Loan equal to the amount of the relevant prepayment will be due and payable on the last day of its Interest Period.
 
 (d) If the Parent has made an election under paragraph (c) above but a Declared Default has occurred and is continuing, that election shall no longer apply and a proportion of the Loan in respect of which the election was made equal to the amount of the relevant prepayment shall be immediately due and payable (unless the Majority Lenders otherwise agree in writing).
@@ -2845,9 +2877,8 @@ to pay amounts due and payable under clause 11.3 (Application of Mandatory Prepa
 
 
 
-interest (which shall be paid in accordance with the mandate relating to such account) unless a Declared Default is continuing; and
 
-(ii) each such account is subject to the Transaction Security.
+
 
 # 11.5 Excluded Proceeds
 
@@ -2857,21 +2888,20 @@ Where Excluded Disposal Proceeds, Excluded Acquisition Proceeds and Excluded Ins
 
 (a) At any time that a Revolving Facility Standstill Period is continuing, the Parent shall ensure that any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time):
 
-(i) pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow); or
-
-(ii) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to,
+- (i) pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow); or
+- (ii) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to,
 
 are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations) above until such time as the Revolving Facility Standstill Period has ended. If, following the end of the Revolving Facility Standstill Period, the Majority Revolving Facility Lenders are:
 
-(i) not entitled to accelerate under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellation); or
-
-(ii) entitled to enforce under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
+- (i) not entitled to accelerate under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellation); or
+- (ii) entitled to enforce under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
 
 (b) The Parent shall ensure that:
 
-(i) if a Significant Disposal occurs it shall promptly notify the Facility Agent and/or Majority Revolving Facility Lenders; and
+- (i) if a Significant Disposal occurs it shall promptly notify the Facility Agent and/or Majority Revolving Facility Lenders; and
+- (ii) any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to, are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in
 
-(ii) any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to, are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in
+
 
 
 
@@ -2945,7 +2975,6 @@ The rate of interest on each Loan for each Interest Period is the percentage rat
 
 
 
-
 # 13.3 Default Interest
 
 (a) If an Obligor fails to pay any amount payable by it under a Senior Finance Document on its due date, interest shall accrue on the overdue amount from the due date up to the date of actual payment (both before and after judgment) at a rate which, subject to paragraph (b) below, is 1 per cent per annum higher than the rate which would have been payable if the overdue amount had, during the period of non-payment, constituted a Loan in the currency of the overdue amount and made under the Facility to which the overdue amount is, in the reasonable opinion of the Facility Agent, referable (or if there is no referable Facility, under Facility A) for successive Interest Periods, each of a duration selected by the Facility Agent (acting reasonably). Any interest accruing under this clause 13.3 shall be immediately payable by the Obligor on demand by the Facility Agent.
@@ -2998,15 +3027,13 @@ Subject to clause 15.2 (Market Disruption), if LIBOR or, if applicable, EURIBOR 
 
 (a) If a Market Disruption Event occurs in relation to a Loan for any Interest Period, then the rate of interest on each Lender's share of that Loan for the Interest Period shall be the percentage rate per annum which is the sum of:
 
-(i) the Margin; and
-
-(ii) the rate notified to the Facility Agent by that Lender as soon as practicable and in any event by close of business on the date falling five Business Days after the Quotation Day (or, if earlier, on the date falling five Business Days prior to the date on which interest is due to be paid in respect of that Interest Period), to be that which expresses as a percentage rate per annum the cost to that Lender of funding its participation in that Loan from whatever source it may reasonably select.
+- (i) the Margin; and
+- (ii) the rate notified to the Facility Agent by that Lender as soon as practicable and in any event by close of business on the date falling five Business Days after the Quotation Day (or, if earlier, on the date falling five Business Days prior to the date on which interest is due to be paid in respect of that Interest Period), to be that which expresses as a percentage rate per annum the cost to that Lender of funding its participation in that Loan from whatever source it may reasonably select.
 
 (b) If:
 
-(i) the percentage rate per annum notified by a Lender pursuant to paragraph (a)(ii) above is less than LIBOR or, in relation to any Loan in euro, EURIBOR; or
-
-(ii) a Lender has not notified the Facility Agent of a percentage rate per annum pursuant to paragraph (a)(ii) above,
+- (i) the percentage rate per annum notified by a Lender pursuant to paragraph (a)(ii) above is less than LIBOR or, in relation to any Loan in euro, EURIBOR; or
+- (ii) a Lender has not notified the Facility Agent of a percentage rate per annum pursuant to paragraph (a)(ii) above,
 
 the cost to that Lender of funding its participation in that Loan for that Interest Period shall be deemed, for the purposes of paragraph (a) above, to be LIBOR or in relation to a loan in euro, EURIBOR.
 
@@ -3016,7 +3043,7 @@ the cost to that Lender of funding its participation in that Loan for that Inter
 
 "Market Disruption Event" means:
 
-(i) at or about noon on the Quotation Day for the relevant Interest Period LIBOR or, if applicable, EURIBOR is to be determined by reference to the
+- (i) at or about noon on the Quotation Day for the relevant Interest Period LIBOR or, if applicable, EURIBOR is to be determined by reference to the
 
 
 
@@ -3058,9 +3085,7 @@ Base Reference Banks and none or only one of the Base Reference Banks supplies a
 
 # 16.1 Commitment Fee
 
-Period and on the cancelled amount of the relevant Lender’s CAR Facility Commitment at the time the cancellation is effective.
-
-(d) No commitment fee is payable to the Facility Agent (for the account of a Lender) on any Available Commitment of that Lender for any day on which that Lender is a Defaulting Lender.
+No commitment fee is payable to the Facility Agent (for the account of a Lender) on any Available Commitment of that Lender for any day on which that Lender is a Defaulting Lender.
 
 # 16.2 Arrangement Fee
 
@@ -3146,6 +3171,9 @@ The rate and time of payment of interest, commission, fees and any other remuner
 
 
 
+
+# Definitions
+
 (ii) a partnership each member of which is:
 
 - (A) a company so resident in the United Kingdom; or
@@ -3175,14 +3203,14 @@ The rate and time of payment of interest, commission, fees and any other remuner
 
 "Treaty State" means a jurisdiction having a double taxation agreement (a "Treaty") with the United Kingdom which makes provision for full exemption from tax imposed by such jurisdiction on interest; and
 
-UK - 205885966.10 84
+
 
 
 
 
 # 17. Tax Gross-up and Indemnities
 
-# 17.1 Definition
+# 17.1 Definitions
 
 "UK Non-Bank Lender" means:
 
@@ -3211,47 +3239,27 @@ UK - 205885966.10 84
 
 
 
-# (iii)
-
-the relevant Lender is a Qualifying Lender solely by virtue of paragraph (ii) of the definition of "Qualifying Lender" and:
+(iii) the relevant Lender is a Qualifying Lender solely by virtue of paragraph (ii) of the definition of "Qualifying Lender" and:
 
 - (A) the relevant Lender has not given a Tax Confirmation to the Parent; and
 - (B) the payment could have been made to the Lender without any Tax Deduction if the Lender had given a Tax Confirmation to the Parent, on the basis that the Tax Confirmation would have enabled the Parent to have formed a reasonable belief that the payment was an "excepted payment" for the purpose of section 930 of the ITA; or
 
-# (iv)
+(iv) the relevant Lender is a Treaty Lender and the Obligor making the payment is able to demonstrate that the payment could have been made to the Lender without the Tax Deduction had that Lender complied with its obligations under paragraph (g) or (h) (as applicable) below.
 
-the relevant Lender is a Treaty Lender and the Obligor making the payment is able to demonstrate that the payment could have been made to the Lender without the Tax Deduction had that Lender complied with its obligations under paragraph (g) or (h) (as applicable) below.
+(v) for the avoidance of doubt, the Tax Deduction relates to a Tax described in clause 17.3(b) (Tax Indemnity) or is a FATCA Deduction.
 
-# (v)
+(e) If an Obligor is required to make a Tax Deduction, that Obligor shall make that Tax Deduction and any payment required in connection with that Tax Deduction within the time allowed and in the minimum amount required by law.
 
-for the avoidance of doubt, the Tax Deduction relates to a Tax described in clause 17.3(b) (Tax Indemnity) or is a FATCA Deduction.
+(f) Within 30 days of making either a Tax Deduction or any payment required in connection with that Tax Deduction, the Obligor making that Tax Deduction shall deliver to the Facility Agent for the Senior Finance Party entitled to the payment a statement under section 975 of the ITA or other evidence reasonably satisfactory to that Senior Finance Party that the Tax Deduction has been made or (as applicable) any appropriate payment paid to the relevant taxing authority.
 
-# (e)
+(g) (i) Subject to paragraph (ii) below, a Treaty Lender and each Obligor which makes a payment to which that Treaty Lender is entitled shall co-operate in completing any procedural formalities necessary for that Obligor to obtain authorisation to make that payment without a Tax Deduction.
 
-If an Obligor is required to make a Tax Deduction, that Obligor shall make that Tax Deduction and any payment required in connection with that Tax Deduction within the time allowed and in the minimum amount required by law.
+- (ii) (A) A Treaty Lender which becomes a Party on the day on which this agreement is entered into that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence opposite its name in part 2 of schedule 1 (The Original Parties); and
+- (B) a New Lender, CAR Facility Lender or an Increase Lender that is a Treaty Lender that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence in the Transfer Certificate, Assignment Agreement, CAR Facility Establishment Notice or Increase Confirmation which it executes, and, having done so, that Lender shall be under no obligation pursuant to paragraph (i) above.
 
-# (f)
+(h) If a Lender has confirmed its scheme reference number and its jurisdiction of tax residence in accordance with paragraph (g)(ii) above and:
 
-Within 30 days of making either a Tax Deduction or any payment required in connection with that Tax Deduction, the Obligor making that Tax Deduction shall deliver to the Facility Agent for the Senior Finance Party entitled to the payment a statement under section 975 of the ITA or other evidence reasonably satisfactory to that Senior Finance Party that the Tax Deduction has been made or (as applicable) any appropriate payment paid to the relevant taxing authority.
-
-# (g)
-
-(i) Subject to paragraph (ii) below, a Treaty Lender and each Obligor which makes a payment to which that Treaty Lender is entitled shall co-operate in completing any procedural formalities necessary for that Obligor to obtain authorisation to make that payment without a Tax Deduction.
-
-(ii)
-
-- (A) A Treaty Lender which becomes a Party on the day on which this agreement is entered into that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence opposite its name in part 2 of schedule 1 (The Original Parties); and
-- (B) a New Lender, CAR Facility Lender or an Increase Lender that is a Treaty Lender that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence in the Transfer Certificate, Assignment Agreement, CAR Facility Establishment Notice or Increase Confirmation which it executes,
-
-and, having done so, that Lender shall be under no obligation pursuant to paragraph (i) above.
-
-# (h)
-
-If a Lender has confirmed its scheme reference number and its jurisdiction of tax residence in accordance with paragraph (g)(ii) above and:
-
-# (i)
-
-a Borrower making a payment to that Lender has not made a Borrower DTTP Filing in respect of that Lender;
+- (i) a Borrower making a payment to that Lender has not made a Borrower DTTP Filing in respect of that Lender; or
 
 
 
@@ -3289,6 +3297,8 @@ if that Tax is imposed on or calculated by reference to the net income received 
 
 
 
+
+# 17.3 Tax Indemnity
 
 because one of the exclusions in clause 17.2(d) (Tax Gross-up) applied;
 
@@ -3378,7 +3388,6 @@ The Parent shall pay and, within three Business Days of demand, indemnify each S
 
 
 
-(b) Each Party shall promptly, upon becoming aware that it must make a FATCA Deduction (or that there is any change in the rate or the basis of such FATCA Deduction), notify the Party to whom it is making the payment and, in addition, shall notify the Parent and the Facility Agent and the Facility Agent shall notify the other Senior Finance Parties.
 
 # 18. INCREASED COSTS
 
@@ -3399,11 +3408,19 @@ The Parent shall pay and, within three Business Days of demand, indemnify each S
 
 
 
-(ii) "CRD IV" means Directive 2013/36/EU of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directive 2006/48/EC and 2006/49/EC.
+# 18. Increased Costs
 
-(iii) "CRR" means Regulation (EU) no. 575/2013 of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending regulation (EU) No. 648/2012.
+# (ii)
 
-(iv) "Increased Costs" means:
+"CRD IV" means Directive 2013/36/EU of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directive 2006/48/EC and 2006/49/EC.
+
+# (iii)
+
+"CRR" means Regulation (EU) no. 575/2013 of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending regulation (EU) No. 648/2012.
+
+# (iv)
+
+"Increased Costs" means:
 
 - (A) a reduction in the rate of return from a Facility or on a Senior Finance Party's (or its Affiliate's) overall capital;
 - (B) an additional or increased cost; or
@@ -3426,6 +3443,7 @@ which is incurred or suffered by a Senior Finance Party or any of its Affiliates
 - (iii) compensated for by clause 17.3 (Tax Indemnity) (or would have been compensated for under clause 17.3 (Tax Indemnity) but was not so compensated solely because any of the exclusions in clause 17.3(b) (Tax Indemnity) applied);
 - (iv) attributable to the wilful breach by the relevant Senior Finance Party or its Affiliates of any law or regulation; or
 - (v) attributable to the implementation or application of or compliance with the "International Convergence of Capital Measurement and Capital Standards, a Revised Framework" published by the Basel Committee on Banking Supervision in June 2004 in the form existing on the date of this agreement (but excluding any amendment arising out of Basel III, CRD IV or CRR) ("Basel II") or any other law or regulation which implements Basel II (whether such implementation, application or compliance is by a government, regulator, Finance Party or any of its Affiliates).
+
 
 
 
@@ -3464,6 +3482,12 @@ that Obligor shall as an independent obligation, within three Business Days of d
 
 
 
+# 19. Indemnities
+
+# 19.2 Indemnity to the Senior Finance Party
+
+The Parent shall indemnify each Senior Finance Party and its Affiliates against any cost, loss or liability incurred by any of them in connection with the funding of the Acquisition (including but not limited to those incurred in connection with any litigation, arbitration or administrative proceedings or regulatory enquiry concerning the Acquisition), unless such loss or liability is caused by the gross negligence or wilful misconduct of that Senior Finance Party or its Affiliate (or employee or officer of that Senior Finance Party or Affiliate). Any Affiliate or any officer or employee of a Senior Finance Party or its Affiliate may rely on this clause 19.2 subject to clause 1.4 (Third Party Rights) and the provisions of the Third Parties Act.
+
 # 19.3 Indemnity to the Facility Agent
 
 The Parent shall within 3 Business Days of demand, indemnify the Facility Agent against:
@@ -3477,7 +3501,14 @@ The Parent shall within 3 Business Days of demand, indemnify the Facility Agent 
 
 # 19.4 Indemnity to the Security Agent
 
-- (a) Each Obligor jointly and severally shall within 3 Business Days of demand indemnify the Security Agent and every Receiver and Delegate against any cost, loss or liability incurred by any of them as a result of:
+(a) Each Obligor jointly and severally shall within 3 Business Days of demand indemnify the Security Agent and every Receiver and Delegate against any cost, loss or liability incurred by any of them as a result of:
+
+- (i) any failure by the Parent to comply with its obligations under clause 21 (Costs and Expenses);
+- (ii) acting or relying on any notice, request or instruction which it reasonably believes to be genuine, correct and appropriately authorised;
+- (iii) the taking, holding, protection or enforcement of the Transaction Security;
+- (iv) the exercise of any of the rights, powers, discretions, authorities and remedies vested in the Security Agent and each Receiver and Delegate by the Senior Finance Documents or by law;
+- (v) any default by any Obligor in the performance of any of the obligations expressed to be assumed by it in the Senior Finance Documents; or
+- (vi) acting as Security Agent, Receiver or Delegate under the Senior Finance Documents or which otherwise relates to any of the Charged Property (otherwise, in each case, than by reason of the relevant Security Agent's, Receiver's or Delegate's gross negligence or wilful misconduct).
 
 
 
@@ -3557,6 +3588,7 @@ If any discharge, release arrangement (whether in respect of the obligations of 
 
 
 
+
 whole or in part on the basis of any payment, security or other disposition which is avoided or must be restored in insolvency, liquidation, administration or otherwise, without limitation, then the liability of each Guarantor under this clause will continue or be reinstated as if the discharge, release or arrangement had not occurred.
 
 # 22.4 Waiver of Defences
@@ -3577,12 +3609,16 @@ Without prejudice to the generality of clause 22.4 (Waiver of Defences), each Gu
 
 # 22.6 Immediate Recourse
 
-Each Guarantor waives any right it may have of first requiring any Senior Finance Party (or any trustee or agent on its behalf) to proceed against or enforce any other rights or security or claim payment from any person before claiming from that Guarantor under this.
-
-UK - 205885966.10 97
+Each Guarantor waives any right it may have of first requiring any Senior Finance Party (or any trustee or agent on its behalf) to proceed against or enforce any other rights or security or claim payment from any person before claiming from that Guarantor under this
 
 
 
+
+
+
+# 22. Guarantee and Indemnity
+
+This waiver applies irrespective of any law or any provision of a Senior Finance Document to the contrary.
 
 # 22.7 Appropriations
 
@@ -3603,6 +3639,7 @@ Until all amounts which may be or become payable by the Obligors under or in con
 - (f) to claim or prove as a creditor of any Obligor in competition with any Senior Finance Party.
 
 If a Guarantor receives any benefit, payment or distribution in relation to such rights it shall hold that benefit, payment or distribution (to the extent necessary to enable all amounts which may be or become payable to the Senior Finance Parties by the Obligors under or in connection with the Senior Finance Documents to be repaid in full) on trust for the Senior Finance Parties and shall promptly pay or transfer the same to the Facility Agent or as the Facility Agent may direct for application in accordance with clause 34 (Payment Mechanics).
+
 
 
 
@@ -3633,6 +3670,8 @@ Without limiting any specific exemptions set out below:
 - (c) Severance of Obligations
 
 If, notwithstanding paragraph (b) above, the Guarantee Obligations or Transaction Security would be unlawful financial assistance, then, to the extent necessary to give effect to paragraph (b) above, the obligations under the Senior Finance Documents will be deemed to have been split into two tranches; "Tranche 1" comprising those obligations which may be secured by the Guarantee Obligations or Transaction Security without breaching relevant financial assistance laws and "Tranche 2" comprising the remainder of the obligations under the Senior Finance Documents. The Tranche 2 obligations will be excluded from the Guarantee Obligations and will be allocated to the Facilities to which those obligations relate, to the extent that that can be determined. To the extent that the relevant Facility
+
+
 
 
 
@@ -3718,7 +3757,7 @@ has been taken or, to the knowledge of the Parent, threatened in relation to a G
 
 Under the laws of its Relevant Jurisdictions it is not necessary that the Senior Finance Documents be filed, recorded or enrolled with any court or other authority in that jurisdiction or that any stamp, registration, notarial or similar Taxes or fees be paid on or in relation to the Senior Finance Documents or the transactions contemplated by the Senior Finance Documents except for the Perfection Requirements and payment of associated fees, which registrations, filings, taxes and fees will be made and paid promptly (and within any mandatory time limits) after the date of the relevant Senior Finance Document.
 
-UK - 205885966.10 101
+
 
 
 
@@ -3744,14 +3783,10 @@ UK - 205885966.10 101
 
 Save as disclosed in writing to the Facility Agent and the Arrangers prior to the date of this agreement:
 
-(a) any factual information contained in the Information Package was true and accurate in all material respects as at the date of the relevant report or document containing the information or (as the case may be) as at the date the information is expressed to be given;
-
-(b) the Base Case Model has been prepared in accordance with the Accounting Principles as applied to the Original Financial Statements of the Target, and the financial projections contained in the Base Case Model have been prepared on the basis of recent historical information, are fair and based on reasonable assumptions and have been approved by the board of directors of the Parent;
-
-(c) any financial projection or forecast contained in the Information Package has been prepared on the basis of recent historical information and on the basis of reasonable assumptions and was fair (as at the date of the relevant report or document containing the projection or forecast) and arrived at after careful consideration;
-
-(d) the expressions of opinion or intention provided by or on behalf of an Obligor for the purposes of the Information Package were made after careful consideration (as at the date of the relevant report or document containing the expression of opinion or intention) and were fair and based on reasonable grounds;
-
+- (a) any factual information contained in the Information Package was true and accurate in all material respects as at the date of the relevant report or document containing the information or (as the case may be) as at the date the information is expressed to be given;
+- (b) the Base Case Model has been prepared in accordance with the Accounting Principles as applied to the Original Financial Statements of the Target, and the financial projections contained in the Base Case Model have been prepared on the basis of recent historical information, are fair and based on reasonable assumptions and have been approved by the board of directors of the Parent;
+- (c) any financial projection or forecast contained in the Information Package has been prepared on the basis of recent historical information and on the basis of reasonable assumptions and was fair (as at the date of the relevant report or document containing the projection or forecast) and arrived at after careful consideration;
+- (d) the expressions of opinion or intention provided by or on behalf of an Obligor for the purposes of the Information Package were made after careful consideration (as at the date of the relevant report or document containing the expression of opinion or intention) and were fair and based on reasonable grounds;
 
 
 
@@ -3860,7 +3895,6 @@ It and each of its Subsidiaries which is a Material Company:
 
 
 
-
 (c) has taken all formal or procedural actions (including payment of fees) required to maintain any Intellectual Property owned by it where failure to do so would have or be reasonably likely to have a Material Adverse Effect.
 
 # 23.25 Group Structure Chart
@@ -3889,6 +3923,8 @@ It and each of its Subsidiaries which is a Material Company:
 # 23.28 Centre of Main Interests and Establishments
 
 For the purposes of The Council of the European Union Regulation No. 1346/2000 on Insolvency Proceedings (the "Regulation"), its centre of main interest (as that term is
+
+UK - 205885966.10 106
 
 
 
@@ -3926,7 +3962,7 @@ To the best of the knowledge and belief of the Parent, neither it nor any of its
 
 (c) The Repeating Representations are deemed to be made by each Obligor on the date of each Utilisation Request, on each Utilisation Date, on the first day of each Interest Period (except that those contained in paragraphs (a) and (b) of clause 23.13 (Original Financial Statements) will cease to be so made in respect of
 
-UK - 205885966.10 107
+
 
 
 
@@ -3967,6 +4003,9 @@ The Parent shall supply to the Facility Agent in sufficient copies for all the L
 
 
 
+(iv) any payments made from the Retention Fund (as that term is defined in the Acquisition Agreement).
+
+(c) Each Compliance Certificate shall be signed by the finance director of the Parent (unless the finance director is not available whereby it shall be signed by another executive director) and, if required to be delivered with the consolidated Annual Financial Statements of the Parent, shall be reported on by the Parent's Auditors in the form agreed by the Parent and the Majority Lenders.
 
 # 24.3 Requirements as to Financial Statements
 
@@ -4058,13 +4097,14 @@ under clause 24.1 (Financial Statements); and
 
 
 
+
 # 24.5 Group Companies
 
 The Parent shall, at the request of the Facility Agent, supply to the Facility Agent a report issued by its Auditors stating which of its Subsidiaries are Material Companies and confirming (or not as the case may be) that the aggregate EBITDA (as defined in clause 25 (Financial Covenants)) and aggregate gross assets of the Guarantors (calculated on an unconsolidated basis and excluding all intra-Group items, goodwill and investments in Subsidiaries of any Group Company) exceeds 85 per cent of Consolidated EBITDA, as defined in clause 25 (Financial Covenants) and the consolidated gross assets of the Group.
 
 # 24.6 Presentations
 
-Once in every Financial Year, or more frequently if requested to do so by the Facility Agent if the Facility Agent reasonably suspects an Event of Default is continuing or may have occurred or may occur, at least two directors of the Parent (one of whom shall be the finance director) must give a presentation to the Senior Finance Parties about the ongoing business and financial performance of the Group.
+Once in every Financial Year, or more frequently if requested to do so by the Facility Agent if the Facility Agent reasonably suspects an Event of Default is continuing or may have occurred or may occur, at least two directors of the Parent (one of whom shall be the finance director) must give a presentation to the Senior Finance Parties about the on-going business and financial performance of the Group.
 
 # 24.7 Year-end
 
@@ -4116,11 +4156,6 @@ obliges the Facility Agent or any Lender (or, in the case of paragraph (iii) abo
 
 
 
-out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the transactions contemplated in the Senior Finance Documents.
-
-(c) The Parent shall, by not less than ten Business Days' prior written notice to the Facility Agent, notify the Facility Agent (which shall promptly notify the Lenders) of its intention to request that one of its Subsidiaries becomes an Additional Obligor pursuant to clause 30 (Changes to the Obligors).
-
-(d) Following the giving of any notice pursuant to paragraph (c) above, if the accession of such Additional Obligor obliges the Facility Agent or any Lender to comply with "know your customer" or similar identification procedures in circumstances where the necessary information is not already available to it, the Parent shall promptly upon the request of the Facility Agent or any Lender supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself or on behalf of any Lender) or any Lender (for itself or on behalf of any prospective new Lender) in order for the Facility Agent or such Lender or any prospective new Lender to carry out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the accession of such Subsidiary to this agreement as an Additional Obligor.
 
 # 25. FINANCIAL COVENANTS
 
@@ -4135,9 +4170,7 @@ In this agreement:
 - (c) taking account of any pro forma adjustments for reasonably identifiable, supportable, achievable and sustainable cost synergies and the cost of achieving those savings of pro forma adjustments of a Group Company (or attributable to a business or assets) being acquired during the Relevant Period provided that:
 
 1. (i) such cost savings or cost synergies shall be set out in reasonable detail and certified by the finance director of the Parent in a certificate detailing such pro forma adjustments together with all reasonable detail;
-2. (ii) such cost savings or cost synergies that are greater than 10% of the earnings before interest, tax, depreciation and amortisation (calculated in the same manner as EBITDA) of the company or business being so acquired shall be identified in a report prepared by the Groups Auditors or other applicable due diligence report provider satisfactory to the Facility Agent (acting reasonably) and as verified by the Auditors (or other such report provider) as being reasonable as regards assumptions and methodology of combining the operations of such acquired entity,
-
-UK - 205885966.10 113
+2. (ii) such cost savings or cost synergies that are greater than 10% of the earnings before interest, tax, depreciation and amortisation (calculated in the same manner as EBITDA) of the company or business being so acquired shall be identified in a report prepared by the Groups Auditors or other applicable due diligence report provider satisfactory to the Facility Agent (acting reasonably) and as verified by the Auditors (or other such report provider) as being reasonable as regards assumptions and methodology of combining the operations of such acquired entity.
 
 
 
@@ -4175,23 +4208,18 @@ means the acquisition of a company or any shares or securities or a business or 
 
 
 
+Capital Expenditure
 
-# Capital Expenditure
+"Capital Expenditure" means any expenditure or obligation in respect of expenditure (other than expenditure or obligations in respect of Business Acquisitions) which, in accordance with the Accounting Principles, is treated as capital expenditure (and (except for the purposes of paragraph (g) of the definition of "Cashflow" where it shall not be included) including the capital element of any expenditure or obligation incurred in connection with a Finance Lease).
 
-means any expenditure or obligation in respect of expenditure (other than expenditure or obligations in respect of Business Acquisitions) which, in accordance with the Accounting Principles, is treated as capital expenditure (and (except for the purposes of paragraph (g) of the definition of "Cashflow" where it shall not be included) including the capital element of any expenditure or obligation incurred in connection with a Finance Lease).
-
-# Cash
-
-means, at any time, cash in hand or at bank and (in the latter case) credited to an account in the name of a Group Company with an Acceptable Bank or Original Lender and to which a Group Company is alone (or together with other Group Companies) beneficially entitled and for so long as:
+"Cash" means, at any time, cash in hand or at bank and (in the latter case) credited to an account in the name of a Group Company with an Acceptable Bank or Original Lender and to which a Group Company is alone (or together with other Group Companies) beneficially entitled and for so long as:
 
 - (a) that cash is repayable within 30 days of demand;
 - (b) repayment of that cash is not contingent on the prior discharge of any other indebtedness of any Group Company or of any other person whatsoever or on the satisfaction of any other condition (other than any condition of a Senior Finance Document);
 - (c) there is no Security over that cash except for Transaction Security or any Permitted Security constituted by a netting or set-off arrangement entered into by Group Companies in the ordinary course of their banking arrangements; and
 - (d) the cash is freely and (except as set out in (a) above) immediately available to be applied in repayment or prepayment of the Facilities.
 
-# Cashflow
-
-means, in respect of any Relevant Period, Consolidated EBITDA for that Relevant Period after:
+"Cashflow" means, in respect of any Relevant Period, Consolidated EBITDA for that Relevant Period after:
 
 - (a) adding the amount of any decrease (and deducting the amount of any increase) in Working Capital for that Relevant Period;
 - (b) adding the amount of any cash receipts (save (i) to the extent that those receipts are in respect of Disposal or insurance claims or proceeds and are required to be used in prepayment of the Facilities in accordance with clause 11 (Mandatory Prepayment and Cancellation) or (ii) are funded or refunded from any CAR Facility Loan) and deducting the amount of any cash payments during that Relevant Period in respect of any Exceptional Items (but not deducting Exceptional items relating to acquisitions made or to be made which are funded from either New Shareholder Injections or cash on the balance sheet at the Closing Date) and not already taken account of in calculating Consolidated EBITDA for any Relevant Period;
@@ -4199,7 +4227,7 @@ means, in respect of any Relevant Period, Consolidated EBITDA for that Relevant 
 - (d) adding (to the extent not already taken into account in determining Consolidated EBITDA) the amount of any dividends or other profit distributions received in cash by any Group Company during that Relevant Period from any entity which is not itself a Group Company and deducting (to the extent not already deducted in determining Consolidated EBITDA) the amount of any dividends paid in cash during the Relevant Period by the Parent or to minority shareholders in Group Companies (other than any Permitted Payment);
 - (e) adding the amount of any cash paid to a Group Company in the Relevant Period that represents repayment of any loan made to a Joint Venture;
 
-
+UK - 205885966.10 115
 
 
 
@@ -4237,7 +4265,6 @@ and so that no amount shall be added (or deducted) more than once and there shal
 
 
 
-
 (f) before deducting any Acquisition Costs and costs and expenses incurred in connection with a Permitted Acquisition (whether it completed or not) and any VAT paid by the Group in connection with, or required to be paid as a result of any VAT inquiry to which the Group may be subject;
 
 (g) after deducting the amount of any profit (or adding back the amount of any loss) of any Group Company which is attributable to minority interests;
@@ -4269,7 +4296,7 @@ in each case, to the extent added, deducted or taken into account, as the case m
 - (b) liabilities for Tax;
 - (c) Exceptional Items and other non-operating items;
 - (d) insurance claims;
-- (e) liabilities in relation to dividends declared but not paid by the Parent or by a Group Company in favour of a person which is not a Group Company;
+- (e) liabilities in relation to dividends declared but not paid by the Parent or by a Group Company in favour of a person which is not a Group Company; and
 
 
 
@@ -4280,25 +4307,27 @@ in each case, to the extent added, deducted or taken into account, as the case m
 
 # "Debt Service" means, in respect of any Relevant Period, the aggregate of:
 
-- (a) Finance Charges for that Relevant Period;
-- (b) all scheduled repayments of Borrowings (as such scheduled repayments have been adjusted as a result of any mandatory prepayment made during that or any preceding Relevant Period and as a result of any voluntary prepayment made during any preceding Relevant Period) falling due during that Relevant Period but excluding:
-- (i) any amounts falling due under any overdraft or revolving facility (including, without limitation, the Revolving Facility and any Ancillary Facility) and which were available for simultaneous redrawing according to the terms of that facility;
-- (ii) (for the avoidance of doubt), any voluntary prepayment or mandatory prepayment made pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow);
-- (iii) any such obligations owed to any Group Company; and
-- (iv) any prepayment of Borrowings existing on the Closing Date which is required to be repaid under the terms of this agreement;
-- (c) the amount of any cash dividends or other cash distributions (other than yield or interest payments) in respect of the Investor Instruments or the Management Loan Notes paid or made by the Parent in respect of that Relevant Period other than any amounts funded from the Overfund Account; and
-- (d) the amount of the capital element of any payments in respect of that Relevant Period payable under any Finance Lease entered into by any Group Company, and so that no amount shall be included more than once.
+1. Finance Charges for that Relevant Period;
+2. all scheduled repayments of Borrowings (as such scheduled repayments have been adjusted as a result of any mandatory prepayment made during that or any preceding Relevant Period and as a result of any voluntary prepayment made during any preceding Relevant Period) falling due during that Relevant Period but excluding:
+1. any amounts falling due under any overdraft or revolving facility (including, without limitation, the Revolving Facility and any Ancillary Facility) and which were available for simultaneous redrawing according to the terms of that facility;
+2. (for the avoidance of doubt), any voluntary prepayment or mandatory prepayment made pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow);
+3. any such obligations owed to any Group Company; and
+4. any prepayment of Borrowings existing on the Closing Date which is required to be repaid under the terms of this agreement;
+3. the amount of any cash dividends or other cash distributions (other than yield or interest payments) in respect of the Investor Instruments or the Management Loan Notes paid or made by the Parent in respect of that Relevant Period other than any amounts funded from the Overfund Account; and
+4. the amount of the capital element of any payments in respect of that Relevant Period payable under any Finance Lease entered into by any Group Company, and so that no amount shall be included more than once.
 
 # "Earn-Out Consideration" means any deferred consideration incurred by a member of the Group in relation to a Permitted Acquisition where such consideration is payable only upon the acquired entity achieving certain financial performance tests.
 
 # "EBITDA" means, in respect of a Group Company for any period for which it is being calculated, the operating profit of that Group Company before taxation (including the results from discontinued operations):
 
-- (a) before deducting any interest, commission, fees, discounts, prepayment fees, premiums or charges and other finance payments whether paid, payable or capitalised by that Group Company only;
-- (b) not including any interest which has accrued due to that Group Company only;
-- (c) after adding back any amount attributable to the amortisation, depreciation or impairment of assets of that Group Company (determined on an unconsolidated basis) (and taking no account of the reversal of any previous impairment charge made in that period);
-- (d) before taking into account any Exceptional Items;
+1. before deducting any interest, commission, fees, discounts, prepayment fees, premiums or charges and other finance payments whether paid, payable or capitalised by that Group Company only;
+2. not including any interest which has accrued due to that Group Company only;
+3. after adding back any amount attributable to the amortisation, depreciation or impairment of assets of that Group Company (determined on an unconsolidated basis) (and taking no account of the reversal of any previous impairment charge made in that period);
+4. before taking into account any Exceptional Items;
 
 UK - 205885966.10 118
+
+
 
 
 
@@ -4338,7 +4367,7 @@ in each case, to the extent added, deducted or taken into account, as the case m
 
 (e) any office relocation costs;
 
-UK - 205885966.10 119
+UK - 205885966.10    119
 
 
 
@@ -4436,18 +4465,18 @@ The Parent shall ensure that:
 1. Cashflow Cover: Cashflow Cover in respect of any Relevant Period ending on or around or after 30 June 2016 shall not be less than 1:1.
 2. Interest Cover: Interest Cover in respect of any Relevant Period specified in column 1 below shall not be less than the ratio set out in column 2 below opposite that Relevant Period.
 
-| **Column 1**                               | **Column 2** |
-| ------------------------------------------ | ------------ |
-| Relevant Period expiring 30 June 2016      | 1.69:1       |
-| Relevant Period expiring 30 September 2016 | 1.70:1       |
-| Relevant Period expiring 31 December 2016  | 2.01:1       |
-| Relevant Period expiring 31 March 2017     | 2.15:1       |
-| Relevant Period expiring 30 June 2017      | 2.20:1       |
-| Relevant Period expiring 30 September 2017 | 2.26:1       |
-| Relevant Period expiring 31 December 2017  | 2.28:1       |
-| Relevant Period expiring 31 March 2018     | 2.26:1       |
-| Relevant Period expiring 30 June 2018      | 2.34:1       |
-| Relevant Period expiring 30 September 2018 | 2.42:1       |
+| Column 1                                   | Column 2 |
+| ------------------------------------------ | -------- |
+| Relevant Period expiring 30 June 2016      | 1.69:1   |
+| Relevant Period expiring 30 September 2016 | 1.70:1   |
+| Relevant Period expiring 31 December 2016  | 2.01:1   |
+| Relevant Period expiring 31 March 2017     | 2.15:1   |
+| Relevant Period expiring 30 June 2017      | 2.20:1   |
+| Relevant Period expiring 30 September 2017 | 2.26:1   |
+| Relevant Period expiring 31 December 2017  | 2.28:1   |
+| Relevant Period expiring 31 March 2018     | 2.26:1   |
+| Relevant Period expiring 30 June 2018      | 2.34:1   |
+| Relevant Period expiring 30 September 2018 | 2.42:1   |
 
 
 
@@ -4505,6 +4534,7 @@ UK - 205885966.10    124
 
 
 
+
 # (e) Capital Expenditure:
 
 (i) Subject to paragraph (ii) below, the aggregate Capital Expenditure of the Group (other than Capital Expenditure funded by the retention of the proceeds of Recovery Claims, Disposals and insurance claims in accordance with clause 11.5 (Excluded Proceeds) or from New Shareholder Injections or the Overfund Amount or funded or refunded from any CAR Facility Loan) in respect of any Financial Year specified in column 1 below shall not exceed the higher of: (i) 130% of the Capex Budget for that Financial Year and (ii) the amount set out in column 2 below opposite that Financial Year (the higher amount being the “Scheduled Capex”).
@@ -4525,6 +4555,10 @@ UK - 205885966.10    124
 In any Carry Forward Year, the Permitted Carry Forward Amount shall be treated as having been incurred prior to the Scheduled Capex and no amount carried forward into that Carry Forward Year may be carried forward into a subsequent Financial Year.
 
 An amount not exceeding 50 per cent of the Scheduled Capex for an Original Financial Year may be used for Capital Expenditure in the immediately preceding Financial Year (the “Prior Financial Year”) in addition to the Scheduled Capex which would otherwise be permitted in that Prior Financial Year (such amount the “Carry Back Capex”). The Carry Back Capex shall be deemed to be used after any Permitted Carry Forward Amount and after any Scheduled Capex otherwise permitted to be spent in that Prior Financial Year. The Scheduled Capex for any Financial Year shall be reduced by the amount of any Carry Back Capex relating to such Financial Year.
+
+UK - 205885966.10    125
+
+
 
 
 
@@ -4551,13 +4585,15 @@ in each case making any further adjustment needed to ensure no double counting o
 
 
 
+
+
 # 25.4 New Shareholder Injections
 
 (b) Any New Shareholder Injection made to effect a cure of a Financial Covenant:
 
 1. must be contributed in cash and received by the Parent no later than the date which is 15 Business Days following the date for delivery of the Compliance Certificate which relates to the Breach Period;
 2. may exceed the amount required to rectify the breach of Financial Covenant (the "Overcure Amount");
-3. 50 per cent of that New Shareholder Injection which is required to remedy the breach of a Financial Covenant must be applied in prepayment of the Facilities in the order set out in clause 11.3(a) (Application of Mandatory Prepayments and Cancellations) immediately if the New Shareholder Injection was made to cure a breach of a Financial Covenant set out in paragraphs (b) (Interest Cover) or (c) (Leverage) of clause 25.2 (Financial Condition). If applied to cure a breach of paragraph (a) (Cashflow), the New Shareholder Injection shall be retained by the Group and may be used for any purpose not prohibited by this agreement; and
+3. 50 per cent of that New Shareholder Injection which is required to remedy the breach of a Financial Covenant must be applied in prepayment of the Facilities in the order set out in clause 11.3(a) (Application of Mandatory Prepayments and Cancellations) immediately if the New Shareholder Injection was made to cure a breach of a Financial Covenant set out in paragraphs (b) (Interest Cover) or (c) (Leverage) of clause 25.2 (Financial Condition). If applied to cure a breach of paragraph (a) (Cashflow), the New Shareholder Injection shall be retained by the Group and may be used for any purpose not prohibited by this agreement;
 4. must be made on the basis that such New Shareholder Injection shall have no cash yield until after the Senior Discharge Date has occurred (as such term is defined in the Intercreditor Agreement).
 
 (c) The contribution of New Shareholder Injections may only be made for the purpose of effecting a cure of a Financial Covenant breach a maximum of three times and not in two successive Relevant Periods and not more than once in each 12 Month period.
@@ -4806,7 +4842,6 @@ Except as permitted under paragraph (c) below:
 
 
 
-
 # 26.23 Share Capital
 
 No Obligor shall (and the Parent shall ensure that no other Group Company will) issue any shares except pursuant to:
@@ -4867,12 +4902,14 @@ where failure to do so in the case of paragraphs (a), (b) and (c) above, or in t
 
 
 
+
+
 # 26.29 Amendments
 
 (a) No Obligor shall (and the Parent shall ensure that no other Group Company will) amend, vary, novate, supplement, supersede, waive or terminate any term of a Transaction Document or any other document delivered to the Facility Agent pursuant to clause 5.1 (Initial Conditions Precedent) or clause 30 (Changes to the Obligors) (other than a Service Contract) or enter into any agreement with any shareholders of the Parent (other than as set out in the Equity Documents) or any of their Affiliates which is not a Group Company except in writing and:
 
 - (i) in accordance with clause 40 (Amendments and Waivers); or
-- (ii) to the extent that that amendment, variation, novation, supplementing, waiver or termination is permitted by the Intercreditor Agreement;
+- (ii) to the extent that that amendment, variation, novation, supplementing, superseding, waiver or termination is permitted by the Intercreditor Agreement;
 - (iii) prior to or on the Closing Date, with the prior written consent of the Original Lenders; or
 - (iv) after the Closing Date, in a way which:
 - (A) could not be reasonably expected materially and adversely to affect the interests of the Lenders; and
@@ -4889,6 +4926,8 @@ Each Obligor shall (and the Parent shall procure each other Group Company will) 
 (a) If any Finance Party wishes to publicise details of the transaction contemplated by the Transaction Documents it must obtain the consent of the Parent (such consent not to be unreasonably withheld or delayed). The Parent’s consent shall not be required where the information is already in the public domain other than as a direct or indirect result of any breach of this clause 26.31 by that Finance Party or where such details are required by law or any, court, tribunal, government agency or regulatory authority.
 
 (b) The Obligors shall be entitled to make or consent to the making of any formal public announcement concerning the terms of this agreement, or the provision of the Facilities to any person including the London Stock Exchange plc, without the
+
+
 
 
 
@@ -4921,9 +4960,6 @@ No Obligor shall (and the Parent will procure that no other Group Company will) 
 - (b) any Hedging Agreement for the purposes of hedging interest rate liabilities under the CAR Facility (including, without limitation, any hedging entered into pursuant to the Hedging Letter) and any arrangement replacing or extending such Hedging Agreement on terms permitted by the Senior Finance Documents, up to the Termination Date of the CAR Facility and, in each case, entered into with a counterparty which, at the time of entering into such Hedging Agreement, is a Lender;
 - (c) spot and forward delivery foreign exchange contracts entered into in the ordinary course of business and not for speculative purposes;
 
-UK - 205885966.10 137
-
-
 
 
 
@@ -4947,9 +4983,9 @@ The Parent shall ensure that all exchange rate and interest rate hedging arrange
 
 (a) Subject to the Agreed Security Principles each Obligor shall (and the Parent shall procure that each other Group Company will) at its own expense promptly do all such acts or execute all such documents (including assignments, transfers, mortgages, charges, notices and instructions) as the Security Agent may reasonably specify (and in such form as the Security Agent may reasonably require in favour of the Security Agent or its nominee(s)):
 
-(i) to perfect the Security created or intended to be created under or evidenced by the Transaction Security Documents (which may include the execution of a mortgage, charge, assignment or other Security over all or any of the assets which are, or are intended to be, the subject of the Transaction Security) or for the exercise of any rights, powers and remedies of the Security Agent or the Senior Finance Parties provided by or pursuant to the Senior Finance Documents or by law;
+- (i) to perfect the Security created or intended to be created under or evidenced by the Transaction Security Documents (which may include the execution of a mortgage, charge, assignment or other Security over all or any of the assets which are, or are intended to be, the subject of the Transaction Security) or for the exercise of any rights, powers and remedies of the Security Agent or the Senior Finance Parties provided by or pursuant to the Senior Finance Documents or by law;
+- (ii) to confer on the Security Agent or confer on the Senior Finance Parties Security over any property and assets of that Obligor located in any jurisdiction equivalent or similar to the Security intended to be conferred by or pursuant to the Transaction Security Documents; and/or
 
-(ii) to confer on the Security Agent or confer on the Senior Finance Parties Security over any property and assets of that Obligor located in any jurisdiction equivalent or similar to the Security intended to be conferred by or pursuant to the Transaction Security Documents; and/or
 
 
 
@@ -4978,9 +5014,9 @@ Neither the Parent, the Company nor any of their Subsidiaries shall (and the Par
 
 (a) Directly or indirectly (as far as it is aware) use the proceeds from any Loan, or lend, contribute or otherwise make available such proceeds to any Subsidiary, joint venture partner or other person that is the subject of any Sanctions:
 
-(i) to fund any activities or business of or with any person that at the time of such funding is the subject of Sanctions, or fund any activities or business in any country or territory subject to Sanctions or any person located in such a country or territory; or
+- (i) to fund any activities or business of or with any person that at the time of such funding is the subject of Sanctions, or fund any activities or business in any country or territory subject to Sanctions or any person located in such a country or territory; or
+- (ii) in any other manner that would, to its knowledge having made such inquiries as is reasonable in the circumstances, result in a violation of Sanctions by the Group.
 
-(ii) in any other manner that would, to its knowledge having made such inquiries as is reasonable in the circumstances, result in a violation of Sanctions by the Group.
 
 
 
@@ -5017,7 +5053,7 @@ An Obligor does not pay on the due date any amount payable pursuant to a Senior 
 - (a) Any representation or statement made or deemed to be made by an Obligor in the Senior Finance Documents or any other document delivered by or on behalf of any Obligor under or in connection with any Senior Finance Document is or proves to have been incorrect or misleading when made or deemed to be made.
 - (b) No Event of Default under paragraph (a) above will occur if the event or circumstance giving rise to the breach is capable of remedy and is remedied within 20 Business Days of the Facility Agent giving notice to the Parent or relevant Obligor or the Parent or an Obligor becoming aware of the breach.
 
-UK - 205885966.10 140
+
 
 
 
@@ -5079,7 +5115,7 @@ There occurs in relation to any Material Company or any of its assets in any cou
 
 (b) a representation or warranty given by that party in the Intercreditor Agreement is incorrect in any material respect,
 
-UK - 205885966.10    142
+
 
 
 
@@ -5145,23 +5181,14 @@ Subject to the terms of the Intercreditor Agreement, on and at any time after th
 
 
 
-(e) declare all or any part of the amounts (or cash cover in relation to those amounts) outstanding under the Ancillary Facilities to be immediately due and payable at which time they shall become immediately due and payable;
-
-(f) declare that all or any part of the amounts (or cash cover in relation to those amounts) outstanding under the Ancillary Facilities be payable on demand, at which time they shall immediately become payable on demand by the Facility Agent on the instructions of the Majority Revolving Facility Lenders; and/or
-
-(g) exercise or direct the Security Agent to exercise any or all of its rights, remedies, powers or discretions under the Senior Finance Documents.
-
 # 27.21 Clean-up period
 
 Notwithstanding any other provision of any Finance Document, any Event of Default constituting a Clean-up Default will be deemed not to be a breach of representation or warranty, a breach of covenant or an Event of Default (as the case may be) if:
 
-(a) it would have been (if it were not for this provision) a breach of representation or warranty, a breach of covenant or an Event of Default only by reason of circumstances relating exclusively to any member to the Target Group (or any obligation to procure or ensure in relation to a member of the Target Group) (in the case of the Acquisition) or (in the case of an acquisition permitted under and in accordance with paragraph (f) of the definition of "Permitted Acquisition", an "Acquisition Target") the Acquisition Target or any other person, undertaking or business which is the direct or indirect subject of the relevant acquisition (or any obligation to procure or ensure in relation to the Acquisition Target or any such other person, undertaking or business);
-
-(b) it is capable of remedy and reasonable steps are being taken to remedy it;
-
-(c) the circumstances giving rise to it have not been procured by or approved by the Parent, or any Investor (in the case of the Acquisition) or (in the case of the acquisition permitted under and in accordance with the paragraph (f) of the definition of "Permitted Acquisition" any member of the Group); and
-
-(d) it is not reasonably likely to have a Material Adverse Effect.
+1. it would have been (if it were not for this provision) a breach of representation or warranty, a breach of covenant or an Event of Default only by reason of circumstances relating exclusively to any member to the Target Group (or any obligation to procure or ensure in relation to a member of the Target Group) (in the case of the Acquisition) or (in the case of an acquisition permitted under and in accordance with paragraph (f) of the definition of "Permitted Acquisition", an "Acquisition Target") the Acquisition Target or any other person, undertaking or business which is the direct or indirect subject of the relevant acquisition (or any obligation to procure or ensure in relation to the Acquisition Target or any such other person, undertaking or business);
+2. it is capable of remedy and reasonable steps are being taken to remedy it;
+3. the circumstances giving rise to it have not been procured by or approved by the Parent, or any Investor (in the case of the Acquisition) or (in the case of the acquisition permitted under and in accordance with the paragraph (f) of the definition of "Permitted Acquisition" any member of the Group); and
+4. it is not reasonably likely to have a Material Adverse Effect.
 
 If the relevant circumstances are continuing on or after the Clean-up Date, there shall be a breach of representation or warranty, breach of covenant or Event of Default, as the case may be, notwithstanding the above (and without prejudice to the rights and remedies of the Finance Parties).
 
@@ -5182,19 +5209,16 @@ Subject to this clause 28 (Changes to the Lenders) and to clause 29 (Debt Purcha
 
 - (a) assign any of its rights or transfer by way of assignment and assumption any of its rights and obligations; or
 - (b) transfer by novation any of its rights and obligations; or
-- (c) sub-participate all or any of its rights or obligations,
-
-under any Senior Finance Document to another bank or financial institution or to a trust, fund or other entity which is regularly engaged in or established for the purpose of making, purchasing or investing in loans, securities or other financial assets (the "New Lender") provided subject to Clause 28.2(b) (Conditions of Assignment, Transfer or Sub-participation) below always that as a consequence of any such assignment, transfer or sub-participation there are no more than, in aggregate, 6 Term Lenders (the "Syndicate Cap") and each New Lender’s Commitments are at least £1,000,000 (or if the New Lenders are Related Funds the aggregate amount of their Commitments is at least £1,000,000). For the avoidance of doubt, for the purposes of this clause 28 (Changes to Lenders), any Affiliate or Related Fund of any Lender shall be treated as being a single Lender (in aggregate) for the purposes of calculating the Syndicate Cap.
+- (c) sub-participate all or any of its rights or obligations, under any Senior Finance Document to another bank or financial institution or to a trust, fund or other entity which is regularly engaged in or established for the purpose of making, purchasing or investing in loans, securities or other financial assets (the "New Lender") provided subject to Clause 28.2(b) (Conditions of Assignment, Transfer or Sub-participation) below always that as a consequence of any such assignment, transfer or sub-participation there are no more than, in aggregate, 6 Term Lenders (the "Syndicate Cap") and each New Lender’s Commitments are at least £1,000,000 (or if the New Lenders are Related Funds the aggregate amount of their Commitments is at least £1,000,000). For the avoidance of doubt, for the purposes of this clause 28 (Changes to Lenders), any Affiliate or Related Fund of any Lender shall be treated as being a single Lender (in aggregate) for the purposes of calculating the Syndicate Cap.
 
 # 28.2 Conditions of Assignment, Transfer or Sub-Participation
 
 - (a) An Existing Lender must obtain the prior consent of the Parent (not to be unreasonably withheld or delayed and consent shall be deemed given if no response is received by the Existing Lender within 10 Business Days of consent being requested) before it may make an assignment, sub-participation or transfer in accordance with clause 28.1 (Assignments and Transfers by the Lenders) unless the assignment, transfer or sub-participation is:
-- - (i) to another Lender or an Affiliate of a Lender;
+- (i) to another Lender or an Affiliate of a Lender;
 - (ii) if the Existing Lender is a fund, to a fund which is a Related Fund of the Existing Lender;
 - (iii) to an entity on the Approved List; or
 - (iv) made at a time when an Event of Default is continuing.
-
-(b) If an assignment or transfer in connection with any Senior Finance Document is made at a time when an Event of Default is continuing, the Syndicate Cap shall not apply and there shall be no limit on the number of Lenders. After any such Event of Default has been remedied or waived in writing, the Syndicate Cap shall be increased by the number of New Lenders who have become a New Lender pursuant to clause 28.1 (Assignments and Transfers by the Lenders) above whilst the relevant Event of Default was continuing.
+- (b) If an assignment or transfer in connection with any Senior Finance Document is made at a time when an Event of Default is continuing, the Syndicate Cap shall not apply and there shall be no limit on the number of Lenders. After any such Event of Default has been remedied or waived in writing, the Syndicate Cap shall be increased by the number of New Lenders who have become a New Lender pursuant to clause 28.1 (Assignments and Transfers by the Lenders) above whilst the relevant Event of Default was continuing.
 - (c) Any request for consent made under paragraph (a) above must also be simultaneously sent to Jeremy Morgan at the following address jeremymorgan@sovereigncapital.co.uk.
 - (d) Each assignment or transfer of any Lender's participation other than to an Affiliate or a Related Fund shall be in a minimum amount of £1,000,000 unless the
 
@@ -5207,9 +5231,9 @@ under any Senior Finance Document to another bank or financial institution or to
 
 (e) an assignment will only be effective on:
 
-1. receipt by the Facility Agent (whether in the Assignment Agreement or otherwise) of written confirmation from the New Lender (in form and substance satisfactory to the Facility Agent) that the New Lender will assume the same obligations to the other Senior Finance Parties and the other Secured Parties as it would have been under if it was an Original Lender;
-2. the New Lender entering into the documentation required for it to accede to the Intercreditor Agreement (which requirement will be satisfied on completion of an assignment using the form of Assignment Agreement attached as schedule 5 (Form of Assignment Agreement));
-3. the performance by the Facility Agent (to the extent it thinks fit) of all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to such assignment to a New Lender, the completion of which the Facility Agent shall promptly notify to the Existing Lender and the New Lender.
+1. (i) receipt by the Facility Agent (whether in the Assignment Agreement or otherwise) of written confirmation from the New Lender (in form and substance satisfactory to the Facility Agent) that the New Lender will assume the same obligations to the other Senior Finance Parties and the other Secured Parties as it would have been under if it was an Original Lender;
+2. (ii) the New Lender entering into the documentation required for it to accede to the Intercreditor Agreement (which requirement will be satisfied on completion of an assignment using the form of Assignment Agreement attached as schedule 5 (Form of Assignment Agreement));
+3. (iii) the performance by the Facility Agent (to the extent it thinks fit) of all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to such assignment to a New Lender, the completion of which the Facility Agent shall promptly notify to the Existing Lender and the New Lender.
 
 (f) Any assignment or transfer by a Lender of rights and/or obligations (by whatever method) will be deemed to be subject (to the extent possible) to the rights and restrictions contained in the Intercreditor Agreement applicable to the Senior Lenders (as defined in the Intercreditor Agreement). If the New Lender is not already a party to the Intercreditor Agreement as a Senior Lender, then (for the benefit of the Senior Finance Parties) the New Lender agrees to become, with effect from the Transfer Date, a party to and agrees to be bound by the terms of the Intercreditor Agreement as if it had originally been party to the Intercreditor Agreement as a Senior Lender.
 
@@ -5217,8 +5241,8 @@ under any Senior Finance Document to another bank or financial institution or to
 
 (h) If:
 
-1. a Lender assigns or transfers any of its rights or obligations under the Senior Finance Documents or changes its Facility Office; and
-2. as a result of circumstances existing at the date the assignment, transfer or change occurs, an Obligor would be obliged to make a payment to the New Lender or Lender acting through its new Facility Office under clause 18 (Increased Costs),
+1. (i) a Lender assigns or transfers any of its rights or obligations under the Senior Finance Documents or changes its Facility Office; and
+2. (ii) as a result of circumstances existing at the date the assignment, transfer or change occurs, an Obligor would be obliged to make a payment to the New Lender or Lender acting through its new Facility Office under clause 18 (Increased Costs),
 
 then the New Lender or Lender acting through its new Facility Office is only entitled to receive payment under that clause to the same extent as the Existing Lender or Lender acting through its previous Facility Office would have been if the assignment, transfer or change had not occurred.
 
@@ -5273,10 +5297,10 @@ Subject to paragraph (b) below, as soon as reasonably practicable after receipt 
 
 (c) Subject to clause 28.12 (Pro Rata Interest Settlement), on the Transfer Date:
 
-1. To the extent that in the Transfer Certificate the Existing Lender seeks to transfer by novation its rights and obligations under the Senior Finance Documents, each of the Obligors and the Existing Lender shall be released from further obligations towards one another under the Senior Finance Documents and their respective rights against one another under the Senior Finance Documents shall be cancelled (being the "Discharged Rights and Obligations");
-2. Each of the Obligors and the New Lender shall assume obligations towards one another and/or acquire rights against one another which differ from the Discharged Rights and Obligations only insofar as that Obligor or other Group Company and the New Lender have assumed and/or acquired the same in place of that Obligor and the Existing Lender;
-3. The Facility Agent, the Arranger, the Security Agent, the New Lender, the other Lenders and any relevant Ancillary Lender shall acquire the same rights and assume the same obligations between themselves and in respect of the Transaction Security as they would have acquired and assumed had the New Lender been an Original Lender with the rights, and/or obligations acquired or assumed by it as a result of the transfer and to that extent the Facility Agent, the Arranger, the Security Agent and any relevant Ancillary Lender and the Existing Lender shall each be released from further obligations to each other under the Senior Finance Documents;
-4. The New Lender shall become a Party as a "Lender".
+1. to the extent that in the Transfer Certificate the Existing Lender seeks to transfer by novation its rights and obligations under the Senior Finance Documents, each of the Obligors and the Existing Lender shall be released from further obligations towards one another under the Senior Finance Documents and their respective rights against one another under the Senior Finance Documents shall be cancelled (being the "Discharged Rights and Obligations");
+2. each of the Obligors and the New Lender shall assume obligations towards one another and/or acquire rights against one another which differ from the Discharged Rights and Obligations only insofar as that Obligor or other Group Company and the New Lender have assumed and/or acquired the same in place of that Obligor and the Existing Lender;
+3. the Facility Agent, the Arranger, the Security Agent, the New Lender, the other Lenders and any relevant Ancillary Lender shall acquire the same rights and assume the same obligations between themselves and in respect of the Transaction Security as they would have acquired and assumed had the New Lender been an Original Lender with the rights, and/or obligations acquired or assumed by it as a result of the transfer and to that extent the Facility Agent, the Arranger, the Security Agent and any relevant Ancillary Lender and the Existing Lender shall each be released from further obligations to each other under the Senior Finance Documents; and
+4. the New Lender shall become a Party as a "Lender".
 
 # 28.6 Procedure for Assignment or Assignment and Assumption
 
@@ -5304,7 +5328,6 @@ The Facility Agent shall, as soon as reasonably practicable after it has execute
 # 28.8 New CAR Facility Lender
 
 1. Each CAR Facility Lender shall, by countersigning a CAR Facility Establishment Notice and delivering it to the Facility Agent be, deemed to be a party to this agreement as a Lender from the CAR Facility Date and:
-
 1. each of the Obligors will owe obligations to the CAR Facility Lender in accordance with the terms of the Senior Finance Documents;
 2. subject to any limits recorded in the Senior Finance Documents, the guarantees and security recorded in the Senior Finance Documents in favour of the Senior Finance Parties will extend to the CAR Facility Lender and the CAR Facility Loans; and
 3. the Senior Finance Parties in each of their respective capacities shall acquire the rights and assume the obligations between themselves as if the CAR Facility Lender had been an original lender under this agreement in that capacity.
@@ -5313,7 +5336,6 @@ The Facility Agent shall, as soon as reasonably practicable after it has execute
 
 1. Any person which becomes a party to the Intercreditor Agreement as a Hedge Counterparty shall at the same time, become a Party to this agreement as a Hedge Counterparty in accordance with clause 20.10 (Creditor Accession Undertaking) of the Intercreditor Agreement.
 2. Where this agreement or any other Senior Finance Document imposes an obligation on a Hedge Counterparty and the relevant Hedge Counterparty is an Affiliate of a Lender and is not a party to that document, the relevant Lender shall ensure that the obligation is performed by its Affiliate.
-
 
 
 
@@ -5339,8 +5361,6 @@ except that no such charge, assignment or Security shall:
 
 - (i) promptly countersigning Assignment Agreements (although any delay or failure by the Parent to so countersign an Assignment Agreement will not invalidate its operation); and
 - (ii) subject to the Agreed Security Principles taking such steps as the Facility Agent or the Security Agent may request (including re-execution of Transaction Security Documents) for the purpose of ensuring that the New Lender has (and the other Senior Finance Parties continue to have) the benefit of the same security interests under the Transaction Security Documents as existed immediately before the relevant transfer.
-
-UK - 205885966.10    151
 
 
 
@@ -5375,6 +5395,7 @@ If the Facility Agent has notified the Lenders that it is able to distribute int
 
 
 
+
 Financial Year of the Parent in which such purchase is to be made or (2) New Shareholder Injections.
 
 (c) A Debt Purchase Transaction referred to in paragraph (b) above may be entered into pursuant to a solicitation process (a "Solicitation Process") which is carried out as follows:
@@ -5392,6 +5413,10 @@ Financial Year of the Parent in which such purchase is to be made or (2) New Sha
 
 
 
+
+
+# 29. Debt Purchase Transactions
+
 participations, and in which Term Facility or CAR Facility, it is offering to sell. Any such offer to sell shall be irrevocable until 11.00 a.m. on the Business Day following the date of such offer from the Lender and shall be capable of acceptance by the Parent on behalf of the relevant Borrower(s) on or before such time by it communicating such acceptance in writing to the relevant Lender;
 
 1. any purchase of participations in the Term Facility or CAR Facility pursuant to an Open Order Process shall be completed and settled by the relevant Borrower(s) on or before the fourth Business Day after the date of the relevant offer by a Lender to sell under the relevant Open Order;
@@ -5406,7 +5431,7 @@ participations, and in which Term Facility or CAR Facility, it is offering to se
 2. that Debt Purchase Transaction and the related extinguishment referred to in paragraph (i) above shall not constitute a prepayment of the Facilities;
 3. the Borrower which is the assignee shall be deemed to be an entity which fulfils the requirements of clause 28.1 (Assignments and Transfers by the Lenders) to be a New Lender;
 4. no Group Company shall be deemed to be in breach of any provision of clause 26 (General Undertakings) solely by reason of that Debt Purchase Transaction;
-5. clause 33 (Sharing among the Senior Finance Parties) shall not be applicable to the consideration paid under such Debt Purchase Transaction;
+5. clause 33 (Sharing among the Senior Finance Parties) shall not be applicable to the consideration paid under such Debt Purchase Transaction; and
 6. for the avoidance of doubt, any extinguishment of any part of the Term Loans or CAR Facility Loan shall not affect any amendment or waiver which prior to that extinguishment had been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement.
 
 
@@ -5484,10 +5509,10 @@ No Obligor or any other Group Company may assign any of its rights or transfer a
 
 (c) The Facility Agent shall accept a Resignation Letter and notify the Parent and the other Senior Finance Parties of its acceptance if:
 
-1. (i) the Parent has confirmed that no Default is continuing or would result from the acceptance of the Resignation Letter;
-2. (ii) the Borrower is under no actual or contingent obligations as a Borrower under any Senior Finance Document;
-3. (iii) where the Borrower is also a Guarantor (unless its resignation has been accepted in accordance with clause 30.5 (Resignation of a Guarantor)), its obligations in its capacity as Guarantor continue to be legal, valid, binding and enforceable and in full force and effect (subject to the Legal Reservations) and the amount guaranteed by it as a Guarantor is not decreased (and the Parent has confirmed this is the case); and
-4. (iv) the Parent has confirmed that it shall ensure that any relevant Disposal Proceeds will be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations).
+- (i) the Parent has confirmed that no Default is continuing or would result from the acceptance of the Resignation Letter;
+- (ii) the Borrower is under no actual or contingent obligations as a Borrower under any Senior Finance Document;
+- (iii) where the Borrower is also a Guarantor (unless its resignation has been accepted in accordance with clause 30.5 (Resignation of a Guarantor)), its obligations in its capacity as Guarantor continue to be legal, valid, binding and enforceable and in full force and effect (subject to the Legal Reservations) and the amount guaranteed by it as a Guarantor is not decreased (and the Parent has confirmed this is the case); and
+- (iv) the Parent has confirmed that it shall ensure that any relevant Disposal Proceeds will be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations).
 
 (d) Upon notification by the Facility Agent to the Parent of its acceptance of the resignation of a Borrower, that company shall cease to be a Borrower and shall have no further rights or obligations under the Senior Finance Documents as a Borrower except that the resignation shall not take effect (and the Borrower will continue to have rights and obligations under the Senior Finance Documents) until the date on which the Third Party Disposal takes effect.
 
@@ -5501,8 +5526,8 @@ No Obligor or any other Group Company may assign any of its rights or transfer a
 
 (c) A Group Company shall become an Additional Guarantor if:
 
-1. (i) the Parent and the proposed Additional Guarantor deliver to the Facility Agent a duly completed and executed Accession Deed; and
-2. (ii) the Facility Agent has received all of the documents and other evidence listed in part 2 of Schedule 2 (Conditions Precedent) in relation to that Additional Guarantor, each in form and substance satisfactory to the Facility Agent.
+- (i) the Parent and the proposed Additional Guarantor deliver to the Facility Agent a duly completed and executed Accession Deed; and
+- (ii) the Facility Agent has received all of the documents and other evidence listed in part 2 of Schedule 2 (Conditions Precedent) in relation to that Additional Guarantor, each in form and substance satisfactory to the Facility Agent.
 
 
 
@@ -5642,34 +5667,46 @@ The Facility Agent, the Security Agent, each Arranger and each Ancillary Lender 
 
 
 
-(iii) rely on a certificate from any person:
 
-- (A) as to any matter of fact or circumstance which might reasonably be expected to be within the knowledge of that person; or
-- (B) to the effect that such person approves of any particular dealing, transaction, step, action or thing,
+# (iii) rely on a certificate from any person:
+
+(A) as to any matter of fact or circumstance which might reasonably be expected to be within the knowledge of that person; or
+
+(B) to the effect that such person approves of any particular dealing, transaction, step, action or thing,
 
 as sufficient evidence that that is the case and, in the case of paragraph (A) above, may assume the truth and accuracy of that certificate.
 
-(b) The Facility Agent may assume (unless it has received notice to the contrary in its capacity as agent for the Lenders) that:
+# (b) The Facility Agent may assume (unless it has received notice to the contrary in its capacity as agent for the Lenders) that:
 
-- (i) no Default has occurred (unless it has actual knowledge of a Default arising under clause 27.1 (Non-Payment));
-- (ii) any right, power, authority or discretion vested in any Party or any group of Lenders has not been exercised;
-- (iii) any notice or request made by the Parent (other than a Utilisation Request or Selection Notice) is made on behalf of and with the consent and knowledge of all the Obligors; and
-- (iv) no Notifiable Debt Purchase Transaction:
+(i) no Default has occurred (unless it has actual knowledge of a Default arising under clause 27.1 (Non-Payment));
 
-(c) The Facility Agent may engage and pay for the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts.
+(ii) any right, power, authority or discretion vested in any Party or any group of Lenders has not been exercised;
 
-(d) Without prejudice to the generality of paragraph (c) above or paragraph (e) below, the Facility Agent may at any time engage and pay for the services of any lawyers to act as independent counsel to the Facility Agent (and so separate from any lawyers instructed by the Lenders) if the Facility Agent in its reasonable opinion deems this to be desirable.
+(iii) any notice or request made by the Parent (other than a Utilisation Request or Selection Notice) is made on behalf of and with the consent and knowledge of all the Obligors; and
 
-(e) The Facility Agent may rely on the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts (whether obtained by the Facility Agent or by any other Party) and shall not be liable for any damages, costs or losses to any person, any diminution in value or any liability whatsoever arising as a result of its so relying.
+(iv) no Notifiable Debt Purchase Transaction:
 
-(f) The Facility Agent may act in relation to the Senior Finance Documents through its officers, employees and agents and the Facility Agent shall not:
+(A) has been entered into;
 
-- (i) be liable for any error of judgment made by any such person; or
-- (ii) be bound to supervise, or be in any way responsible for any loss incurred by reason of misconduct, omission or default on the part of, any such person,
+(B) has been terminated; or
+
+(C) has ceased to be with a Sponsor Affiliate.
+
+# (c) The Facility Agent may engage and pay for the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts.
+
+# (d) Without prejudice to the generality of paragraph (c) above or paragraph (e) below, the Facility Agent may at any time engage and pay for the services of any lawyers to act as independent counsel to the Facility Agent (and so separate from any lawyers instructed by the Lenders) if the Facility Agent in its reasonable opinion deems this to be desirable.
+
+# (e) The Facility Agent may rely on the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts (whether obtained by the Facility Agent or by any other Party) and shall not be liable for any damages, costs or losses to any person, any diminution in value or any liability whatsoever arising as a result of its so relying.
+
+# (f) The Facility Agent may act in relation to the Senior Finance Documents through its officers, employees and agents and the Facility Agent shall not:
+
+(i) be liable for any error of judgment made by any such person; or
+
+(ii) be bound to supervise, or be in any way responsible for any loss incurred by reason of misconduct, omission or default on the part of, any such person,
 
 unless such error or loss was directly caused by the Facility Agent's gross negligence or wilful misconduct.
 
-UK - 205885966.10 162
+
 
 
 
@@ -5731,6 +5768,7 @@ The Facility Agent shall not be bound to enquire:
 
 
 
+
 (c) The Facility Agent will not be liable for any delay (or any related consequences) in crediting an account with an amount required under the Senior Finance Documents to be paid by the Facility Agent if the Facility Agent has taken all necessary steps as soon as reasonably practicable to comply with the regulations or operating procedures of any recognised clearing or settlement system used by the Facility Agent for that purpose.
 
 (d) Nothing in this agreement shall oblige the Facility Agent or the Arrangers to carry out:
@@ -5750,7 +5788,7 @@ on behalf of any Lender and each Lender confirms to the Facility Agent and the A
 
 (c) Paragraph (b) above shall not apply to the extent that the indemnity payment in respect of which the Lender claims reimbursement relates to a liability of the Facility Agent to an Obligor.
 
-
+UK - 205885966.10 165
 
 
 
@@ -5901,12 +5939,11 @@ If any part of the Sharing Payment received or recovered by a Recovering Senior 
 
 
 
-
 amount equal to the appropriate part of its share of the Sharing Payment (together with an amount as is necessary to reimburse that Recovering Senior Finance Party for its proportion of any interest on the Sharing Payment which that Recovering Senior Finance Party is required to pay) (the "Redistributed Amount"); and
 
 (b) as between the relevant Obligor and each relevant Sharing Senior Finance Party, an amount equal to the relevant Redistributed Amount will be treated as not having been paid by that Obligor.
 
-# 33. Exceptions
+# 33.5 Exceptions
 
 (a) This clause 33 (Sharing Among the Senior Finance Parties) shall not apply to the extent that the Recovering Senior Finance Party would not, after making any payment pursuant to this clause, have a valid and enforceable claim against the relevant Obligor.
 
@@ -5934,6 +5971,8 @@ amount equal to the appropriate part of its share of the Sharing Payment (togeth
 
 
 
+
+
 # 34.2 Distributions by the Facility Agent
 
 Each payment received by the Facility Agent under the Senior Finance Documents for another Party shall, subject to clause 34.3 (Distributions to an Obligor) and clause 34.4 (Clawback and Pre-Funding) be made available by the Facility Agent as soon as practicable after receipt to the Party entitled to receive payment in accordance with this agreement (in the case of a Lender, for the account of its Facility Office), to such account as that Party may notify to the Facility Agent by not less than five Business Days' notice with a bank specified by that Party in the principal financial centre of the country of that currency (or, in relation to euro, in the principal financial centre of a Participating Member State or London, as specified by that Party).
@@ -5950,9 +5989,8 @@ The Facility Agent may (with the consent of the Obligor or in accordance with cl
 
 (c) If the Facility Agent has notified the Lenders that it is willing to make available amounts for the account of a Borrower before receiving funds from the Lenders then if and to the extent that the Facility Agent does so but it proves to be the case that it does not then receive funds from a Lender in respect of a sum which it paid to a Borrower:
 
-(i) the Facility Agent shall notify the Parent of that Lender's identity and the Borrower to whom that sum was made available shall on demand refund it to the Facility Agent; and
-
-(ii) the Lender by whom those funds should have been made available or, if that Lender fails to do so, the Borrower to whom that sum was made available, shall on demand pay to the Facility Agent the amount (as certified by the Facility Agent) which will indemnify the Facility Agent against any funding cost incurred by it as a result of paying out that sum before receiving those funds from that Lender.
+- (i) the Facility Agent shall notify the Parent of that Lender's identity and the Borrower to whom that sum was made available shall on demand refund it to the Facility Agent; and
+- (ii) the Lender by whom those funds should have been made available or, if that Lender fails to do so, the Borrower to whom that sum was made available, shall on demand pay to the Facility Agent the amount (as certified by the Facility Agent) which will indemnify the Facility Agent against any funding cost incurred by it as a result of paying out that sum before receiving those funds from that Lender.
 
 # 34.5 Impaired Agent
 
@@ -5961,19 +5999,31 @@ The Facility Agent may (with the consent of the Obligor or in accordance with cl
 
 
 
+
+
+# 34.5 Payments
+
 (i) pay that amount direct to the required recipient(s); or
 
 (ii) if in its absolute discretion it considers that it is not reasonably practicable to pay that amount direct to the required recipient(s), pay that amount or the relevant part of that amount to an interest-bearing account held with an Acceptable Bank within the meaning of paragraph (a) of the definition of "Acceptable Bank" and in relation to which no Insolvency Event has occurred and is continuing, in the name of the Obligor or the Lender making the payment (the "Paying Party") and designated as a trust account for the benefit of the Party or Parties beneficially entitled to that payment under the Senior Finance Documents (the "Recipient Party" or "Recipient Parties").
 
 In each case such payments must be made on the due date for payment under the Senior Finance Documents.
 
-(b) All interest accrued on the amount standing to the credit of the trust account shall be for the benefit of the Recipient Party or the Recipient Parties pro rata to their respective entitlements.
+# (b)
 
-(c) A Party which has made a payment in accordance with this clause 34.5 shall be discharged of the relevant payment obligation under the Senior Finance Documents and shall not take any credit risk with respect to the amounts standing to the credit of the trust account.
+All interest accrued on the amount standing to the credit of the trust account shall be for the benefit of the Recipient Party or the Recipient Parties pro rata to their respective entitlements.
 
-(d) Promptly upon the appointment of a successor Facility Agent in accordance with clause 31.13 (Replacement of the Facility Agent), each Paying Party shall (other than to the extent that that Party has given an instruction pursuant to paragraph (e) below) give all requisite instructions to the bank with whom the trust account is held to transfer the amount (together with any accrued interest) to the successor Facility Agent for distribution to the relevant Recipient Party or Recipient Parties in accordance with clause 34.2 (Distributions by the Facility Agent).
+# (c)
 
-(e) A Paying Party shall, promptly upon request by a Recipient Party and to the extent:
+A Party which has made a payment in accordance with this clause 34.5 shall be discharged of the relevant payment obligation under the Senior Finance Documents and shall not take any credit risk with respect to the amounts standing to the credit of the trust account.
+
+# (d)
+
+Promptly upon the appointment of a successor Facility Agent in accordance with clause 31.13 (Replacement of the Facility Agent), each Paying Party shall (other than to the extent that that Party has given an instruction pursuant to paragraph (e) below) give all requisite instructions to the bank with whom the trust account is held to transfer the amount (together with any accrued interest) to the successor Facility Agent for distribution to the relevant Recipient Party or Recipient Parties in accordance with clause 34.2 (Distributions by the Facility Agent).
+
+# (e)
+
+A Paying Party shall, promptly upon request by a Recipient Party and to the extent:
 
 (i) that it has not given an instruction pursuant to paragraph (d) above; and
 
@@ -6002,11 +6052,17 @@ UK - 205885966.10 173
 
 (iv) fourthly, in or towards payment pro rata of any other sum due but unpaid under the Senior Finance Documents.
 
-(b) The Facility Agent shall, if so directed by the Majority Lenders and, if that direction affects any payment to the Revolving Facility Lenders, the Majority Revolving Facility Lenders, vary the order set out in paragraphs (a)(ii) to (iv) above.
+# (b)
 
-(c) Paragraphs (a) and (b) above will override any appropriation made by an Obligor.
+The Facility Agent shall, if so directed by the Majority Lenders and, if that direction affects any payment to the Revolving Facility Lenders, the Majority Revolving Facility Lenders, vary the order set out in paragraphs (a)(ii) to (iv) above.
 
-(d) Notwithstanding this clause 34.6, upon the occurrence of any event listed in clause 11.1 (Exit), any proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
+# (c)
+
+Paragraphs (a) and (b) above will override any appropriation made by an Obligor.
+
+# (d)
+
+Notwithstanding this clause 34.6, upon the occurrence of any event listed in clause 11.1 (Exit), any proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
 
 # 34.7 No Set-Off by Obligors
 
@@ -6014,28 +6070,43 @@ Save where specifically provided for in any Ancillary Facility, all payments to 
 
 # 34.8 Business Days
 
-(a) Any payment under the Senior Finance Documents which is due to be made on a day that is not a Business Day shall be made on the next Business Day in the same calendar month (if there is one) or the preceding Business Day (if there is not).
+# (a)
 
-(b) During any extension of the due date for payment of any principal or Unpaid Sum under this agreement interest is payable on the principal or Unpaid Sum at the rate payable on the original due date.
+Any payment under the Senior Finance Documents which is due to be made on a day that is not a Business Day shall be made on the next Business Day in the same calendar month (if there is one) or the preceding Business Day (if there is not).
+
+# (b)
+
+During any extension of the due date for payment of any principal or Unpaid Sum under this agreement interest is payable on the principal or Unpaid Sum at the rate payable on the original due date.
 
 # 34.9 Currency of Account
 
-(a) Subject to paragraphs (b) to (e) (inclusive) below, the Base Currency is the currency of account and payment for any sum due from an Obligor under any Senior Finance Document.
+# (a)
 
-(b) A repayment or prepayment of a Utilisation or Unpaid Sum or a part of a Utilisation or Unpaid Sum shall be made in the currency in which that Utilisation or Unpaid Sum is denominated, pursuant to this agreement, on its due date.
+Subject to paragraphs (b) to (e) (inclusive) below, the Base Currency is the currency of account and payment for any sum due from an Obligor under any Senior Finance Document.
 
-(c) Each payment of interest shall be made in the currency in which the sum in respect of which the interest is payable was denominated, pursuant to this agreement, when that interest accrued.
+# (b)
 
-(d) Each payment in respect of costs, expenses or Taxes shall be made in the currency in which the costs, expenses or Taxes are incurred.
+A repayment or prepayment of a Utilisation or Unpaid Sum or a part of a Utilisation or Unpaid Sum shall be made in the currency in which that Utilisation or Unpaid Sum is denominated, pursuant to this agreement, on its due date.
 
-(e) Any amount expressed to be payable in a currency other than the Base Currency shall be paid in that other currency.
+# (c)
+
+Each payment of interest shall be made in the currency in which the sum in respect of which the interest is payable was denominated, pursuant to this agreement, when that interest accrued.
+
+# (d)
+
+Each payment in respect of costs, expenses or Taxes shall be made in the currency in which the costs, expenses or Taxes are incurred.
+
+# (e)
+
+Any amount expressed to be payable in a currency other than the Base Currency shall be paid in that other currency.
 
 # 34.10 Change of Currency
 
-(a) Unless otherwise prohibited by law, if more than one currency or currency unit are at the same time recognised by the central bank of any country as the lawful currency of that country, then:
+# (a)
+
+Unless otherwise prohibited by law, if more than one currency or currency unit are at the same time recognised by the central bank of any country as the lawful currency of that country, then:
 
 UK - 205885966.10 174
-
 
 
 
@@ -6104,8 +6175,6 @@ The address and fax number (and the department or officer, if any, for whose att
 
 
 # 36. Communication
-
-# 36.3 General Provisions
 
 (d) Any communication or document made or delivered to the Parent in accordance with this clause 36.3 will be deemed to have been made or delivered to each of the Obligors.
 
@@ -6249,13 +6318,13 @@ An amendment, waiver or consent in relation to any term of any Senior Finance Do
 
 
 
-clause 34.6 (Partial Payments), this clause 40 (Amendments and Waivers), clause 44 (Governing Law) or clause 45.1 (Jurisdiction of English Courts)
+# 40. Amendments and Waivers
 
 (k) (other than as expressly permitted by the provision of any Senior Finance Document) which relates to the nature or scope of:
 
-- (i) the guarantee and indemnity granted under clause 22 (Guarantee and Indemnity);
-- (ii) the Charged Property; or
-- (iii) the manner in which the proceeds of enforcement of the Transaction Security are distributed,
+1. the guarantee and indemnity granted under clause 22 (Guarantee and Indemnity);
+2. the Charged Property; or
+3. the manner in which the proceeds of enforcement of the Transaction Security are distributed,
 
 (except in the case of paragraphs (ii) and (iii) above, insofar as it relates to a sale or disposal of an asset which is the subject of the Transaction Security where such sale or disposal is expressly permitted under this agreement or any other Senior Finance Document);
 
@@ -6267,17 +6336,48 @@ clause 34.6 (Partial Payments), this clause 40 (Amendments and Waivers), clause 
 
 An amendment, waiver or consent in relation to any term of any Senior Finance Document that has the effect of changing or which relates to:
 
-- (a) a Material Event of Default, the definition of "Material Event of Default" or the definitions used therein;
-- (b) the provisions of clause 24.1 (Financial statements) or clause 24.2 (Provision and Contents of Compliance Certificate) which has the effect of delaying the delivery of the financial statements or Compliance Certificate (as the case may be) referred to therein by more than 30 days (beyond the time limits contemplated by those provisions in their original form);
-- (c) the definitions of "Permitted Security" or the provisions of clause 26.15 (Negative Pledge) to the extent that the effect of such amendment or waiver is to permit the incurrence of Security that ranks pari passu or in priority to the Revolving Facility and would be materially adverse to the interests of the Lenders under the Revolving Facility Lenders;
-- (d) clause 27.6 (Insolvency), clause 27.7 (Insolvency Proceedings) or clause 27.8 (Creditors' Process) to the extent such change would be materially adverse to the interest of the Lenders under the Revolving Facility;
-- (e) the definitions of “Change of Control”, "Significant Asset" or "Significant Company";
-- (f) clause 4.1(b) (Purpose);
+1. a Material Event of Default, the definition of "Material Event of Default" or the definitions used therein;
+2. the provisions of clause 24.1 (Financial statements) or clause 24.2 (Provision and Contents of Compliance Certificate) which has the effect of delaying the delivery of the financial statements or Compliance Certificate (as the case may be) referred to therein by more than 30 days (beyond the time limits contemplated by those provisions in their original form);
+3. the definitions of "Permitted Security" or the provisions of clause 26.15 (Negative Pledge) to the extent that the effect of such amendment or waiver is to permit the incurrence of Security that ranks pari passu or in priority to the Revolving Facility and would be materially adverse to the interests of the Lenders under the Revolving Facility Lenders;
+4. clause 27.6 (Insolvency), clause 27.7 (Insolvency Proceedings) or clause 27.8 (Creditors' Process) to the extent such change would be materially adverse to the interest of the Lenders under the Revolving Facility;
+5. the definitions of “Change of Control”, "Significant Asset" or "Significant Company";
+6. clause 4.1(b) (Purpose);
 
 
 
 
 
+# 5.2 Further Conditions Precedent
+
+including, for the purposes of clause 5.2 (Further Conditions Precedent) only, any Default that would constitute a drawstop under that clause;
+
+# 6 Utilisation – Loans
+
+# 6.7 Clean Down
+
+# 9.3(c) Voluntary Prepayment of Term Loans
+
+# 11 Mandatory Prepayment and Cancellation
+
+# 27.16 Repudiation and Rescission of Agreements
+
+# 25.2(d) Super Senior EBITDA
+
+the definition of “Adjusted EBITDA” or "Total Net Debt" or, solely for the purposes of determining those ratios, the definitions used or clauses referred to in that paragraph or that definition;
+
+# 26.16 Disposals
+
+to the extent that such amendment or waiver is to permit Significant Disposals which are not permitted by the definition of Permitted Disposal as at the date of this agreement;
+
+# 27.20 Revolving Facility Acceleration
+
+# 40.4 Majority Revolving Facility Lender matters
+
+# 40.6 Other Exceptions
+
+shall require the consent of the Majority Lenders and the Majority Revolving Lenders.
+
+Any waiver of a Material Event of Default shall not require any consent of the Majority Lenders, provided that, where the event or circumstance that caused such Material Event of Default has also resulted in a Default, such Default may only be waived by the Majority Lenders, but for the avoidance of doubt any waiver of such Default by the Majority Lenders will not constitute a waiver of the corresponding Material Event of Default.
 
 # 40.5 Approved List
 
@@ -6288,8 +6388,6 @@ An amendment, waiver or consent in relation to any term of any Senior Finance Do
 - (i) add any new person to the Approved List at any time;
 - (ii) remove up to three persons from the Approved List per Financial Year (but no more than five in aggregate during the life of the Facilities) provided that the Parent shall simultaneously add a new person (chosen by the Parent in its sole discretion) to the Approved List in place of each person removed;
 - (iii) remove a potential transferee name from the Approved List where such potential transferee has been acquired by, has merged with or has otherwise combined its operations with, a person who is not included in the Approved List.
-
-
 
 
 
@@ -6320,10 +6418,8 @@ If:
 
 (unless, in either case, the Parent and the Facility Agent agree to a longer time period in relation to any request):
 
-(i) its Commitment(s) shall not be included for the purpose of calculating the Total Commitments under the relevant Facility/ies when ascertaining whether any relevant percentage (including, for the avoidance of doubt, unanimity) of Total Commitments has been obtained to approve that request; and
-
-(ii) its status as a Lender shall be disregarded for the purpose of ascertaining whether the agreement of any specified group of Lenders has been obtained to approve that request.
-
+- (i) its Commitment(s) shall not be included for the purpose of calculating the Total Commitments under the relevant Facility/ies when ascertaining whether any relevant percentage (including, for the avoidance of doubt, unanimity) of Total Commitments has been obtained to approve that request; and
+- (ii) its status as a Lender shall be disregarded for the purpose of ascertaining whether the agreement of any specified group of Lenders has been obtained to approve that request.
 
 
 
@@ -6349,8 +6445,6 @@ then the Parent may, on not less than 10 Business Days' prior written notice to 
 (c) A Lender shall perform the checks described in paragraph (b)(v) above as soon as reasonably practicable following delivery of a notice referred to in paragraph (a) above and shall notify the Facility Agent and the Parent when it is satisfied that it has complied with those checks.
 
 (d) Subject to paragraph (e) below, if at any time any Lender becomes a Non-Consenting Lender, the Parent may, on not less than 10 Business Days' prior written notice to the Facility Agent and that Lender, prepay that Lender's participation in all (and not part only) of the Utilisations and cancel all (and not part only) of that Lender's Commitments.
-
-UK - 205885966.10 184
 
 
 
@@ -6388,6 +6482,7 @@ has been obtained to approve any request for a consent, waiver, amendment or oth
 
 
 
+
 (ii) any Lender in relation to which it is aware that any of the events or circumstances referred to in paragraphs (a), (b) and (c) of the definition of "Defaulting Lender" has occurred, unless it has received notice to the contrary from the Lender concerned (together with any supporting evidence reasonably requested by the Facility Agent) or the Facility Agent is otherwise aware that the Lender has ceased to be a Defaulting Lender.
 
 # 40.10 Replacement of a Defaulting Lender
@@ -6407,7 +6502,7 @@ has been obtained to approve any request for a consent, waiver, amendment or oth
 - (ii) neither the Facility Agent nor the Defaulting Lender shall have any obligation to the Parent to find a Replacement Lender;
 - (iii) the transfer must take place no later than 90 days after the notice referred to in paragraph (a) above;
 
-UK - 205885966.10 186
+
 
 
 
@@ -6492,8 +6587,6 @@ in each case, such Confidential Information as that Senior Finance Party shall c
 - (xiii) Termination Date for Facilities;
 - (xiv) changes to any of the information previously supplied pursuant to paragraphs (i) to (xiii) (inclusive) above; and
 - (xv) such other information agreed between such Senior Finance Party and the Parent,
-
-UK - 205885966.10 189
 
 
 
@@ -6654,8 +6747,6 @@ UK - 205885966.10 193
 
 N/A
 
-UK - 205885966.10 194
-
 
 
 
@@ -6689,13 +6780,16 @@ UK - 205885966.10    195
 
 
 
+
+
 # 3. SENIOR FINANCE DOCUMENTS
 
-1. The Intercreditor Agreement executed by the Group Companies party to that agreement and the holders of the Loan Notes and Management Loan Notes.
-2. This agreement executed by the Group Companies party to this agreement.
-3. The Fee Letters executed by the Parent.
-4. The Hedging Letter in the agreed form and executed by the Parent.
-5. The following Transaction Security Documents executed by the Original Obligors specified below opposite the relevant Transaction Security Document:
+- (a) The Intercreditor Agreement executed by the Group Companies party to that agreement and the holders of the Loan Notes and Management Loan Notes.
+- (b) This agreement executed by the Group Companies party to this agreement.
+- (c) The Fee Letters executed by the Parent.
+- (d) The Hedging Letter in the agreed form and executed by the Parent.
+- (e) The following Transaction Security Documents executed by the Original Obligors specified below opposite the relevant Transaction Security Document:
+
 | Name of Original Obligor | Transaction Security Document |
 | ------------------------ | ----------------------------- |
 | Parent                   | English law debenture         |
@@ -6703,10 +6797,10 @@ UK - 205885966.10    195
 
 # 4. PROTECTION OF TRANSACTION SECURITY
 
-1. Notices of assignment or charge (except in relation to the insurance policies of the Group) to be sent under the Transaction Security Documents executed on behalf of each relevant Original Obligor.
-2. The share certificates, transfers and stock transfer forms or equivalent duly stamped and executed by the relevant Original Obligor (other than the Parent) in blank in relation to the assets subject to or expressed to be subject to the Transaction Security except for the share certificates of the Target which will be in the name of the relevant Vendor.
-3. Any other documents of title to be provided under the Transaction Security Documents.
-4. Written acknowledgement in the agreed form executed by the Vendor acknowledging the Transaction Security over the Acquisition Agreement.
+- (a) Notices of assignment or charge (except in relation to the insurance policies of the Group) to be sent under the Transaction Security Documents executed on behalf of each relevant Original Obligor.
+- (b) The share certificates, transfers and stock transfer forms or equivalent duly stamped and executed by the relevant Original Obligor (other than the Parent) in blank in relation to the assets subject to or expressed to be subject to the Transaction Security except for the share certificates of the Target which will be in the name of the relevant Vendor.
+- (c) Any other documents of title to be provided under the Transaction Security Documents.
+- (d) Written acknowledgement in the agreed form executed by the Vendor acknowledging the Transaction Security over the Acquisition Agreement.
 
 # 5. INSURANCE
 
@@ -6718,8 +6812,10 @@ A legal opinion of CMS Cameron McKenna LLP, legal advisers to the Facility Agent
 
 # 7. OTHER DOCUMENTS AND EVIDENCE
 
-1. The Group Structure Chart which shows the Group assuming the Closing Date has occurred.
-2. The Base Case Model.
+- (a) The Group Structure Chart which shows the Group assuming the Closing Date has occurred.
+- (b) The Base Case Model.
+
+
 
 
 
@@ -6774,7 +6870,7 @@ In relation to each Original Obligor, all necessary "know your customer" informa
 
 approving the terms of, and the transactions contemplated by, the Accession Deed and the Senior Finance Documents and resolving that it execute, deliver and perform the Accession Deed and any other Senior Finance Document to which it is party;
 4. authorising a specified person or persons to execute the Accession Deed and other Senior Finance Documents on its behalf;
-5. authorising a specified person or persons, on its behalf, to sign and/or despatch all other documents and notices (including, in relation to an Additional Borrower, any Utilisation Request or Selection Notice) to be signed and/or despatched by it under or in connection with the Senior Finance Documents to which it is a party;
+5. authorising a specified person or persons, on its behalf, to sign and/or despatch all other documents and notices (including, in relation to an Additional Borrower, any Utilisation Request or Selection Notice) to be signed and/or despatched by it under or in connection with the Senior Finance Documents to which it is a party; and
 6. authorising the Parent to act as its agent in connection with the Senior Finance Documents.
 
 A specimen of the signature of each person authorised by the resolution referred to in paragraph 3 above.
@@ -6787,6 +6883,7 @@ The following legal opinions, each addressed to the Facility Agent, the Security
 
 a legal opinion of the legal advisers to the Facility Agent in England, as to English law in the form distributed to the Lenders prior to signing the Accession Deed;
 if the Additional Obligor is incorporated in or has its "centre of main interest" or "establishment" (as referred to in clause 23.28 (Centre of Main Interests and Establishments)) in a jurisdiction other than England and Wales or is executing a Senior Finance Document which is governed by a law other than English law:
+
 
 
 
@@ -6818,7 +6915,7 @@ Evidence that the Additional Obligor has done all that is necessary under any re
 
 In relation to each Additional Obligor all necessary "know your customer" information requested by the Facility Agent for itself and/or on behalf of any other Finance Party.
 
-UK - 205885966.10 200
+
 
 
 
@@ -6863,7 +6960,7 @@ authorised signatory for
 
 [the Parent on behalf of [insert name of relevant Borrower]]/ [insert name of Borrower]
 
-Notes:
+# Notes:
 
 - * Amend as appropriate. The Utilisation Request can be given by the Borrower or the Parent.
 - ** Select the Facility to be utilised and delete references to the other Facilities.
@@ -6901,10 +6998,10 @@ authorised signatory for
 
 # Notes:
 
-- *        Amend as appropriate. The Selection Notice can be given by the Borrower or the Parent.
-- **       Insert details of all Term Loans for the relevant Facility which have an Interest Period ending on the same date.
-- ***      Use this option if sub-division is not required
-- ****     Amend as appropriate. The Selection Notice can be given by the Borrower or the Parent.
+- * Amend as appropriate. The Selection Notice can be given by the Borrower or the Parent.
+- ** Insert details of all Term Loans for the relevant Facility which have an Interest Period ending on the same date.
+- *** Use this option if sub-division is not required.
+- **** Amend as appropriate. The Selection Notice can be given by the Borrower or the Parent.
 
 UK - 205885966.10    202
 
@@ -7026,7 +7123,7 @@ LONDON\ESCOTT\34966082.07
 
 
 
-# THE SCHEDULE
+THE SCHEDULE
 
 # Commitment/Rights and Obligations to be Transferred
 
@@ -7054,6 +7151,7 @@ Portion of Existing Lender’s existing Revolving Facility Commitment to be tran
 | \[ ]     | \[€/£ ]       | \[ ]            |
 
 UK - 205885966.10    206
+
 
 
 
@@ -7101,7 +7199,7 @@ By:
 
 By:
 
-UK - 205885966.10    208
+UK - 205885966.10 208
 
 
 
@@ -7232,32 +7330,32 @@ UK - 205885966.10 211
 
 THE SCHEDULE
 
-# Commitment/rights and obligations to be transferred by assignment, release and assumption
+Commitment/rights and obligations to be transferred by assignment, release and assumption
 
 # Part 1
 
 Existing Lender's existing Commitments
 
-| Existing Lender’s existing Facility A Commitment:         | €/£● |
-| --------------------------------------------------------- | ---- |
-| Existing Lender's existing Revolving Facility Commitment: | €/£● |
+Existing Lender’s existing Facility A Commitment:         €/£●
+
+Existing Lender's existing Revolving Facility Commitment:         €/£●
 
 # Part 2
 
 Commitments transferred
 
-| Portion of Existing Lender’s existing Facility A Commitment to be transferred:         | €/£● |
-| -------------------------------------------------------------------------------------- | ---- |
-| Portion of Existing Lender’s existing Revolving Facility Commitment to be transferred: | €/£● |
+Portion of Existing Lender’s existing Facility A Commitment to be transferred:         €/£●
 
-# Participation in Term Loans transferred:
+Portion of Existing Lender’s existing Revolving Facility Commitment to be transferred:         €/£●
+
+Participation in Term Loans transferred:
 
 | Borrower | Participation | Interest Period |
 | -------- | ------------- | --------------- |
 | \[ ]     | \[€/£ ]       | \[ ]            |
 | \[ ]     | \[€/£ ]       | \[ ]            |
 
-# Participation in Revolving Loans transferred:
+Participation in Revolving Loans transferred:
 
 | Borrower | Participation | Interest Period | Maturity Date |
 | -------- | ------------- | --------------- | ------------- |
@@ -7268,13 +7366,17 @@ Commitments transferred
 
 Particulars relating to the New Lender
 
-| Facility Office:      |   |
-| --------------------- | - |
-| Contact Name:         |   |
-| Account for Payments: |   |
-| Address for Notices:  |   |
-| Telephone:            |   |
-| Facsimile:            |   |
+Facility Office:
+
+Contact Name:
+
+Account for Payments:
+
+Address for Notices:
+
+Telephone:
+
+Facsimile:
 
 UK - 205885966.10    212
 
@@ -7285,11 +7387,12 @@ UK - 205885966.10    212
 
 | \[Existing Lender]       | \[New Lender]            |
 | ------------------------ | ------------------------ |
+| \[Executed as a deed by] | By: .................... |
 | By: .................... | By: .................... |
 
 We acknowledge the above and in particular the transfer of obligations to the New Lender recorded in the above certificate.
 
-By: ………………………………………………..
+By:     ………………………………………………..
 
 Parent for all the Obligors
 
@@ -7301,7 +7404,7 @@ Signature of this Assignment Agreement by the Facility Agent constitutes confirm
 | ----------------- | --- |
 | \[Security Agent] | By: |
 
-UK - 205885966.10 213
+UK - 205885966.10    213
 
 
 
@@ -7320,20 +7423,39 @@ Dear Sirs
 
 [Parent] – [●] Senior Facilities Agreement dated [●] (the "Facilities Agreement")
 
-1. We refer to the Facilities Agreement and to the Intercreditor Agreement. This deed (the "Accession Deed") shall take effect as an Accession Deed for the purposes of the Facilities Agreement and as a Debtor Accession Deed for the purposes of the Intercreditor Agreement (and as defined in the Intercreditor Agreement). Terms defined in the Facilities Agreement have the same meaning in paragraphs 1-[3]/[4] of this Accession Deed unless given a different meaning in this Accession Deed.
-2. [Subsidiary] agrees to become an Additional [Borrower]/[Guarantor] and to be bound by the terms of the Facilities Agreement, and the other Senior Finance Documents (other than the Intercreditor Agreement) as an Additional [Borrower]/[Guarantor] pursuant to [clause 30.2 (Additional Borrowers)]/[clause 30.4 (Additional Guarantors)] of the Facilities Agreement (subject to applicable limitations set out therein): [Subsidiary] is a company duly incorporated under the laws of [name of relevant jurisdiction] and is a limited liability company and registered number [●].
-3. [The Parent confirms that no Default is continuing or would occur as a result of [Subsidiary] becoming an Additional Borrower].*
-4. [Subsidiary's] administrative details for the purposes of the Facilities Agreement and the Intercreditor Agreement are as follows:
-5. - Address:
-- Fax No.:
-- Attention:
+# 1.
+
+We refer to the Facilities Agreement and to the Intercreditor Agreement. This deed (the "Accession Deed") shall take effect as an Accession Deed for the purposes of the Facilities Agreement and as a Debtor Accession Deed for the purposes of the Intercreditor Agreement (and as defined in the Intercreditor Agreement). Terms defined in the Facilities Agreement have the same meaning in paragraphs 1-[3]/[4] of this Accession Deed unless given a different meaning in this Accession Deed.
+
+# 2.
+
+[Subsidiary] agrees to become an Additional [Borrower]/[Guarantor] and to be bound by the terms of the Facilities Agreement, and the other Senior Finance Documents (other than the Intercreditor Agreement) as an Additional [Borrower]/[Guarantor] pursuant to [clause 30.2 (Additional Borrowers)]/[clause 30.4 (Additional Guarantors)] of the Facilities Agreement (subject to applicable limitations set out therein): [Subsidiary] is a company duly incorporated under the laws of [name of relevant jurisdiction] and is a limited liability company and registered number [●].
+
+# 3.
+
+[The Parent confirms that no Default is continuing or would occur as a result of [Subsidiary] becoming an Additional Borrower].*
+
+# 4.
+
+[Subsidiary's] administrative details for the purposes of the Facilities Agreement and the Intercreditor Agreement are as follows:
+
+Address:
+
+Fax No.:
+
+Attention:
+
+# 5.
 
 [Subsidiary] (for the purposes of this paragraph [4,]/[5], the "Acceding Debtor") intends to [incur Liabilities under the following documents]/[give a guarantee, indemnity or other assurance against loss in respect of Liabilities under the following documents] (subject to applicable limitations set out therein):
-6. [Insert details (date, parties and description) of relevant documents] the "Relevant Documents".
+
+[Insert details (date, parties and description) of relevant documents]
+
+the "Relevant Documents".
 
 IT IS AGREED as follows:
 
-- (a) Terms defined in the Intercreditor Agreement shall, unless otherwise defined in this Accession Deed, bear the same meaning when used in paragraph [4]/[5] above.
+(a) Terms defined in the Intercreditor Agreement shall, unless otherwise defined in this Accession Deed, bear the same meaning when used in paragraph [4]/[5] above.
 
 UK - 205885966.10 214
 
@@ -7352,7 +7474,9 @@ on trust or as agent for the Secured Parties on the terms and conditions contain
 
 (d) [In consideration of the Acceding Debtor being accepted as an Intra Group Lender for the purposes of the Intercreditor Agreement, the Acceding Debtor also confirms that it intends to be party to the Intercreditor Agreement as an Intra Group Lender, and undertakes to perform all the obligations expressed in the Intercreditor Agreement to be assumed by an Intra Group Lender and agrees that it shall be bound by all the provisions of the Intercreditor Agreement, as if it had been an original party to the Intercreditor Agreement (subject to applicable limitations set out therein)].
 
-# 6. This Accession Deed [and any non-contractual obligations arising out of or in connection with it are governed by English law.
+# 6.
+
+This Accession Deed [and any non-contractual obligations arising out of or in connection with it are governed by English law.
 
 THIS ACCESSION DEED has been signed on behalf of the Security Agent (for the purposes of paragraph [4]/[5] above only), signed on behalf of the Parent and executed as a deed by [Subsidiary] and is delivered on the date stated above.
 
@@ -7381,9 +7505,9 @@ Name of witness ………………………………………………………�
 
 Address of witness ………………………………………………………………….
 
-………………………………………………………………..
+…………………………………………………………………….
 
-………………………………………………………………..
+…………………………………………………………………….
 
 Occupation of witness ……………………………………………………………………
 
@@ -7419,7 +7543,7 @@ Note:
 
 - Include in the case of an Additional Borrower.
 
-UK - 205885966.10 217
+UK - 205885966.10    217
 
 
 
@@ -7479,53 +7603,48 @@ SCHEDULE 8
 
 # Form of Compliance Certificate
 
-To: [●] as Facility Agent
+To:        [●] as Facility Agent
 
-From: [Parent]
+From:      [Parent]
 
-Dated: [●]
+Dated:     [●]
 
 Dear Sirs
 
 [Parent] – [●] Senior Facilities Agreement dated [●] (the "Facilities Agreement")
 
-# 1.
+1. We refer to the Facilities Agreement. This is a Compliance Certificate. Terms defined in the Facilities Agreement have the same meaning when used in this Compliance Certificate unless given a different meaning in this Compliance Certificate.
+2. We confirm that:
+3. [Insert details of covenants to be certified].
 
-We refer to the Facilities Agreement. This is a Compliance Certificate. Terms defined in the Facilities Agreement have the same meaning when used in this Compliance Certificate unless given a different meaning in this Compliance Certificate.
+[We confirm that [Interest Cover [Leverage] is [●]:1 and that, therefore, the Facility A Margin should be [●] per cent and the Margin relating to the Revolving Facility should be 3 per cent [and the CAR Facility Margin should be [●] p.a.]
 
-# 2.
+[We confirm that no Default is continuing.]*
+4. [We confirm that the following companies constitute Material Companies for the purposes of the Facilities Agreement: [●].]
 
-We confirm that:
+Signed              …………………..                           …………………….
 
-[Insert details of covenants to be certified].
+Director                            Director
 
-[We confirm that [Interest Cover [Leverage] is [●]:1 and that, therefore, the Facility A Margin should be [●] per cent and the Margin relating to the Revolving Facility should be 3 per cent [and the CAR Facility Margin should be [●] p.a.]]
+Of                                  of
 
-# 3.
-
-[We confirm that no Default is continuing.] *
-
-# 4.
-
-[We confirm that the following companies constitute Material Companies for the purposes of the Facilities Agreement: [●].]
-
-We confirm that the aggregate EBITDA, as defined in clause 25 (Financial Covenants) and aggregate gross assets of the Guarantors (calculated on an unconsolidated basis and excluding all intra-group items and investments in Subsidiaries of any Group Company) exceeds [85] per cent of the Consolidated EBITDA, as defined in clause 25 (Financial Covenants) and consolidated gross assets of the Group.
-
-Signed ………………….. ………………….
-
-Director Of [Parent] Director of [Parent]
+[Parent]                            [Parent]
 
 [insert auditor's report language]
 
-…………………….. for and on behalf of [name of Auditors of the Parent] **
+……………………..
+
+for and on behalf of
+
+[name of Auditors of the Parent]**
 
 # Notes:
 
-* If this statement cannot be made, the certificate should identify any Default that is continuing and the steps, if any, being taken to remedy it.
+- * If this statement cannot be made, the certificate should identify any Default that is continuing and the steps, if any, being taken to remedy it.
+- ** Only applicable if the Compliance Certificate accompanies the audited financial statements and is to be signed by the Auditors. To be agreed with the Parent's auditor's prior to signing the Agreement.
 
-** Only applicable if the Compliance Certificate accompanies the audited financial statements and is to be signed by the Auditors. To be agreed with the Parent's auditor's prior to signing the Agreement.
+UK - 205885966.10    219
 
-UK - 205885966.10 219
 
 
 
@@ -7541,15 +7660,11 @@ SCHEDULE 9
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | ------------------------- | ------------- |
 | Facility Agent notifies the Parent if a currency is approved as an Optional Currency in accordance with clause 5.3 (Conditions Relating to Optional Currencies)                                                                                  | -                 | -                         | U-4           |
 | Delivery of a duly completed Utilisation Request (clause 6.1 (Delivery of a Utilisation Request) or a Selection Notice (clause 14.1 (Selection of Interest Periods and Terms)                                                                    | U-3               | U-3                       | U-3           |
-| 9.30 a.m.                                                                                                                                                                                                                                        | 9.30 a.m.         | 9.30 a.m.                 |               |
-| Facility Agent determines (in relation to a Utilisation) the Base Currency Amount of the Loan, if required under clause 6.4 (Lenders' Participation) and notifies the Lenders of the Loan in accordance with clause 6.4 (Lenders' Participation) | U-3               | U-3                       | U-3           |
-| Noon                                                                                                                                                                                                                                             | Noon              | Noon                      |               |
-| Facility Agent receives a notification from a Lender under clause 7.2 (Unavailability of a Currency)                                                                                                                                             |                   | Q                         | Q             |
-|                                                                                                                                                                                                                                                  | 3.00 p.m.         | 3.00 p.m.                 |               |
-| Facility Agent gives notice in accordance with clause 7.2 (Unavailability of a Currency)                                                                                                                                                         |                   | Q                         | Q             |
-|                                                                                                                                                                                                                                                  | 5.00 p.m.         | 5.00 p.m.                 |               |
+| Facility Agent determines (in relation to a Utilisation) the Base Currency Amount of the Loan, if required under clause 6.4 (Lenders' Participation) and notifies the Lenders of the Loan in accordance with clause 6.4 (Lenders' Participation) | Noon              | Noon                      | Noon          |
+| Facility Agent receives a notification from a Lender under clause 7.2 (Unavailability of a Currency)                                                                                                                                             | Q                 | Q                         | 3.00 p.m.     |
+| Facility Agent gives notice in accordance with clause 7.2 (Unavailability of a Currency)                                                                                                                                                         | Q                 | Q                         | 5.00 p.m.     |
 | LIBOR or EURIBOR is fixed                                                                                                                                                                                                                        | Quotation Day     | Quotation Day             | Quotation Day |
-| 11.00 a.m.                                                                                                                                                                                                                                       | 11.00 a.m.        | 11.00 a.m.                |               |
+|                                                                                                                                                                                                                                                  | 11.00 a.m.        | 11.00 a.m.                | 11.00 a.m.    |
 
 "Q" = Quotation Day
 
@@ -7588,28 +7703,25 @@ UK - 205885966.10                                        221
 
 
 
+(g) the perfection of Security granted will not be required if it would have a material adverse effect on the commercial reputation of the relevant Guarantor or on its ability to conduct its operations and business in the ordinary course as otherwise not prohibited by the Senior Finance Documents;
 
-# 2. Security Principles
+(h) access to the assets of a Guarantor, the maximum guaranteed or secured amount may be restricted or limited by guarantee limitation language agreed to reflect these principles and to the extent consistent with them, customary practice in the relevant jurisdiction to minimise stamp duty, notarisation, registration or other applicable fees where the economic benefit of increasing the guaranteed or secured amount is disproportionate to the level of such fees, Taxes and duties or where registration, notarial or other fees are payable by reference to the stated amount secured in which case, any asset Security granted by that Guarantor shall be limited to the maximum recoverable amount under the guarantee;
 
-(g) The perfection of Security granted will not be required if it would have a material adverse effect on the commercial reputation of the relevant Guarantor or on its ability to conduct its operations and business in the ordinary course as otherwise not prohibited by the Senior Finance Documents;
+(i) where a class of assets to be secured includes material and immaterial assets, if the cost of granting Security over the immaterial assets is disproportionate to the benefit of such Security, Security will be granted over the material assets only;
 
-(h) Access to the assets of a Guarantor, the maximum guaranteed or secured amount may be restricted or limited by guarantee limitation language agreed to reflect these principles and to the extent consistent with them, customary practice in the relevant jurisdiction to minimise stamp duty, notarisation, registration or other applicable fees where the economic benefit of increasing the guaranteed or secured amount is disproportionate to the level of such fees, Taxes and duties or where registration, notarial or other fees are payable by reference to the stated amount secured in which case, any asset Security granted by that Guarantor shall be limited to the maximum recoverable amount under the guarantee;
+(j) unless granted under a global security document governed by the law of the jurisdiction of a Guarantor or under English law all Security (other than share Security over its Guarantor subsidiaries) shall be governed by the law of and secure assets located in the jurisdiction of incorporation of that Guarantor;
 
-(i) Where a class of assets to be secured includes material and immaterial assets, if the cost of granting Security over the immaterial assets is disproportionate to the benefit of such Security, Security will be granted over the material assets only;
+(k) no perfection action will be required in jurisdictions where Guarantors are not located (other than in relation to any security over shares or equity interests or in intellectual property) but perfection action may be required in the jurisdiction of one Obligor in relation to security granted by an Obligor located in a different jurisdiction;
 
-(j) Unless granted under a global security document governed by the law of the jurisdiction of a Guarantor or under English law all Security (other than share Security over its Guarantor subsidiaries) shall be governed by the law of and secure assets located in the jurisdiction of incorporation of that Guarantor;
-
-(k) No perfection action will be required in jurisdictions where Guarantors are not located (other than in relation to any security over shares or equity interests or in intellectual property) but perfection action may be required in the jurisdiction of one Obligor in relation to security granted by an Obligor located in a different jurisdiction;
-
-(l) To the extent possible, the Security Agent will hold one set of security for the Lenders and the Hedge Counterparties;
+(l) to the extent possible, the Security Agent will hold one set of security for the Lenders and the Hedge Counterparties;
 
 (m) Security over intellectual property rights will be taken on an "as is, where is" basis, and members of the Group will not be required to procure any changes to or corrections of filings on external registers;
 
-# 3. Guarantees
+# 3. GUARANTEES
 
 To the extent legally permitted and subject to paragraph 2 above, each guarantee and security will be an upstream, cross-stream and downstream guarantee and each guarantee and security will be for all liabilities of the Obligors under the Senior Finance Documents.
 
-# 4. Security Perfection
+# 4. SECURITY PERFECTION
 
 Security will be for all liabilities of the relevant grantor (including its liabilities in respect of any guarantee) under the Senior Finance Documents in accordance with, and subject to, the requirements of the Agreed Security Principles in each relevant jurisdiction.
 
@@ -7643,6 +7755,7 @@ The following principles will be reflected In the terms of any Transaction Secur
 
 
 
+
 # 6. ACQUISITION DOCUMENTS AND CLAIMS
 
 (l) The rights of the Obligors under the Acquisition Documents shall be assigned or charged.
@@ -7668,28 +7781,31 @@ Proceeds of the Acquisition Documents and related claims shall be collected and 
 
 
 
-(f) To the extent the standard terms and conditions of the account holding bank prohibit the granting of security over the account, this prohibition must be lifted by the account holding bank prior to the execution of the Transaction Security Document creating security over that account.
 
-# 8. FIXED ASSETS AND INVENTORY</h8>
+# 8. FIXED ASSETS AND INVENTORY
+
 (a) Subject to the Agreed Security Principles, Security may be granted over fixed assets.
 
 (b) No notice whether to third parties or by attaching a notice to the fixed assets or Inventory shall be prepared or given until a Declared Default.
 
 (c) If required under local law security over fixed assets will be registered subject to the general principles set out In these Agreed Security Principles.
 
-# 9. MATERIAL CONTRACTS AND CLAIMS (OTHER THAN TRADE RECEIVABLES)</h8>
+# 9. MATERIAL CONTRACTS AND CLAIMS (OTHER THAN TRADE RECEIVABLES)
+
 (a) Transaction Security will be granted over material contracts and claims (other than trade receivables) agreed between the Security Agent and the Parent.
 
 (b) A counterparty to a material contract/claim (other than trade receivables) is only to be notified of the Transaction Security if a Declared Default occurs, unless if the Parent, in its reasonable opinion does not consider It to be prejudicial to the commercial Interest of the Group, necessary to ensure the creation of valid and/or perfected Security or specifically required by the Security Agent. Contracts that will require notification upon execution of the Transaction Security Documents will include the Acquisition Documents.
 
 (c) If required to perfect the Transaction Security, notice of the Transaction Security will be served on the relevant counterparty as soon as reasonably practicable (but in any event within five Business Days of the Transaction Security being granted) and the charging Guarantor shall use its reasonable endeavours to obtain an acknowledgement of that notice with 15 Business Days of service.
 
-# 10. INSURANCE POLICIES</h8>
+# 10. INSURANCE POLICIES
+
 (a) Subject to these Agreed Security Principles, an Obligor will grant Transaction Security over its material Insurance policies as agreed between the Parent and the Agent.
 
 (b) If required by local law to perfect the Security, notice of the Security will be served on the insurance provider as soon as reasonably practicable (but in any event within five Business Days of the Security being granted) and the Obligor shall use Its reasonable endeavours to obtain an acknowledgement of that notice within 20 Business Days of service. If the Obligor has used its reasonable endeavours but has not been able to obtain acknowledgement Its obligation to obtain acknowledgement shall cease on the expiry of that 20 Business Day period.
 
 (c) The chargor shall use reasonable endeavours to procure that the Security Agent is endorsed as sole loss payee in respect of all material insurance policies subject to the Transaction Security.
+
 
 
 
@@ -7730,7 +7846,6 @@ Proceeds of the Acquisition Documents and related claims shall be collected and 
 
 
 
-
 # 14. SHARES
 
 (a) Transaction Security will be granted over the shares in Material Companies (other than the Parent).
@@ -7755,7 +7870,7 @@ Proceeds of the Acquisition Documents and related claims shall be collected and 
 
 Unless required by local law, the circumstances in which the Security shall be released should not be dealt with in Individual Security Documents but, if so required, shall, except to the extent required by local law, be the same as those set out in the Intercreditor Agreement.
 
-
+UK - 205885966.10    227
 
 
 
@@ -7772,7 +7887,7 @@ To: [●] as Facility Agent
 
 From: [The Lender]
 
-Dated: [●]
+Dated:
 
 [Parent] – [●] Senior Facilities Agreement dated [●] (the "Facilities Agreement")
 
@@ -7791,7 +7906,7 @@ By:
 
 * Delete as applicable
 
-UK - 205885966.10    228
+UK - 205885966.10 228
 
 
 
@@ -7799,7 +7914,7 @@ UK - 205885966.10    228
 
 Part – 2
 
-# Form of Notice on Termination of Notifiable Debt Purchase Transaction/Notifiable Debt Purchase Transaction ceasing to be with Sponsor Affiliate
+Form of Notice on Termination of Notifiable Debt Purchase Transaction/Notifiable Debt Purchase Transaction ceasing to be with Sponsor Affiliate
 
 To: [●] as Facility Agent
 
@@ -7858,7 +7973,7 @@ The Increase Lender agrees to assume and will assume all of the obligations corr
 
 # 4.
 
-proposed date on which the increase in relation to the Increase Lender and the Relevant Commitment is to take effect (the "Increase Date") is [●].
+The proposed date on which the increase in relation to the Increase Lender and the Relevant Commitment is to take effect (the "Increase Date") is [●].
 
 # 5.
 
@@ -7912,29 +8027,26 @@ UK - 205885966.10 230
 
 
 
-9.2 a partnership each member of which is:
+# 9.</h9>
+[The Increase Lender confirms that it holds a passport under the HMRC DT Treaty Passport scheme (reference number [●]) and is tax resident in [●]*, so that interest payable to it by borrowers is generally subject to full exemption from UK withholding tax and requests that the Parent notify:
 
-- (a) a company so resident in the United Kingdom;
-- (b) a company not so resident in the United Kingdom which carries on a trade in the United Kingdom through a permanent establishment and which brings into account in computing its chargeable profits (within the meaning of section 19 of the CTA) the whole of any share of interest payable in respect of that advance that falls to it by reason of Part 17 of the CTA; or
+# 9.1</h9>
+each Borrower which is a party as a Borrower as at the Increase Date; and
 
-9.3 a company not so resident in the United Kingdom which carries on a trade in the United Kingdom through a permanent establishment and which brings into account interest payable in respect of that advance in computing the chargeable profits (within the meaning of section 19 of the CTA) of that company.]²
-
-9. [The Increase Lender confirms that it holds a passport under the HMRC DT Treaty Passport scheme (reference number [●]) and is tax resident in [●]*, so that interest payable to it by borrowers is generally subject to full exemption from UK withholding tax and requests that the Parent notify:
-
-- 9.1 each Borrower which is a party as a Borrower as at the Increase Date; and
-- 9.2 each Additional Borrower which becomes an Additional Borrower after the Increase, that it wishes the scheme to apply to the Facilities Agreement.**
+# 9.2</h9>
+each Additional Borrower which becomes an Additional Borrower after the Increase, that it wishes the scheme to apply to the Facilities Agreement.**
 
 [9/10]. The Increase Lender confirms that it is not a Sponsor Affiliate.
 
-[10/11].[The Increase Lender confirms that it [is]/[is not]*** a Non-Acceptable L/C Lender.]****
+[10/11]. [The Increase Lender confirms that it [is]/[is not]*** a Non-Acceptable L/C Lender.]****
 
-[11/12].We refer to clause [●] (Creditor Accession Undertaking) of the Intercreditor Agreement. In consideration of the Increase Lender being accepted as a Senior Lender for the purposes of the Intercreditor Agreement (and as defined in the Intercreditor Agreement), the Increase Lender confirms that, as from the Increase Date, it intends to be party to the Intercreditor Agreement as a Senior Lender, and undertakes to perform all the obligations expressed in the Intercreditor Agreement to be assumed by a Senior Lender and agrees that it shall be bound by all the provisions of the Intercreditor Agreement, as if it had been an original party to the Intercreditor Agreement.
+[11/12]. We refer to clause [●] (Creditor Accession Undertaking) of the Intercreditor Agreement. In consideration of the Increase Lender being accepted as a Senior Lender for the purposes of the Intercreditor Agreement (and as defined in the Intercreditor Agreement), the Increase Lender confirms that, as from the Increase Date, it intends to be party to the Intercreditor Agreement as a Senior Lender, and undertakes to perform all the obligations expressed in the Intercreditor Agreement to be assumed by a Senior Lender and agrees that it shall be bound by all the provisions of the Intercreditor Agreement, as if it had been an original party to the Intercreditor Agreement.
 
-[12/13].This Agreement may be executed in any number of counterparts and this has the same effect as if the signatures on the counterparts were on a single copy of this Agreement.
+[12/13]. This Agreement may be executed in any number of counterparts and this has the same effect as if the signatures on the counterparts were on a single copy of this Agreement.
 
-[13/14].This Agreement and any non-contractual obligations arising out of or in connection with it are governed by English law.
+[13/14]. This Agreement and any non-contractual obligations arising out of or in connection with it are governed by English law.
 
-[14/15].This Agreement has been entered into on the date stated at the beginning of this Agreement.
+[14/15]. This Agreement has been entered into on the date stated at the beginning of this Agreement.
 
 2 Include only if New Lender is a UK Non-Bank Lender, i.e. falls within paragraph (a)(ii) of the definition of "Qualifying Lender" in clause 1.1 (Definitions).
 
@@ -7977,6 +8089,10 @@ Dear Sirs
 2. We have agreed with the following institutions (the "CAR Facility Lenders" in respect of the CAR Facility Commitments detailed in this CAR Facility Establishment Notice) that they commit CAR Commitments as follows:
 3. | Name of Institution | Existing Lender (yes/no) | CAR Facility Commitment (£) | Fees payable | Commitment Fee |
 | ------------------- | ------------------------ | --------------------------- | ------------ | -------------- |
+|                     |                          |                             |              |                |
+|                     |                          |                             |              |                |
+|                     |                          |                             |              |                |
+|                     |                          |                             |              |                |
 |                     |                          |                             |              |                |
 |                     |                          |                             |              |                |
 |                     |                          |                             |              |                |
@@ -8059,9 +8175,11 @@ the Facility Agent
 
 the Security Agent
 
-1. Include if CAR Facility Lender comes within paragraph (i)(B) of the definition of Qualifying Lender in Clause 17.1 (Definitions).
-2. Insert jurisdiction of tax residence.
-3. Include if CAR Facility Lender holds a passport under the HMRC DT Treaty Passport scheme and wishes that scheme to apply to the Facilities Agreement.
+4 Include if CAR Facility Lender comes within paragraph (i)(B) of the definition of Qualifying Lender in Clause 17.1 (Definitions).
+
+5 Insert jurisdiction of tax residence.
+
+6 Include if CAR Facility Lender holds a passport under the HMRC DT Treaty Passport scheme and wishes that scheme to apply to the Facilities Agreement.
 
 UK - 205885966.10 235
 
@@ -8246,4 +8364,3 @@ Fax:
 Attention: Danielle Hook
 
 239
-

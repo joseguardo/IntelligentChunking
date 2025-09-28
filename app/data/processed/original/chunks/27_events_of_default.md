@@ -27,8 +27,6 @@ An Obligor does not pay on the due date any amount payable pursuant to a Senior 
 - (a) Any representation or statement made or deemed to be made by an Obligor in the Senior Finance Documents or any other document delivered by or on behalf of any Obligor under or in connection with any Senior Finance Document is or proves to have been incorrect or misleading when made or deemed to be made.
 - (b) No Event of Default under paragraph (a) above will occur if the event or circumstance giving rise to the breach is capable of remedy and is remedied within 20 Business Days of the Facility Agent giving notice to the Parent or relevant Obligor or the Parent or an Obligor becoming aware of the breach.
 
-UK - 205885966.10 140
-
 # 27.5 Cross Default
 
 (a) Any Financial Indebtedness of any Material Company is not paid when due nor within any originally applicable grace period.
@@ -80,8 +78,6 @@ There occurs in relation to any Material Company or any of its assets in any cou
 (a) Any party to the Intercreditor Agreement (other than a Senior Finance Party or an Obligor) fails to comply with the provisions of, or does not perform its obligations under, the Intercreditor Agreement; or
 
 (b) a representation or warranty given by that party in the Intercreditor Agreement is incorrect in any material respect,
-
-UK - 205885966.10    142
 
 and, if the non-compliance or circumstances giving rise to the misrepresentation are capable of remedy, it is not remedied within 20 Business Days of the earlier of the Facility Agent giving notice to that party or that party becoming aware of the non-compliance or misrepresentation.
 
@@ -137,23 +133,14 @@ Subject to the terms of the Intercreditor Agreement, on and at any time after th
 - (c) declare that all or part of the Revolving Facility Loans, together with accrued interest, and all other amounts accrued or outstanding under the Senior Finance Documents in respect of the Revolving Facility Loans be immediately due and payable, at which time they shall become immediately due and payable;
 - (d) declare that all or part of the Revolving Facility Loans be payable on demand, at which time they shall immediately become payable on demand by the Facility Agent on the instructions of the Majority Revolving Facility Lenders;
 
-(e) declare all or any part of the amounts (or cash cover in relation to those amounts) outstanding under the Ancillary Facilities to be immediately due and payable at which time they shall become immediately due and payable;
-
-(f) declare that all or any part of the amounts (or cash cover in relation to those amounts) outstanding under the Ancillary Facilities be payable on demand, at which time they shall immediately become payable on demand by the Facility Agent on the instructions of the Majority Revolving Facility Lenders; and/or
-
-(g) exercise or direct the Security Agent to exercise any or all of its rights, remedies, powers or discretions under the Senior Finance Documents.
-
 # 27.21 Clean-up period
 
 Notwithstanding any other provision of any Finance Document, any Event of Default constituting a Clean-up Default will be deemed not to be a breach of representation or warranty, a breach of covenant or an Event of Default (as the case may be) if:
 
-(a) it would have been (if it were not for this provision) a breach of representation or warranty, a breach of covenant or an Event of Default only by reason of circumstances relating exclusively to any member to the Target Group (or any obligation to procure or ensure in relation to a member of the Target Group) (in the case of the Acquisition) or (in the case of an acquisition permitted under and in accordance with paragraph (f) of the definition of "Permitted Acquisition", an "Acquisition Target") the Acquisition Target or any other person, undertaking or business which is the direct or indirect subject of the relevant acquisition (or any obligation to procure or ensure in relation to the Acquisition Target or any such other person, undertaking or business);
-
-(b) it is capable of remedy and reasonable steps are being taken to remedy it;
-
-(c) the circumstances giving rise to it have not been procured by or approved by the Parent, or any Investor (in the case of the Acquisition) or (in the case of the acquisition permitted under and in accordance with the paragraph (f) of the definition of "Permitted Acquisition" any member of the Group); and
-
-(d) it is not reasonably likely to have a Material Adverse Effect.
+1. it would have been (if it were not for this provision) a breach of representation or warranty, a breach of covenant or an Event of Default only by reason of circumstances relating exclusively to any member to the Target Group (or any obligation to procure or ensure in relation to a member of the Target Group) (in the case of the Acquisition) or (in the case of an acquisition permitted under and in accordance with paragraph (f) of the definition of "Permitted Acquisition", an "Acquisition Target") the Acquisition Target or any other person, undertaking or business which is the direct or indirect subject of the relevant acquisition (or any obligation to procure or ensure in relation to the Acquisition Target or any such other person, undertaking or business);
+2. it is capable of remedy and reasonable steps are being taken to remedy it;
+3. the circumstances giving rise to it have not been procured by or approved by the Parent, or any Investor (in the case of the Acquisition) or (in the case of the acquisition permitted under and in accordance with the paragraph (f) of the definition of "Permitted Acquisition" any member of the Group); and
+4. it is not reasonably likely to have a Material Adverse Effect.
 
 If the relevant circumstances are continuing on or after the Clean-up Date, there shall be a breach of representation or warranty, breach of covenant or Event of Default, as the case may be, notwithstanding the above (and without prejudice to the rights and remedies of the Finance Parties).
 

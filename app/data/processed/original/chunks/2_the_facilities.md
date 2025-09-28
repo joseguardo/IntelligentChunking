@@ -23,6 +23,8 @@
 
 request that the Commitments relating to any Facility be increased (and the Commitments relating to that Facility shall be so increased) in an aggregate amount in the Base Currency of up to the amount of the Available Commitments or Commitments relating to that Facility so cancelled as follows:
 
+# 2.2 Increase in Commitments
+
 (iii) the increased Commitments will be assumed by one or more Lenders or other banks, financial institutions, trusts, funds or other entities (each an "Increase Lender") selected by the Parent (each of which shall not be a Sponsor Affiliate or a Group Company) and each of which confirms in writing (whether in the relevant Increase Confirmation or otherwise) its willingness to assume and does assume all the obligations of a Lender corresponding to that part of the increased Commitments which it is to assume, as if it had been an Original Lender;
 
 (iv) each of the Obligors and any Increase Lender shall assume obligations towards one another and/or acquire rights against one another as the Obligors and the Increase Lender would have assumed and/or acquired had the Increase Lender been an Original Lender;
@@ -33,20 +35,29 @@ request that the Commitments relating to any Facility be increased (and the Comm
 
 (vii) any increase in the Commitments relating to a Facility shall take effect on the date specified by the Parent in the notice referred to above or any later date on which the conditions set out in paragraph (b) below are satisfied.
 
-(b) An increase in the Commitments relating to a Facility will only be effective on:
+# (b) Conditions for Increase
+
+An increase in the Commitments relating to a Facility will only be effective on:
 
 (i) the execution by the Facility Agent of an Increase Confirmation from the relevant Increase Lender;
 
 (ii) in relation to an Increase Lender which is not a Lender immediately prior to the relevant increase:
 
-- (A) the Increase Lender entering into the documentation required for it to accede as a party to the Intercreditor Agreement; and
-- (B) the Facility Agent being satisfied that it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to the assumption of the increased Commitments by that Increase Lender. The Facility Agent shall promptly notify the Parent and the Increase Lender upon being so satisfied.
+(A) the Increase Lender entering into the documentation required for it to accede as a party to the Intercreditor Agreement; and
 
-(c) Each Increase Lender, by executing the Increase Confirmation, confirms (for the avoidance of doubt) that the Facility Agent has authority to execute on its behalf any amendment or waiver that has been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement on or prior to the date on which the increase becomes effective.
+(B) the Facility Agent being satisfied that it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to the assumption of the increased Commitments by that Increase Lender. The Facility Agent shall promptly notify the Parent and the Increase Lender upon being so satisfied.
 
-(d) The Parent shall within 3 Business Days of demand pay the Facility Agent and the Security Agent the amount of all costs and expenses (including legal fees subject to any agreed cap) reasonably and properly incurred by either of them and, in the case of the Security Agent, by any Receiver or Delegate in connection with any increase in Commitments under this clause 2.2.
+# (c) Confirmation by Increase Lender
 
-(e) The Increase Lender shall, on the date upon which the increase takes effect, pay to the Facility Agent (for its own account) a fee in an amount equal to the fee which
+Each Increase Lender, by executing the Increase Confirmation, confirms (for the avoidance of doubt) that the Facility Agent has authority to execute on its behalf any amendment or waiver that has been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement on or prior to the date on which the increase becomes effective.
+
+# (d) Payment of Costs
+
+The Parent shall within 3 Business Days of demand pay the Facility Agent and the Security Agent the amount of all costs and expenses (including legal fees subject to any agreed cap) reasonably and properly incurred by either of them and, in the case of the Security Agent, by any Receiver or Delegate in connection with any increase in Commitments under this clause 2.2.
+
+# (e) Fee Payment by Increase Lender
+
+The Increase Lender shall, on the date upon which the increase takes effect, pay to the Facility Agent (for its own account) a fee in an amount equal to the fee which
 
 # 2.2 Increase Lenders
 

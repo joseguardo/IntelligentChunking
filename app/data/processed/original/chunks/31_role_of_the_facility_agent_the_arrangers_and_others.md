@@ -62,34 +62,43 @@ The Facility Agent, the Security Agent, each Arranger and each Ancillary Lender 
 
 (B) unless it has received notice of revocation, that those instructions have not been revoked;
 
-(iii) rely on a certificate from any person:
+# (iii) rely on a certificate from any person:
 
-- (A) as to any matter of fact or circumstance which might reasonably be expected to be within the knowledge of that person; or
-- (B) to the effect that such person approves of any particular dealing, transaction, step, action or thing,
+(A) as to any matter of fact or circumstance which might reasonably be expected to be within the knowledge of that person; or
+
+(B) to the effect that such person approves of any particular dealing, transaction, step, action or thing,
 
 as sufficient evidence that that is the case and, in the case of paragraph (A) above, may assume the truth and accuracy of that certificate.
 
-(b) The Facility Agent may assume (unless it has received notice to the contrary in its capacity as agent for the Lenders) that:
+# (b) The Facility Agent may assume (unless it has received notice to the contrary in its capacity as agent for the Lenders) that:
 
-- (i) no Default has occurred (unless it has actual knowledge of a Default arising under clause 27.1 (Non-Payment));
-- (ii) any right, power, authority or discretion vested in any Party or any group of Lenders has not been exercised;
-- (iii) any notice or request made by the Parent (other than a Utilisation Request or Selection Notice) is made on behalf of and with the consent and knowledge of all the Obligors; and
-- (iv) no Notifiable Debt Purchase Transaction:
+(i) no Default has occurred (unless it has actual knowledge of a Default arising under clause 27.1 (Non-Payment));
 
-(c) The Facility Agent may engage and pay for the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts.
+(ii) any right, power, authority or discretion vested in any Party or any group of Lenders has not been exercised;
 
-(d) Without prejudice to the generality of paragraph (c) above or paragraph (e) below, the Facility Agent may at any time engage and pay for the services of any lawyers to act as independent counsel to the Facility Agent (and so separate from any lawyers instructed by the Lenders) if the Facility Agent in its reasonable opinion deems this to be desirable.
+(iii) any notice or request made by the Parent (other than a Utilisation Request or Selection Notice) is made on behalf of and with the consent and knowledge of all the Obligors; and
 
-(e) The Facility Agent may rely on the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts (whether obtained by the Facility Agent or by any other Party) and shall not be liable for any damages, costs or losses to any person, any diminution in value or any liability whatsoever arising as a result of its so relying.
+(iv) no Notifiable Debt Purchase Transaction:
 
-(f) The Facility Agent may act in relation to the Senior Finance Documents through its officers, employees and agents and the Facility Agent shall not:
+(A) has been entered into;
 
-- (i) be liable for any error of judgment made by any such person; or
-- (ii) be bound to supervise, or be in any way responsible for any loss incurred by reason of misconduct, omission or default on the part of, any such person,
+(B) has been terminated; or
+
+(C) has ceased to be with a Sponsor Affiliate.
+
+# (c) The Facility Agent may engage and pay for the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts.
+
+# (d) Without prejudice to the generality of paragraph (c) above or paragraph (e) below, the Facility Agent may at any time engage and pay for the services of any lawyers to act as independent counsel to the Facility Agent (and so separate from any lawyers instructed by the Lenders) if the Facility Agent in its reasonable opinion deems this to be desirable.
+
+# (e) The Facility Agent may rely on the advice or services of any lawyers, accountants, tax advisers, surveyors or other professional advisers or experts (whether obtained by the Facility Agent or by any other Party) and shall not be liable for any damages, costs or losses to any person, any diminution in value or any liability whatsoever arising as a result of its so relying.
+
+# (f) The Facility Agent may act in relation to the Senior Finance Documents through its officers, employees and agents and the Facility Agent shall not:
+
+(i) be liable for any error of judgment made by any such person; or
+
+(ii) be bound to supervise, or be in any way responsible for any loss incurred by reason of misconduct, omission or default on the part of, any such person,
 
 unless such error or loss was directly caused by the Facility Agent's gross negligence or wilful misconduct.
-
-UK - 205885966.10 162
 
 (g) Unless a Senior Finance Document expressly provides otherwise the Facility Agent may disclose to any other Party any information it reasonably believes it has received as agent under this agreement.
 
@@ -155,6 +164,8 @@ on behalf of any Lender and each Lender confirms to the Facility Agent and the A
 (b) Subject to paragraph (c) below, the Parent shall immediately on demand reimburse any Lender for any payment that Lender makes to the Facility Agent pursuant to paragraph (a) above.
 
 (c) Paragraph (b) above shall not apply to the extent that the indemnity payment in respect of which the Lender claims reimbursement relates to a liability of the Facility Agent to an Obligor.
+
+UK - 205885966.10 165
 
 # 31.12 Resignation of the Facility Agent
 

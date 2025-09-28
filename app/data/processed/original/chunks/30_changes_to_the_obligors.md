@@ -26,10 +26,10 @@ No Obligor or any other Group Company may assign any of its rights or transfer a
 
 (c) The Facility Agent shall accept a Resignation Letter and notify the Parent and the other Senior Finance Parties of its acceptance if:
 
-1. (i) the Parent has confirmed that no Default is continuing or would result from the acceptance of the Resignation Letter;
-2. (ii) the Borrower is under no actual or contingent obligations as a Borrower under any Senior Finance Document;
-3. (iii) where the Borrower is also a Guarantor (unless its resignation has been accepted in accordance with clause 30.5 (Resignation of a Guarantor)), its obligations in its capacity as Guarantor continue to be legal, valid, binding and enforceable and in full force and effect (subject to the Legal Reservations) and the amount guaranteed by it as a Guarantor is not decreased (and the Parent has confirmed this is the case); and
-4. (iv) the Parent has confirmed that it shall ensure that any relevant Disposal Proceeds will be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations).
+- (i) the Parent has confirmed that no Default is continuing or would result from the acceptance of the Resignation Letter;
+- (ii) the Borrower is under no actual or contingent obligations as a Borrower under any Senior Finance Document;
+- (iii) where the Borrower is also a Guarantor (unless its resignation has been accepted in accordance with clause 30.5 (Resignation of a Guarantor)), its obligations in its capacity as Guarantor continue to be legal, valid, binding and enforceable and in full force and effect (subject to the Legal Reservations) and the amount guaranteed by it as a Guarantor is not decreased (and the Parent has confirmed this is the case); and
+- (iv) the Parent has confirmed that it shall ensure that any relevant Disposal Proceeds will be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations).
 
 (d) Upon notification by the Facility Agent to the Parent of its acceptance of the resignation of a Borrower, that company shall cease to be a Borrower and shall have no further rights or obligations under the Senior Finance Documents as a Borrower except that the resignation shall not take effect (and the Borrower will continue to have rights and obligations under the Senior Finance Documents) until the date on which the Third Party Disposal takes effect.
 
@@ -43,8 +43,8 @@ No Obligor or any other Group Company may assign any of its rights or transfer a
 
 (c) A Group Company shall become an Additional Guarantor if:
 
-1. (i) the Parent and the proposed Additional Guarantor deliver to the Facility Agent a duly completed and executed Accession Deed; and
-2. (ii) the Facility Agent has received all of the documents and other evidence listed in part 2 of Schedule 2 (Conditions Precedent) in relation to that Additional Guarantor, each in form and substance satisfactory to the Facility Agent.
+- (i) the Parent and the proposed Additional Guarantor deliver to the Facility Agent a duly completed and executed Accession Deed; and
+- (ii) the Facility Agent has received all of the documents and other evidence listed in part 2 of Schedule 2 (Conditions Precedent) in relation to that Additional Guarantor, each in form and substance satisfactory to the Facility Agent.
 
 (d) The Facility Agent shall notify the Parent and the Lenders promptly upon being satisfied that it has received (in form and substance satisfactory to it) all the documents and other evidence listed in part 2 of schedule 2 (Conditions Precedent).
 

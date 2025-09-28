@@ -63,8 +63,6 @@ in each case, such Confidential Information as that Senior Finance Party shall c
 - (xiv) changes to any of the information previously supplied pursuant to paragraphs (i) to (xiii) (inclusive) above; and
 - (xv) such other information agreed between such Senior Finance Party and the Parent,
 
-UK - 205885966.10 189
-
 # 41. Confidentiality
 
 to enable such numbering service provider to provide its usual syndicated loan numbering identification services.

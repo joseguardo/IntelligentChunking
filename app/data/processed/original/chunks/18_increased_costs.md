@@ -12,11 +12,19 @@
 
 - (i) "Basel III" means:
 
-(ii) "CRD IV" means Directive 2013/36/EU of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directive 2006/48/EC and 2006/49/EC.
+# 18. Increased Costs
 
-(iii) "CRR" means Regulation (EU) no. 575/2013 of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending regulation (EU) No. 648/2012.
+# (ii)
 
-(iv) "Increased Costs" means:
+"CRD IV" means Directive 2013/36/EU of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directive 2006/48/EC and 2006/49/EC.
+
+# (iii)
+
+"CRR" means Regulation (EU) no. 575/2013 of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending regulation (EU) No. 648/2012.
+
+# (iv)
+
+"Increased Costs" means:
 
 - (A) a reduction in the rate of return from a Facility or on a Senior Finance Party's (or its Affiliate's) overall capital;
 - (B) an additional or increased cost; or

@@ -1,0 +1,491 @@
+{
+  "Deferred fees": {
+    "excelfields": [
+      {
+        "name": "Deferred Fees",
+        "fields": [
+          "Fee Concept",
+          "Th. Date",
+          "Fee amount or ref",
+          "Distribution criteria",
+          "Comments",
+          "Milestone code"
+        ],
+        "prompt": "You are an information extraction agent tasked with populating the Deferred Fees table from a contract. The sheet captures deferred-fee obligations, their timing, amounts or references, how they are to be distributed, any freeform comments, and an associated milestone code.\n\nExtraction instructions:\n- Locate all contract provisions that create or describe deferred fees, contingent payments, holdbacks, or milestone-based fees.\n- For each distinct deferred-fee item found, return a single record with exactly the fields: Fee Concept, Th. Date, Fee amount or ref, Distribution criteria, Comments, Milestone code.\n- Preserve the original wording where helpful but normalize dates to YYYY-MM-DD when possible. If only a month/year or phrase is present (e.g., \"Q3 2025\" or \"upon delivery\"), capture the text as-is in Th. Date.\n- For Fee amount or ref include either the currency+amount (e.g., USD 50,000) or an explicit contract cross-reference (e.g., clause 5.3) if no numeric amount is specified.\n- For Distribution criteria capture the condition or rule that determines payment allocation (e.g., \"pro rata on acceptance\", \"50% to vendor A, 50% to vendor B on completion\").\n- Comments may include payment timing, retention rules, tax treatment notes, or internal remarks from the contract. Milestone code is any identifier used in the contract or your mapping (e.g., M1, Milestone A); if none, leave blank or return null.\n- Return only items explicitly present in the contract; do not infer or create additional fees.\n\nOutput format (examples):\nExample 1 - numeric fee:\n- Fee Concept: Deferred payment for final delivery\n- Th. Date: 2025-06-30\n- Fee amount or ref: USD 50,000\n- Distribution criteria: Payable in full to Contractor upon acceptance of deliverable\n- Comments: Payable within 30 days of acceptance\n- Milestone code: M-03\n\nExample 2 - reference-based fee:\n- Fee Concept: Holdback retention\n- Th. Date: upon completion\n- Fee amount or ref: see clause 7.2 (10% retention)\n- Distribution criteria: Released after defects liability period expires\n- Comments: Retention released subject to certification\n- Milestone code: \n\nRequired output: produce a JSON array of objects where each object uses the exact field names above as keys and values as strings (or null if absent). Extract every distinct deferred-fee entry found in the contract and do not combine unrelated items into a single record."
+      }
+    ]
+  },
+  "Lenders": {
+    "excelfields": [
+      {
+        "name": "Lenders",
+        "fields": [
+          "Abbrev Name",
+          "Participation (%)",
+          "Initial amount",
+          "WT (%)",
+          "Current amount"
+        ],
+        "prompt": "You are extracting the Lenders table from a contract or related transaction documents. Purpose: populate the spreadsheet block titled Lenders with every lender row and the five explicit columns shown in the template. Use the documents returned from a vector-store search to find the authoritative source text for each lender and the numeric values.\n\nExtraction rules and context:\n- Only extract the explicit fields present in the template: Abbrev Name, Participation (%), Initial amount, WT (%), Current amount. Do not invent or add other fields.\n- Return one entry per lender row found in the contract. Include aggregate rows (for example Total) if present in the source.\n- Abbrev Name: copy the lender name exactly as it appears in the source. If the contract uses a long legal name but the template uses an abbreviation, return the name as shown in the source; do not create a new abbreviation.\n- Participation (%): return the numeric value exactly as stated in the source. If the source gives a percentage (e.g., 33.93715%), you may return it as a decimal (0.3393715) or as the percentage number depending on how it appears in source, but be consistent across rows. If the source omits the value, use null.\n- Initial amount and Current amount: return numeric amounts as plain numbers without currency symbols or thousands separators (e.g., 6787430). If the source shows currency or formatting, strip currency symbols and commas. If missing, use null.\n- WT (%): treat as a percent field; return numeric value (decimal or percent as in source). If missing, use null.\n- If a value is explicitly zero in the source, return 0. If a field is left blank or not stated, return null.\n- Preserve the row ordering from the source when possible.\n- If multiple documents or sections conflict, prefer the most recent executed agreement or the schedule titled Lenders, Loan Parties, or Capitalization Schedule.\n\nOutput format (strict JSON array). Each element must be an object with exactly these keys: Abbrev Name, Participation (%), Initial amount, WT (%), Current amount. Use null for missing values and numbers for numeric values."
+      }
+    ]
+  },
+  "Fee Fixings": {
+    "excelfields": [
+      {
+        "name": "Availability fee calculation",
+        "fields": [
+          "Fee Concept",
+          "Distribution",
+          "Start date",
+          "Payment date",
+          "Days",
+          "Ref. Amount",
+          "Margin/Perc:",
+          "Percentual Fees",
+          "Fixed fees",
+          "Curr",
+          "Total amount due",
+          "Start date:",
+          "End date:",
+          "Duration:",
+          "# records:",
+          "Avg available:",
+          "Availability fee:"
+        ],
+        "prompt": "You are extracting structured fee calculation rows from a contract to populate an \"Availability fee calculation\" table. Use the contract text returned from a vector store search for sections titled or related to Availability Fee, Other Fees, Availability calculation, Fee schedule, Payment schedule, or similar. Return every occurrence (one per applicable clause or schedule row) as a separate row.\n\nExtraction goals (fields must match exactly): Fee Concept, Distribution, Start date, Payment date, Days, Ref. Amount, Margin/Perc:, Percentual Fees, Fixed fees, Curr, Total amount due. Additionally capture the nearby summary fields when present: Start date:, End date:, Duration:, # records:, Avg available:, Availability fee:.\n\nData quality rules:\n- Dates: output ISO-like date strings (YYYY-MM-DD) when explicit; if only month/year present, use YYYY-MM-00. If relative terms appear (e.g., \"upon signing\"), include verbatim phrase.\n- Amounts and currencies: separate numeric value and currency when possible. Keep formatting like 1,234.56 or 1234.56. If currency is a symbol or code (USD, EUR), place it in Curr.\n- Percentages: return numeric percentage (e.g., 2.5 for 2.5%). If margin/perc expressed as range or formula, return the literal expression.\n- Empty or absent fields: return null or empty string for that field.\n- Return repeated rows as an array in the same order they appear in the contract.\n\nContext hints for search: look for \"availability fee\", \"availability period\", \"fee concept\", \"distribution\", \"reference amount\", \"margin\", \"percentual fees\", \"fixed fees\", \"total amount due\" and for summary terms \"Start date\", \"End date\", \"Duration\", \"Avg available\".\n\nOutput format example (JSON array of rows):\n[\n  {\n    \"Fee Concept\": \"Availability charge\",\n    \"Distribution\": \"Monthly\",\n    \"Start date\": \"2024-01-01\",\n    \"Payment date\": \"2024-02-05\",\n    \"Days\": \"35\",\n    \"Ref. Amount\": \"1,000,000\",\n    \"Margin/Perc:\": \"2.5\",\n    \"Percentual Fees\": \"2.5\",\n    \"Fixed fees\": \"100\",\n    \"Curr\": \"USD\",\n    \"Total amount due\": \"25,100\",\n    \"Start date:\": \"2024-01-01\",\n    \"End date:\": \"2024-12-31\",\n    \"Duration:\": \"365\",\n    \"# records:\": \"12\",\n    \"Avg available:\": \"950,000\",\n    \"Availability fee:\": \"22,500\"\n  }\n]\n\nIf the contract contains formulas (e.g., \"Total = Ref Amount * Percentual Fees + Fixed fees\"), capture the numbers and also include the literal formula in Total amount due if the exact amount is not stated.\n\nReturn only structured JSON as in the example; do not include explanatory prose."
+      },
+      {
+        "name": "Registro #:",
+        "fields": [
+          "Registro #:",
+          "Tipo",
+          "Fecha",
+          "Modificación",
+          "Disponible",
+          "Duración",
+          "Comisión",
+          "Outstanding period record:"
+        ],
+        "prompt": "Extract the registry of outstanding periods / milestone records from the contract to populate the \"Registro #:\" table. Use vector store search results for terms like \"registry\", \"registro\", \"milestone\", \"outstanding period\", \"available\", \"modification\", \"commission/fee\".\n\nExtraction goals (fields must match exactly): Registro #:, Tipo, Fecha, Modificación, Disponible, Duración, Comisión, Outstanding period record:. Treat this as a repeated row structure (one row per registry entry).\n\nData rules:\n- Registro #: return the row index or identifier as given (0, 1, 2, … or textual id).\n- Tipo: copy the type label found (e.g., \"Milestone\", \"Adjustment\", \"Credit\").\n- Fecha: date string in YYYY-MM-DD where possible; otherwise preserve original date text.\n- Modificación: capture modification description or timestamp verbatim.\n- Disponible: available amount or status (numeric or textual) as presented.\n- Duración: duration as number of days or descriptive text.\n- Comisión: fee or commission value; include currency if present.\n- Outstanding period record:: copy the milestone or outstanding-note text (e.g., \"Milestone 1\").\n\nOutput example (JSON array of registry rows):\n[\n  {\n    \"Registro #:\": \"0\",\n    \"Tipo\": \"Milestone\",\n    \"Fecha\": \"2023-06-01\",\n    \"Modificación\": \"None\",\n    \"Disponible\": \"100,000\",\n    \"Duración\": \"30\",\n    \"Comisión\": \"0\",\n    \"Outstanding period record:\": \"Milestone 1\"\n  },\n  {\n    \"Registro #:\": \"1\",\n    \"Tipo\": \"Milestone\",\n    \"Fecha\": \"2023-07-01\",\n    \"Modificación\": \"Adjusted amount\",\n    \"Disponible\": \"80,000\",\n    \"Duración\": \"30\",\n    \"Comisión\": \"0\",\n    \"Outstanding period record:\": \"Milestone 2\"\n  }\n]\n\nReturn only structured JSON as in the example; do not include explanatory prose."
+      }
+    ]
+  },
+  "Repayment schedule": {
+    "excelfields": [
+      {
+        "name": "Repayment schedule",
+        "fields": [
+          "Th. Date",
+          "% Amort",
+          "Repaid amount",
+          "Outstanding (%)",
+          "Comments"
+        ],
+        "prompt": "You are an extraction agent. The contract may contain a repayment schedule table used to record amortization and repayment events. Locate the table labelled Repayment schedule or any nearby headings/phrases such as repayment schedule, amortization schedule, repayment, repaid amount, outstanding or TOTAL. For each row in that table return one object with the exact keys below matching the sheet headers. If a cell is blank in the contract, return an empty string for that key. Preserve date formats as found (prefer ISO YYYY-MM-DD if present). Preserve numeric formatting (keep decimals and scientific notation if present). Do not invent rows or values not present in the source; only extract explicit table rows.\n\nRequired output: a JSON array of objects. Each object must contain these keys exactly:\n- Th. Date\n- % Amort\n- Repaid amount\n- Outstanding (%)\n- Comments\n\nSearch hints: the table may include a TOTAL row or rows with date entries. The first column may contain the literal word TOTAL. The \"Comments\" column can contain short notes (e.g., Bullet) or amounts sometimes moved into that column; capture exactly what appears.\n\nOutput examples (do not treat these as contract data; they are formatting examples only):\nExample 1 - an installment row:\n[\n  {\n    Th. Date: \"2024-05-15\",\n    % Amort: \"1\",\n    Repaid amount: \"100000.00\",\n    Outstanding (%): \"95.5\",\n    Comments: \"Scheduled payment\"\n  }\n]\nExample 2 - a TOTAL row and one detail row:\n[\n  {\n    Th. Date: \"TOTAL\",\n    % Amort: \"\",\n    Repaid amount: \"500000.00\",\n    Outstanding (%): \"\",\n    Comments: \"Contract principal\"\n  },\n  {\n    Th. Date: \"2024-12-31\",\n    % Amort: \"0.5\",\n    Repaid amount: \"250000.00\",\n    Outstanding (%): \"50\",\n    Comments: \"Final instalment\"\n  }\n]\n\nExtraction acceptance criteria:\n- Return one array entry per row present in the contract table.\n- Use the exact key names above. Do not add extra keys.\n- If a numeric cell contains formatting (commas, decimals, scientific notation), preserve it as in source.\n- For ambiguous matches, prefer the table closest to the words Repayment schedule or headings that match the column labels.\n\nNow, given a contract (or vector search results pointing to contract passages), extract and return the repayment schedule rows in the JSON format described above."
+      }
+    ]
+  },
+  "Fixings": {
+    "excelfields": [
+      {
+        "name": "Main data of the period:",
+        "fields": [
+          "Start date",
+          "Th. End Date",
+          "Fixing date",
+          "Base",
+          "Margin",
+          "Margen PIK",
+          "Principal SoP (rolled)",
+          "Principal EoP",
+          "Ajustes intereses antic",
+          "Ajustes PIK",
+          "Number of drawdowns",
+          "Transaction name",
+          "Initial amount",
+          "Borrower",
+          "Other Borrowers",
+          "Signing date",
+          "Facility",
+          "Tranche name",
+          "Currency",
+          "Deadline drawdowns",
+          "Due date",
+          "Maturity date",
+          "Internal code",
+          "Outstanding limit",
+          "Outstanding balance"
+        ],
+        "prompt": "You are an extraction agent for a loan interest-accrual Excel template. This block \"Main data of the period:\" contains the period-level metadata required to compute accruals and record loan events. Use the contract (via vector search) to find the authoritative values for the requested fields. Search terms: \"effective date\", \"period start\", \"period end\", \"fixing date\", \"calculation period\", \"interest base\", \"margin\", \"PIK margin\", \"principal outstanding\", \"rolled principal\", \"drawdown deadline\", \"maturity date\", \"due date\", \"borrower\", \"tranche\", \"facility\", \"internal code\", \"outstanding limit\".\n\nExtraction rules and formatting:\n- Dates: return as dd/mm/yyyy (or ISO yyyy-mm-dd) consistently. If contract gives a date range, map the start to Start date and the end to Th. End Date and include Fixing date if referenced.\n- Amounts: return numeric amount with currency indicated only in the field value if the sheet has a separate Currency field; otherwise return a numeric string (no thousands separators) and include currency in Initial amount or Principal fields if present. Example: 20000000 or 20000000 GBP when field is combined.\n- Text fields: return exact party names as in the contract for Borrower and Other Borrowers.\n- If a field is not present in the contract, return null or empty string.\n\nOutput structure: provide a single JSON object with the exact field names as keys. Example output (do not copy contract-specific values; the example demonstrates format):\n{\n  \"Start date\": \"18/10/2018\",\n  \"Th. End Date\": \"18/01/2019\",\n  \"Fixing date\": \"18/01/2019\",\n  \"Base\": \"365\",\n  \"Margin\": \"0.07\",\n  \"Margen PIK\": \"0.02\",\n  \"Principal SoP (rolled)\": \"20191757.29\",\n  \"Principal EoP\": \"20293545.87\",\n  \"Ajustes intereses antic\": \"\",\n  \"Ajustes PIK\": \"\",\n  \"Number of drawdowns\": \"1\",\n  \"Transaction name\": \"Project Caledonia\",\n  \"Initial amount\": \"20000000\",\n  \"Borrower\": \"Caledonia Bidco Limited\",\n  \"Other Borrowers\": \"-\",\n  \"Signing date\": \"15/04/2016\",\n  \"Facility\": \"Term Loan\",\n  \"Tranche name\": \"Facility A\",\n  \"Currency\": \"GBP\",\n  \"Deadline drawdowns\": \"16/05/2016\",\n  \"Due date\": \"15/04/2023\",\n  \"Maturity date\": \"15/04/2023\",\n  \"Internal code\": \"00068-01\",\n  \"Outstanding limit\": \"-\",\n  \"Outstanding balance\": \"0\"\n}\n\nNotes for retrieval: prefer definitions and schedules sections for precise dates and margins. For principal balances look to the repayment schedule, rolled balances or drawdown record. For contradictory values return the value from the loan agreement main schedule and note the source in the retrieval metadata."
+      },
+      {
+        "name": "Concept",
+        "fields": [
+          "Concept",
+          "Amount",
+          "Curr",
+          "Start date",
+          "End Date",
+          "Days",
+          "Ref interest rate",
+          "Margin",
+          "Brokerage",
+          "Appl interest",
+          "Accrued interests",
+          "PIK (%)",
+          "PIK aplicable",
+          "PIK amount",
+          "Fees",
+          "Fees / Break costs (EoP)",
+          "Principal repayment",
+          "Principal repayment EoP",
+          "Total amount due",
+          "Total amount due EoP"
+        ],
+        "prompt": "You are extracting the row/line-item table used to compute period accruals. The \"Concept\" table contains column headings for every line (Total, Rolled amount, Repayments, Drawdowns, Fees, etc.). Use the contract to map each column header to the value used for the specific accrual period. Search terms: \"accrued interest\", \"PIK\", \"payment schedule\", \"rolled amount\", \"total amount due\", \"fees\", \"break costs\", \"brokerage\".\n\nExtraction rules and formatting:\n- Return an array of row objects when multiple rows exist (e.g., Total, Rolled amount, Rolled over principal, Repayments, Drawdown rows). Each row object must use the exact field names above as keys.\n- Dates: dd/mm/yyyy. Numeric fields: decimal or integer strings (no thousand separators). Currency code should go in Curr.\n- For percent fields (PIK (%)) return decimal or percentage with a consistent representation (e.g., 0.02 or 2%). Prefer decimal if contract uses decimal.\n- If a column is not applicable for a given row, return null or an empty string for that key.\n\nOutput example (single-row example illustrating format):\n[\n  {\n    \"Concept\": \"Total\",\n    \"Amount\": \"-\",\n    \"Curr\": \"GBP\",\n    \"Start date\": \"18/10/2018\",\n    \"End Date\": \"18/01/2019\",\n    \"Days\": \"92\",\n    \"Ref interest rate\": \"0.01\",\n    \"Margin\": \"0.07\",\n    \"Brokerage\": \"0\",\n    \"Appl interest\": \"0.08\",\n    \"Accrued interests\": \"407154.3388\",\n    \"PIK (%)\": \"0.02\",\n    \"PIK aplicable\": \"101788.5847\",\n    \"PIK amount\": \"101788.5847\",\n    \"Fees\": \"0\",\n    \"Fees / Break costs (EoP)\": \"0\",\n    \"Principal repayment\": \"0\",\n    \"Principal repayment EoP\": \"0\",\n    \"Total amount due\": \"407154.3388\",\n    \"Total amount due EoP\": \"407154.3388\"\n  }\n]\n\nNotes: Prefer the period-end schedule or the accrual computation section in the contract for row values. If the template row label (e.g., \"Rolled amount\") is present in the contract, map that row specifically."
+      },
+      {
+        "name": "Drawdown",
+        "fields": [
+          "Drawdown",
+          "Amount",
+          "Curr",
+          "Start date",
+          "End Date",
+          "Days",
+          "Ref interest rate",
+          "Margin",
+          "Brokerage",
+          "Appl interest",
+          "Accrued interests",
+          "PIK (%)",
+          "PIK amount",
+          "Fees",
+          "Principal repayment EoP",
+          "Total amount due EoP"
+        ],
+        "prompt": "This block represents a drawdown entry in the Drawdowns section. Consolidated from indexed drawdown rows (e.g., \"Drawdown #1\", \"Drawdown #2\"). Extract each drawdown record found in the contract as a list (one object per drawdown) and return the fields listed above for each. Search terms: \"drawdown\", \"advance\", \"drawdown date\", \"amount\", \"interest calculation for drawdown\".\n\nExtraction rules and formatting:\n- Provide one JSON object per drawdown. Dates: dd/mm/yyyy or ISO yyyy-mm-dd. Amounts: numeric strings (no thousand separators). Currency codes in Curr.\n- If the contract presents multiple drawdowns, order the returned list by drawdown date (earliest first); the original template's \"Drawdown #1\" corresponds to the earliest drawdown in that ordered list.\n- If a drawdown field cannot be found for a particular drawdown, return null for that key and include retrieval metadata in logs. Prefer the drawdown schedule and definitions sections for authoritative amounts and dates."
+      }
+    ]
+  },
+  "Summary": {
+    "excelfields": [
+      {
+        "name": "Identification of the loan",
+        "fields": [
+          "Transaction name",
+          "Borrower",
+          "Additional Borrower",
+          "Facility",
+          "Tranche name",
+          "Internal code",
+          "Description"
+        ],
+        "prompt": "You are extracting the high-level identification block for a loan facility from a facility/loan agreement and related documents. Locate the definitive statements that name the transaction, the borrower(s), the facility type, the tranche label, any internal reference code and the descriptive clause that explains the purpose/use of proceeds. Search contract sections named/related to: Title/cover page, Recitals, Parties, Definitions (Transaction name, Facility), Facility Agreement header, Purpose/Use of Proceeds, Funds Flow Statement. Output a JSON object mapping each field exactly as listed. Format rules: dates not expected here; return plain text strings; if a field is absent return null. Examples: {\"Transaction name\":\"Project Caledonia\",\"Borrower\":\"Caledonia Bidco Limited\",\"Additional Borrower\":null,\"Facility\":\"Term Loan\",\"Tranche name\":\"Facility A\",\"Internal code\":\"00068-01\",\"Description\":\"The Company shall apply all amounts borrowed by it under Facility A towards: (i) payment to the Vendor...\"} Notes: Do not copy confidential data beyond what appears as the contract label; trim surrounding boilerplate; include the descriptive clause verbatim (up to reasonable length)."
+      },
+      {
+        "name": "Main characteristics",
+        "fields": [
+          "Initial amount",
+          "Currency",
+          "Signing date",
+          "Deadline drawdowns",
+          "Due date",
+          "Outstanding limit",
+          "Outstanding amount",
+          "Available amount",
+          "Outstanding EoP",
+          "Fixing of interests",
+          "Revolving"
+        ],
+        "prompt": "Extract the core economic and temporal characteristics of the facility from the contract (facility summary, schedule, financing terms). Search in Finance Summary, Facility terms, Schedule of Facilities, drawdown provisions and repayment clauses. Return each field exactly as listed. Formatting rules: monetary values as numeric and currency separated (example: {\"Initial amount\":20000000,\"Currency\":\"GBP\"}); dates in ISO format YYYY-MM-DD (example: \"Signing date\":\"2016-04-15\"); boolean for Revolving (true/false). For Fixing of interests return the short textual description used in the contract (e.g., \"LIBOR floor 1%\" or the name of the fixing mechanism). If a value is not explicit, return null. Example output: {\"Initial amount\":20000000,\"Currency\":\"GBP\",\"Signing date\":\"2016-04-15\",\"Deadline drawdowns\":\"2016-05-16\",\"Due date\":\"2023-04-15\",\"Outstanding limit\":null,\"Outstanding amount\":20191757.29,\"Available amount\":0,\"Outstanding EoP\":20191757.29,\"Fixing of interests\":\"LIBOR with floor 1%\",\"Revolving\":false} Note: do not invent converted values; copy the contract's stated numbers and currency."
+      },
+      {
+        "name": "Periods of interest",
+        "fields": [
+          "End date of current period",
+          "Theoretical end of period",
+          "Payment day (31 eomonth_0 indifferent)",
+          "Payment day (31 = eomonth)",
+          "Duration (drawdown phase)",
+          "Duration (repayment phase)",
+          "Business days convention",
+          "Banking holidays",
+          "Additional comments on criteria to define periods"
+        ],
+        "prompt": "Extract the interest period scheduling parameters from the loan agreement. Search clauses titled Interest Periods, Interest Rate, Payment Dates, Business Day Convention or Selection Notice. Return dates in ISO YYYY-MM-DD for end dates. For Payment day fields preserve the sheet label verbatim (these are payment-day conventions). Durations should be returned as the exact phrasing found (e.g., \"1-3-6 months\"). Business days convention should be returned as the named convention or code used in the contract (e.g., \"Modified following business day\"). Banking holidays should be returned as the jurisdiction list (e.g., \"Target / London\"). Additional comments should capture any explanatory sentence about how interest periods are selected (e.g., fallback to 3 months if Selection Notice not delivered). Example: {\"End date of current period\":\"2019-01-18\",\"Theoretical end of period\":\"2019-01-18\",\"Payment day (31 eomonth_0 indifferent)\":null,\"Payment day (31 = eomonth)\":null,\"Duration (drawdown phase)\":\"1-3-6 months\",\"Duration (repayment phase)\":\"1-3-6 months\",\"Business days convention\":\"Modified following business day\",\"Banking holidays\":\"Target / London\",\"Additional comments on criteria to define periods\":\"Selected in Selection Notice. If a Borrower fails to deliver a Selection Notice the relevant Interest Period will be 3 months\"} If a clause lists several options, return the operative rule or explicit fallback."
+      },
+      {
+        "name": "Fees",
+        "fields": [
+          "End date of current period",
+          "Availability fee",
+          "Fixing dates",
+          "Payment day (31 = eomonth)",
+          "Next fixing date",
+          "Drawdowns fee Percentage",
+          "Drawdowns fee Fixed Amount",
+          "Prepayments fee Percentage",
+          "Prepayments fee Fixed Amount",
+          "Assignment fee",
+          "Corretaje_Brokerage fee"
+        ],
+        "prompt": "Extract explicit fee items shown in the Fees block of the template from the contract. Search clauses headed Fees, Commissions, Charges, Availability, Drawdown fee, Prepayment fee, Assignment, Brokerage/Corretaje and any fee schedule. Return: dates as ISO YYYY-MM-DD, percents as percentages (e.g., \"1%\" or 0.01 acceptable but keep original formatting), fixed amounts as numeric values and currency if present (or null if not specified). For fields that are grouped (Drawdowns fee, Prepayments fee) return two fields: Percentage and Fixed Amount corresponding to that group. Example JSON: {\"End date of current period\":\"2019-01-18\",\"Availability fee\":\"0.50% per annum\",\"Fixing dates\":[\"2018-04-01\",\"2018-10-01\"],\"Payment day (31 = eomonth)\":null,\"Next fixing date\":\"2019-04-01\",\"Drawdowns fee Percentage\":\"0%\",\"Drawdowns fee Fixed Amount\":null,\"Prepayments fee Percentage\":\"1%\",\"Prepayments fee Fixed Amount\":null,\"Assignment fee\":2000,\"Corretaje_Brokerage fee\":0} If a field is not stated explicitly in the contract return null. Preserve the contract's unit (percent vs basis points vs fixed amount)."
+      },
+      {
+        "name": "Liquidación de intereses",
+        "fields": [
+          "Tipo de interés de referencia",
+          "Tipo de referencia periodo",
+          "Base de cálculo",
+          "Corretaje_Brokerage fee",
+          "Margen cash",
+          "Margen periodo curso (%)",
+          "Margen PIK_percentage",
+          "Applicable margin during the drawdown period",
+          "Applicable margin during the repayment period"
+        ],
+        "prompt": "Extract the interest calculation and margin parameters (Spanish-labelled block 'Liquidación de intereses') from the contract. Search clauses for Interest Rate, Reference Rate, Margin, PIK, Day Count (base de cálculo), Brokerage/Corretaje and any margin tables. Preserve Spanish labels where given. Formatting rules: reference rate as text (e.g., \"LIBOR plazo floor 1%\"), day count as the contract's convention (e.g., \"Act/365\"), margins as percentages (e.g., \"7.00%\" or \"0.07\"). Corretaje_Brokerage fee as amount or percentage. Return null for fields not explicit. Example: {\"Tipo de interés de referencia\":\"Libor plazo floor 1%\",\"Tipo de referencia periodo\":\"3 months\",\"Base de cálculo\":\"Act/365\",\"Corretaje_Brokerage fee\":0,\"Margen cash\":\"7.00%\",\"Margen periodo curso (%)\":null,\"Margen PIK_percentage\":\"0.02\",\"Applicable margin during the drawdown period\":\"0.07\",\"Applicable margin during the repayment period\":\"7.000%\"} Note: when the contract contains conditional margin schedules (tiered by leverage), capture the operative rule text in the applicable margin fields if they are used to determine rates."
+      },
+      {
+        "name": "Payment instructions",
+        "fields": [
+          "Entity",
+          "Beneficiary",
+          "Account number",
+          "Swift_BIC Code",
+          "Ref",
+          "Payments contact",
+          "Email address",
+          "Fax number",
+          "Monitoring Team",
+          "Texto abono importes para comunicaciones acreditada",
+          "Texto disposición fondos entidades financieras",
+          "Header for payment instructions to the Accounts Bank"
+        ],
+        "prompt": "Extract payment and remittance instruction fields from the contract or associated payment schedule. Look for sections named Payment Instructions, Notice, Remittance, Agency, Accounts, or Schedule of Payments. For bank and account fields return text values; do not copy confidential account values into example outputs in templates but extract them from the contract if present. Format examples and rules: account numbers and SWIFT/BIC as strings; contact as 'Name / Role' and email as an address string. For the long text fields (Texto abono..., Texto disposición..., Header for payment instructions...) return the full instruction text verbatim as found in the contract. Example: {\"Entity\":\"BANCO XYZ\",\"Beneficiary\":\"AgentName S.L.\",\"Account number\":\"<ACCOUNT_NUMBER>\",\"Swift_BIC Code\":\"XXXXYYYY\",\"Ref\":\"Facility Name Term Loan\",\"Payments contact\":\"Alicia del Castillo / David Lopez\",\"Email address\":\"payments@example.com\",\"Fax number\":\"+44-20-xxxx\",\"Monitoring Team\":\"2- London Office (AgencyUK@agensynd.com)\",\"Texto abono importes para comunicaciones acreditada\":\"On Payment Date, please remit the correspondent amount via SWIFT to the following account: Beneficiary: <BENEFICIARY> ...\",\"Texto disposición fondos entidades financieras\":\"We kindly request you to transfer the below amounts as per the following payment instructions: ...\",\"Header for payment instructions to the Accounts Bank\":\"Esta notificación recoge las instrucciones de pago...\"} If the contract uses multiple counterparties or accounts, extract the primary Account/Agent instructions that are identified as the Receiver/Agent for payments."
+      },
+      {
+        "name": "Additional comments",
+        "fields": [
+          "Additional comments"
+        ],
+        "prompt": "Capture the free-text Additional comments field from the loan template. Search the contract for waiver provisions, special fees, maturity clarifications, conditional margin rules and any summary notes that are not part of the standard term sections (often in Schedules, Side Letters or Waivers). Return the complete comment text verbatim as a single string. Example: {\"Additional comments\":\"Waiver fee 1% capitalised from 09/04/2018 to 14/05/2018. From 14/05/2018 PIK 2%. Maturity Date: 7 years after Closing Date. Margin schedule: if no Event of Default...\"} If no additional comments are present, return null."
+      }
+    ]
+  },
+  "Records": {
+    "excelfields": [
+      {
+        "name": "Deal Records",
+        "fields": [
+          "Record #",
+          "Date",
+          "Type of record",
+          "Comments",
+          "Ref. period\nStart",
+          "Ref. Period\nEnd",
+          "Ref Period\nPrincipal",
+          "Margin",
+          "Brokerage",
+          "Total cash Rate",
+          "PIK Rate",
+          "Transferor",
+          "Transferee",
+          "Transfer Amount",
+          "Transfer Fee",
+          "Perc of outstanding",
+          "Initial Transferor",
+          "Final transferor",
+          "Drawdown amount",
+          "Interests",
+          "Repayment amount",
+          "Fees",
+          "Net payments \n(+ for Lenders)",
+          "Review of limits",
+          "Capitalisation",
+          "Initial balance\nor Transferor Outs.",
+          "Final Balance\nor Transferee outs",
+          "ProRata (Transfer)",
+          "ProRata Com Fee (Transfer)"
+        ],
+        "prompt": "You are extracting structured rows from the \"Deal Records\" table of a loan/deal worksheet. Each row is an event or record (e.g., New deal, Drawdown, Settlement - Period of Interest, New Period of Interest, Edition entries, Transfers). Using the contract and related documents retrieved by the vector search, find every matching record and populate the fields exactly as named in the template.\n\nExtraction rules and formats\n- Return a JSON array of objects, one object per record row.\n- Use the exact field keys as in the template (e.g., Record #, Date, Type of record, Comments, Ref. period\\nStart, Ref. Period\\nEnd, etc.).\n- Date fields: use ISO date format YYYY-MM-DD. If only a date-time is present, drop the time and use the date.\n- Numeric fields (amounts, rates, percentages): return as numbers (no currency symbols or commas). Rates and percentages should be expressed as decimals if the source shows decimals (e.g., 0.01 for 1%). If the contract expresses a percent (e.g., 1%), convert to decimal (0.01).\n- Text fields: return short descriptive text exactly as in the source when possible (e.g., \"Drawdown\", \"Settlement - Period of Interest - EoP\").\n- If a field is absent in the source, set its value to null.\n- Do not invent data. Only extract values explicitly stated in the contract or clearly implied by structured schedules.\n- Keep number precision consistent with source; do not round unless source is rounded.\n\nContextual guidance for search/relevance\n- Look for transaction logs, drawdown records, settlement schedules, transfer instructions, drawdown clauses, lender schedule, and annexed deal logs.\n- Typical places: repayment schedule, interest calculation sections, transfer notices, drawdown clauses, lender schedule, and annexed deal logs.\n- Match events by date and event type; if multiple documents show the same event, prefer the primary schedule or annexed ledger in the contract.\n\nOutput example (two sample rows). Use this exact JSON structure when returning results:\n[\n  {\n    \"Record #\": 1,\n    \"Date\": \"2016-04-15\",\n    \"Type of record\": \"Drawdown\",\n    \"Comments\": \"Modified on 15/04/2016\",\n    \"Ref. period\\nStart\": \"2016-04-15\",\n    \"Ref. Period\\nEnd\": \"2016-04-15\",\n    \"Ref Period\\nPrincipal\": 20000000,\n    \"Margin\": 0.01,\n    \"Brokerage\": 0,\n    \"Total cash Rate\": 0.08,\n    \"PIK Rate\": null,\n    \"Transferor\": null,\n    \"Transferee\": null,\n    \"Transfer Amount\": null,\n    \"Transfer Fee\": null,\n    \"Perc of outstanding\": null,\n    \"Initial Transferor\": null,\n    \"Final transferor\": null,\n    \"Drawdown amount\": 20000000,\n    \"Interests\": null,\n    \"Repayment amount\": null,\n    \"Fees\": null,\n    \"Net payments \\n(+ for Lenders)\": null,\n    \"Review of limits\": null,\n    \"Capitalisation\": null,\n    \"Initial balance\\nor Transferor Outs.\": null,\n    \"Final Balance\\nor Transferee outs\": null,\n    \"ProRata (Transfer)\": null,\n    \"ProRata Com Fee (Transfer)\": null\n  },\n  {\n    \"Record #\": 2,\n    \"Date\": \"2016-07-15\",\n    \"Type of record\": \"Settlement - Period of Interest - EoP\",\n    \"Comments\": null,\n    \"Ref. period\\nStart\": \"2016-04-15\",\n    \"Ref. Period\\nEnd\": \"2016-07-15\",\n    \"Ref Period\\nPrincipal\": 20000000,\n    \"Margin\": 0.01,\n    \"Brokerage\": 0,\n    \"Total cash Rate\": 0.08,\n    \"PIK Rate\": null,\n    \"Transferor\": null,\n    \"Transferee\": null,\n    \"Transfer Amount\": null,\n    \"Transfer Fee\": null,\n    \"Perc of outstanding\": null,\n    \"Initial Transferor\": null,\n    \"Final transferor\": null,\n    \"Drawdown amount\": null,\n    \"Interests\": 398904.11,\n    \"Repayment amount\": null,\n    \"Fees\": null,\n    \"Net payments \\n(+ for Lenders)\": 398904.11,\n    \"Review of limits\": null,\n    \"Capitalisation\": null,\n    \"Initial balance\\nor Transferor Outs.\": 20000000,\n    \"Final Balance\\nor Transferee outs\": 20000000,\n    \"ProRata (Transfer)\": null,\n    \"ProRata Com Fee (Transfer)\": null\n  }\n]\n\nIf the contract contains any unlabeled or irregular ledger rows, map them to the nearest matching Type of record and preserve original wording in Type of record or Comments. Return nulls where data is missing.\n\nPriority: extract rows in chronological order where possible (by Date)."
+      }
+    ]
+  },
+  "Contacts": {
+    "excelfields": [
+      {
+        "name": "Borrower",
+        "fields": [
+          "Party column header for each borrower (e.g., Borrower 1, Borrower 2)"
+        ],
+        "prompt": "Extract each borrower column header from the Contacts list table. This field can occur multiple times (one entry per borrower)."
+      },
+      {
+        "name": "Lender",
+        "fields": [
+          "Party column header for each lender (e.g., Lender 1, Lender 2, ..., Lender 40)"
+        ],
+        "prompt": "Extract each lender column header from the Contacts list table. This field can occur multiple times (one entry per lender)."
+      },
+      {
+        "name": "Abbrev. Name",
+        "fields": [
+          "Abbreviated name of the party as listed in the Contacts list table"
+        ],
+        "prompt": "Extract the abbreviated name (exact punctuation/capitalization) for each party from the Contacts list table or Parties/Schedule of Parties."
+      },
+      {
+        "name": "Complete Name",
+        "fields": [
+          "Complete/legal name of the party as listed in the Contacts list table"
+        ],
+        "prompt": "Extract the complete/legal name for each party from the Contacts list table or Parties/Definitions section."
+      },
+      {
+        "name": "Tax ID",
+        "fields": [
+          "Tax or registration identifier for the party (e.g., VAT/Tax ID)"
+        ],
+        "prompt": "Extract the tax or registration identifier for each party where present."
+      },
+      {
+        "name": "Company's Address",
+        "fields": [
+          "Registered or principal address of the party as listed in the Contacts list table"
+        ],
+        "prompt": "Extract the company's address for each party from the Contacts list, Parties or Notices sections."
+      },
+      {
+        "name": "Official Fax number",
+        "fields": [
+          "Official fax number for the party as listed in the Contacts list table"
+        ],
+        "prompt": "Extract the official fax number (if any) for each party from the Contacts list or Notices section."
+      },
+      {
+        "name": "Payment instructions",
+        "fields": [
+          "Freeform payment instructions or payment notes for the party"
+        ],
+        "prompt": "Extract payment instructions or payment notes for each party from Payment/Account/Notices sections or the Contacts list."
+      },
+      {
+        "name": "Account",
+        "fields": [
+          "Account number/IBAN for the party (may appear for primary bank and/or correspondent bank)"
+        ],
+        "prompt": "Extract account number(s) or IBAN(s) associated with each party. If multiple accounts are listed (e.g., primary and correspondent), capture them as part of the same field and note multiplicity in the value (semicolon-separated)."
+      },
+      {
+        "name": "Entity",
+        "fields": [
+          "Bank or receiving entity name associated with the account/payment instructions"
+        ],
+        "prompt": "Extract the bank or receiving entity name associated with the account or payment instructions for each party."
+      },
+      {
+        "name": "Swift code",
+        "fields": [
+          "SWIFT/BIC code associated with the party's account (may appear for primary and/or correspondent bank)"
+        ],
+        "prompt": "Extract SWIFT/BIC codes for each party's bank details. If multiple SWIFT codes are present (e.g., primary and correspondent), return them as a semicolon-separated string."
+      },
+      {
+        "name": "Correspondent bank",
+        "fields": [
+          "Name of correspondent bank (if any) associated with the party's payment instructions"
+        ],
+        "prompt": "Extract correspondent bank names for each party from Payment/Correspondent bank lines in the Contacts list or Payment Instructions sections."
+      },
+      {
+        "name": "Observations",
+        "fields": [
+          "Freeform observations or notes for the party contained in the Contacts list"
+        ],
+        "prompt": "Extract any observations or notes associated with each party from the Contacts list or adjacent notes fields."
+      },
+      {
+        "name": "Contact details",
+        "fields": [
+          "Freeform contact block for the party (may include names, emails, phones, addresses)"
+        ],
+        "prompt": "Extract the full contact block for each party as presented in the Contacts list or Notices section. Preserve punctuation and capitalization; where multiple items are present, separate with semicolons."
+      },
+      {
+        "name": "Name contact",
+        "fields": [
+          "Name of each contact (Contact #1, Contact #2, ...); list entries per contact"
+        ],
+        "prompt": "Extract each contact name for a party (Contact #1, #2, etc.). Consolidate repeated numbered fields into this single field; return multiple contacts as a semicolon-separated string or as list entries when populating the template."
+      },
+      {
+        "name": "Email contact",
+        "fields": [
+          "Email address of each contact (Contact #1, Contact #2, ...)"
+        ],
+        "prompt": "Extract each contact email for a party. Consolidate repeated numbered email fields into this single field; if multiple emails exist for a party, return them as a semicolon-separated string."
+      },
+      {
+        "name": "Phone contact",
+        "fields": [
+          "Phone number of each contact (Contact #1, Contact #2, ...)"
+        ],
+        "prompt": "Extract each contact phone number for a party. Consolidate repeated numbered phone fields into this single field; return multiple numbers as a semicolon-separated string."
+      },
+      {
+        "name": "Address contact",
+        "fields": [
+          "Postal/address entry of each contact (Contact #1, Contact #2, ...)"
+        ],
+        "prompt": "Extract each contact address for a party. Consolidate repeated numbered address fields into this single field; return multiple addresses as a semicolon-separated string."
+      },
+      {
+        "name": "Attorneys",
+        "fields": [
+          "Freeform attorneys block or heading for the party"
+        ],
+        "prompt": "Extract the overall attorneys block or heading for each party as presented in the Contacts list or signature/execution pages."
+      },
+      {
+        "name": "Attorney",
+        "fields": [
+          "Name of each attorney listed for the party (Attorney #1, Attorney #2, ...)"
+        ],
+        "prompt": "Extract each attorney name for a party. Consolidate repeated Attorney #n fields into this single field; return multiple attorneys as a semicolon-separated string."
+      },
+      {
+        "name": "Attorney Position",
+        "fields": [
+          "Position or role of each attorney (corresponding to Attorney #1, #2, ...)"
+        ],
+        "prompt": "Extract the position/title for each attorney listed under the party. Consolidate repeated Position entries associated with attorneys into this single field; return multiple positions in the same order as attorneys, separated by semicolons."
+      },
+      {
+        "name": "Attorney ID",
+        "fields": [
+          "Identifier (e.g., ID number) for each attorney (corresponding to Attorney #1, #2, ...)"
+        ],
+        "prompt": "Extract any identifier (ID number) listed for each attorney. Consolidate repeated ID fields associated with attorneys into this single field and return multiple entries semicolon-separated."
+      },
+      {
+        "name": "Attorney Signature file",
+        "fields": [
+          "Signature file name or reference for each attorney (corresponding to Attorney #1, #2, ...)"
+        ],
+        "prompt": "Extract the signature file reference (if any) for each attorney. Consolidate repeated signature file fields into this single field; return multiple file names as a semicolon-separated string."
+      }
+    ]
+  },
+  "_metadata": {
+    "excel_file": "/Users/joseguardo/Desktop/CLM/ContractExtractor/app/services/vectorStore/Caledonia Facility A.xlsx",
+    "parsed_at": "2025-09-28T12:52:41.541496",
+    "total_sheets": 8,
+    "parser_config": {
+      "openai_model": "gpt-5-mini-2025-08-07",
+      "max_concurrency": 4
+    }
+  }
+}

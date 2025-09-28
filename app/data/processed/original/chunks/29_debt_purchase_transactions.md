@@ -27,6 +27,8 @@ Financial Year of the Parent in which such purchase is to be made or (2) New Sha
 
 (i) the Parent (on behalf of the relevant Borrower(s)) may by itself or through another Purchase Agent place an open order (an "Open Order") to purchase participations in one or more of the Term Facility or the CAR Facility up to a set aggregate amount at a set price by notifying at the same time all the Lenders participating in the relevant Term Facility or CAR Facility of the same. Any Lender wishing to sell pursuant to an Open Order will, by 11.00 a.m. on any Business Day following the date on which the Open Order is placed but no earlier than the first Business Day, and no later than the fifth Business Day, following the date on which the Open Order is placed, communicate to the Purchase Agent details of the amount of its
 
+# 29. Debt Purchase Transactions
+
 participations, and in which Term Facility or CAR Facility, it is offering to sell. Any such offer to sell shall be irrevocable until 11.00 a.m. on the Business Day following the date of such offer from the Lender and shall be capable of acceptance by the Parent on behalf of the relevant Borrower(s) on or before such time by it communicating such acceptance in writing to the relevant Lender;
 
 1. any purchase of participations in the Term Facility or CAR Facility pursuant to an Open Order Process shall be completed and settled by the relevant Borrower(s) on or before the fourth Business Day after the date of the relevant offer by a Lender to sell under the relevant Open Order;
@@ -41,7 +43,7 @@ participations, and in which Term Facility or CAR Facility, it is offering to se
 2. that Debt Purchase Transaction and the related extinguishment referred to in paragraph (i) above shall not constitute a prepayment of the Facilities;
 3. the Borrower which is the assignee shall be deemed to be an entity which fulfils the requirements of clause 28.1 (Assignments and Transfers by the Lenders) to be a New Lender;
 4. no Group Company shall be deemed to be in breach of any provision of clause 26 (General Undertakings) solely by reason of that Debt Purchase Transaction;
-5. clause 33 (Sharing among the Senior Finance Parties) shall not be applicable to the consideration paid under such Debt Purchase Transaction;
+5. clause 33 (Sharing among the Senior Finance Parties) shall not be applicable to the consideration paid under such Debt Purchase Transaction; and
 6. for the avoidance of doubt, any extinguishment of any part of the Term Loans or CAR Facility Loan shall not affect any amendment or waiver which prior to that extinguishment had been approved by or on behalf of the requisite Lender or Lenders in accordance with this agreement.
 
 # 29.2 Disenfranchisement on Debt Purchase Transactions entered into by Sponsor Affiliates

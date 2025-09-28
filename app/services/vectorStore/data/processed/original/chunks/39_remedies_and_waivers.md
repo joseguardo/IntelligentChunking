@@ -1,0 +1,3 @@
+# 39. REMEDIES AND WAIVERS
+
+No failure to exercise, nor any delay in exercising, on the part of any Senior Finance Party or Secured Party, any right or remedy under a Senior Finance Document shall operate as a waiver of any such right or remedy or constitute an election to affirm any Senior Finance Document. No election to affirm any Senior Finance Document on the part of any Senior Finance Party or Secured Party shall be effective unless it is in writing. No single or partial exercise of any right or remedy shall prevent any further or other exercise or the exercise of any other right or remedy. The rights and remedies provided in each Senior Finance Document are cumulative and not exclusive of any rights or remedies provided by law.

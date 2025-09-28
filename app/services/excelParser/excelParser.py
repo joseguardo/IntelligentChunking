@@ -30,6 +30,7 @@ class ExcelField(BaseModel):
     name: Optional[str] = Field(None, description="The name of the field as it appears in the excel template.")
     description: Optional[str] = Field(None, description="A brief description of the field.")
     data_type: Optional[str] = Field(None, description="The type of data that the field requires. E.g., 'str', 'int', 'float', 'datetime'.")
+    prompt: Optional[str] = Field(None, description="A prompt that can be used to extract the field value from the contract and that contains context from the sheet and other fields present.")
 
 class ListExcelFields(BaseModel):
     excelfields: List[ExcelField] = Field(..., description="A list of fields extracted from the excel template.")
@@ -257,6 +258,7 @@ class ExcelParser:
             1) The exact field name as it appears in the template.
             2) A brief description of the field.
             3) The expected data type from: 'str', 'int', 'float', 'datetime'.
+            4) A prompt that captures the context of the field through the purpose of the sheet and enables the extraction of the field value from a contract through a vector store search.
 
             Important rules:
             - ONLY include fields explicitly present in the sheet.
@@ -322,28 +324,31 @@ class ExcelParser:
         Example: 
             Input: 
             ListExcelFields(excelfields=[
-            ExcelField(name="Contact 1 Name", description="Name of the first contact", data_type="str"),
-            ExcelField(name="Contact 2 Name", description="Name of the second contact", data_type="str"),
-            ExcelField(name="Contact 1 Email", description="Email of the first contact", data_type="str"),
-            ExcelField(name="Contact 2 Email", description="Email of the second contact", data_type="str"),
-            ExcelField(name="Company Name", description="Name of the company", data_type="str"),
+            ExcelField(name="Contact 1 Name", description="Name of the first contact", data_type="str", prompt = "..."),
+            ExcelField(name="Contact 2 Name", description="Name of the second contact", data_type="str", prompt = "..."),
+            ExcelField(name="Contact 1 Email", description="Email of the first contact", data_type="str", prompt = "..."),
+            ExcelField(name="Contact 2 Email", description="Email of the second contact", data_type="str", prompt = "..."),
+            ExcelField(name="Company Name", description="Name of the company", data_type="str", prompt = "..."),
         ])
         Output: 
                     ListExcelFields(excelfields=[
                 ExcelField(
                     name="Contact Name",
                     description="Name of each contact (list, one per contact)",
-                    data_type="str"
+                    data_type="str", 
+                    prompt = "Extract the name of each contact from the contract."
                 ),
                 ExcelField(
                     name="Contact Email",
                     description="Email of each contact (list, one per contact)",
-                    data_type="str"
+                    data_type="str",
+                    prompt = "Extract the email of each contact from the contract."
                 ),
                 ExcelField(
                     name="Company Name",
                     description="Name of the company",
-                    data_type="str"
+                    data_type="str",
+                    prompt = "Extract the name of the company from the contract."
                 ),
             ])
         Do not hallucinate or invent fields. Only consolidate when a clear pattern is present. If no patterns are found, return the original list unchanged.
@@ -408,10 +413,10 @@ if __name__ == "__main__":
     #   (optional) OPENAI_MODEL=gpt-4.1
     parser = ExcelParser(
         "Caledonia Facility A.xlsx",
-        #only_sheets=[load_workbook("Caledonia Facility A.xlsx").sheetnames[:1]],
+        only_sheets=[load_workbook("Caledonia Facility A.xlsx").sheetnames[0]],
         openai_model="gpt-5-mini-2025-08-07",   # the structuring step
         lp_model="openai-gpt-4o-mini",          # the LlamaParse internal LLM (per your snippet)
         max_concurrency=4,                      # CHANGE: control parallelism here
     )
     result, output = parser.parse_sheets()  # sync: wraps async
-    pprint(output)
+    pprint(result)

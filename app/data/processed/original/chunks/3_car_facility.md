@@ -47,20 +47,32 @@ Each CAR Facility Establishment Notice shall be countersigned by each CAR Facili
 
 Upon receipt of a duly completed CAR Facility Establishment Notice, the Facility Agent and the Security Agent shall acknowledge receipt of that notice and, if appropriate, the accession of the relevant CAR Facility Lenders to each of this agreement and the Intercreditor Agreement and the Facility Agent shall inform the Lenders of that receipt. The Facility Agent and the Security Agent are authorised to disclose details of the CAR Facility Establishment Notice and in relation to any CAR Facility to the Lenders on request. The Facility Agent and the Security Agent shall only be obliged to sign a CAR Facility Establishment Notice upon its completion of all "know your customer" or other similar checks relating to any person that it is required to carry out in relation to the accession of any entity as a Lender.
 
-3.8 The Facility Agent shall notify the Parent and the Lenders of the changed amounts of the CAR Facility Commitments promptly after receipt of each CAR Facility Establishment Notice.
+# 3.8
 
-3.9 The terms and conditions relating to each CAR Facility are set out in this agreement with specific detail set out in each separate CAR Facility Establishment Notice entered into by the Parent and the CAR Facility Lenders or other entities providing the relevant CAR Facility Commitments.
+The Facility Agent shall notify the Parent and the Lenders of the changed amounts of the CAR Facility Commitments promptly after receipt of each CAR Facility Establishment Notice.
 
-3.10 The Lenders hereby authorise and empower the Security Agent to execute any necessary amendments to the Transaction Security Documents to ensure that the Loans under any CAR Facility shall rank pari passu with the other Senior Liabilities (as defined in the Intercreditor Agreement) and that any Transaction Security granted over any assets purchased with the proceeds of CAR Facility Loans which are required to be subject to the Transaction Security Documents is shared pari passu by all Finance Parties.
+# 3.9
 
-3.11 If the other provisions of this Clause 3 (CAR Facility) are complied with, each Party:
+The terms and conditions relating to each CAR Facility are set out in this agreement with specific detail set out in each separate CAR Facility Establishment Notice entered into by the Parent and the CAR Facility Lenders or other entities providing the relevant CAR Facility Commitments.
+
+# 3.10
+
+The Lenders hereby authorise and empower the Security Agent to execute any necessary amendments to the Transaction Security Documents to ensure that the Loans under any CAR Facility shall rank pari passu with the other Senior Liabilities (as defined in the Intercreditor Agreement) and that any Transaction Security granted over any assets purchased with the proceeds of CAR Facility Loans which are required to be subject to the Transaction Security Documents is shared pari passu by all Finance Parties.
+
+# 3.11
+
+If the other provisions of this Clause 3 (CAR Facility) are complied with, each Party:
 
 - (a) agrees that CAR Facility Commitments may be made available to the relevant Borrowers; and
 - (b) authorises and instructs the Facility Agent and the Security Agent to countersign a CAR Facility Establishment Notice to record the CAR Facility Commitments as set out in the relevant CAR Facility Establishment Notice and accordingly the establishment of (or the increase in CAR Facility Commitments in respect of) a CAR Facility.
 
-3.12 Subject to the relevant CAR Facility Establishment Notice being signed by the Facility Agent, the Security Agent, the Parent and the relevant Lenders, the relevant CAR Facility and corresponding CAR Facility Commitments will be established for the purpose of this agreement and the other Senior Finance Documents as from the relevant CAR Facility Date.
+# 3.12
 
-3.13 Each Obligor:
+Subject to the relevant CAR Facility Establishment Notice being signed by the Facility Agent, the Security Agent, the Parent and the relevant Lenders, the relevant CAR Facility and corresponding CAR Facility Commitments will be established for the purpose of this agreement and the other Senior Finance Documents as from the relevant CAR Facility Date.
+
+# 3.13
+
+Each Obligor:
 
 - (a) confirms without prejudice to the obligations of each Obligor under paragraph (c) below, the authority of the Parent to agree and implement the establishment of CAR Facility Commitments and the CAR Facility in accordance with the procedures and up to the amounts permitted by this Agreement;
 - (b) confirms without prejudice to the obligations of each Obligor under paragraph (c) below, that all its guarantee and indemnity obligations recorded in Clause 22 (Guarantee and Indemnity) and/or in any Accession Deed or other Senior Finance Document will extend to include the CAR Facility Loans and other obligations arising under the CAR Facility subject to any limits as specifically recorded in Clause 22 (Guarantee and Indemnity), the relevant Accession Deed or elsewhere in the Senior Finance Documents;

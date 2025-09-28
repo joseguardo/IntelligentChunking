@@ -12,9 +12,7 @@
 
 # 16.1 Commitment Fee
 
-Period and on the cancelled amount of the relevant Lender's CAR Facility Commitment at the time the cancellation is effective.
-
-(d) No commitment fee is payable to the Facility Agent (for the account of a Lender) on any Available Commitment of that Lender for any day on which that Lender is a Defaulting Lender.
+No commitment fee is payable to the Facility Agent (for the account of a Lender) on any Available Commitment of that Lender for any day on which that Lender is a Defaulting Lender.
 
 # 16.2 Arrangement Fee
 

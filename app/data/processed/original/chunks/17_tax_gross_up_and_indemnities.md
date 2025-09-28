@@ -38,6 +38,8 @@
 
 1. (i) a company resident in the United Kingdom for United Kingdom tax purposes;
 
+# Definitions
+
 (ii) a partnership each member of which is:
 
 - (A) a company so resident in the United Kingdom; or
@@ -67,11 +69,9 @@
 
 "Treaty State" means a jurisdiction having a double taxation agreement (a "Treaty") with the United Kingdom which makes provision for full exemption from tax imposed by such jurisdiction on interest; and
 
-UK - 205885966.10 84
-
 # 17. Tax Gross-up and Indemnities
 
-# 17.1 Definition
+# 17.1 Definitions
 
 "UK Non-Bank Lender" means:
 
@@ -95,47 +95,27 @@ UK - 205885966.10 84
 1. (A) an officer of HM Revenue & Customs has given (and not revoked) a direction (a "Direction") under section 931 of the ITA which relates to the payment and that Lender has received from the Obligor making the payment or from the Parent a certified copy of that Direction; and
 2. (B) the payment could have been made to the Lender without any Tax Deduction if that Direction had not been made;
 
-# (iii)
-
-the relevant Lender is a Qualifying Lender solely by virtue of paragraph (ii) of the definition of "Qualifying Lender" and:
+(iii) the relevant Lender is a Qualifying Lender solely by virtue of paragraph (ii) of the definition of "Qualifying Lender" and:
 
 - (A) the relevant Lender has not given a Tax Confirmation to the Parent; and
 - (B) the payment could have been made to the Lender without any Tax Deduction if the Lender had given a Tax Confirmation to the Parent, on the basis that the Tax Confirmation would have enabled the Parent to have formed a reasonable belief that the payment was an "excepted payment" for the purpose of section 930 of the ITA; or
 
-# (iv)
+(iv) the relevant Lender is a Treaty Lender and the Obligor making the payment is able to demonstrate that the payment could have been made to the Lender without the Tax Deduction had that Lender complied with its obligations under paragraph (g) or (h) (as applicable) below.
 
-the relevant Lender is a Treaty Lender and the Obligor making the payment is able to demonstrate that the payment could have been made to the Lender without the Tax Deduction had that Lender complied with its obligations under paragraph (g) or (h) (as applicable) below.
+(v) for the avoidance of doubt, the Tax Deduction relates to a Tax described in clause 17.3(b) (Tax Indemnity) or is a FATCA Deduction.
 
-# (v)
+(e) If an Obligor is required to make a Tax Deduction, that Obligor shall make that Tax Deduction and any payment required in connection with that Tax Deduction within the time allowed and in the minimum amount required by law.
 
-for the avoidance of doubt, the Tax Deduction relates to a Tax described in clause 17.3(b) (Tax Indemnity) or is a FATCA Deduction.
+(f) Within 30 days of making either a Tax Deduction or any payment required in connection with that Tax Deduction, the Obligor making that Tax Deduction shall deliver to the Facility Agent for the Senior Finance Party entitled to the payment a statement under section 975 of the ITA or other evidence reasonably satisfactory to that Senior Finance Party that the Tax Deduction has been made or (as applicable) any appropriate payment paid to the relevant taxing authority.
 
-# (e)
+(g) (i) Subject to paragraph (ii) below, a Treaty Lender and each Obligor which makes a payment to which that Treaty Lender is entitled shall co-operate in completing any procedural formalities necessary for that Obligor to obtain authorisation to make that payment without a Tax Deduction.
 
-If an Obligor is required to make a Tax Deduction, that Obligor shall make that Tax Deduction and any payment required in connection with that Tax Deduction within the time allowed and in the minimum amount required by law.
+- (ii) (A) A Treaty Lender which becomes a Party on the day on which this agreement is entered into that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence opposite its name in part 2 of schedule 1 (The Original Parties); and
+- (B) a New Lender, CAR Facility Lender or an Increase Lender that is a Treaty Lender that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence in the Transfer Certificate, Assignment Agreement, CAR Facility Establishment Notice or Increase Confirmation which it executes, and, having done so, that Lender shall be under no obligation pursuant to paragraph (i) above.
 
-# (f)
+(h) If a Lender has confirmed its scheme reference number and its jurisdiction of tax residence in accordance with paragraph (g)(ii) above and:
 
-Within 30 days of making either a Tax Deduction or any payment required in connection with that Tax Deduction, the Obligor making that Tax Deduction shall deliver to the Facility Agent for the Senior Finance Party entitled to the payment a statement under section 975 of the ITA or other evidence reasonably satisfactory to that Senior Finance Party that the Tax Deduction has been made or (as applicable) any appropriate payment paid to the relevant taxing authority.
-
-# (g)
-
-(i) Subject to paragraph (ii) below, a Treaty Lender and each Obligor which makes a payment to which that Treaty Lender is entitled shall co-operate in completing any procedural formalities necessary for that Obligor to obtain authorisation to make that payment without a Tax Deduction.
-
-(ii)
-
-- (A) A Treaty Lender which becomes a Party on the day on which this agreement is entered into that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence opposite its name in part 2 of schedule 1 (The Original Parties); and
-- (B) a New Lender, CAR Facility Lender or an Increase Lender that is a Treaty Lender that holds a passport under the HMRC DT Treaty Passport scheme, and which wishes that scheme to apply to this agreement, shall confirm its scheme reference number and its jurisdiction of tax residence in the Transfer Certificate, Assignment Agreement, CAR Facility Establishment Notice or Increase Confirmation which it executes,
-
-and, having done so, that Lender shall be under no obligation pursuant to paragraph (i) above.
-
-# (h)
-
-If a Lender has confirmed its scheme reference number and its jurisdiction of tax residence in accordance with paragraph (g)(ii) above and:
-
-# (i)
-
-a Borrower making a payment to that Lender has not made a Borrower DTTP Filing in respect of that Lender;
+- (i) a Borrower making a payment to that Lender has not made a Borrower DTTP Filing in respect of that Lender; or
 
 (ii) a Borrower making a payment to that Lender has made a Borrower DTTP Filing in respect of that Lender but:
 
@@ -163,6 +143,8 @@ and in each case, the Borrower has notified that Lender in writing, that Lender 
 if that Tax is imposed on or calculated by reference to the net income received or receivable (but not any sum deemed to be received or receivable) by that Senior Finance Party; or
 
 (ii) to the extent a loss, liability or cost:
+
+# 17.3 Tax Indemnity
 
 because one of the exclusions in clause 17.2(d) (Tax Gross-up) applied;
 
@@ -238,5 +220,3 @@ The Parent shall pay and, within three Business Days of demand, indemnify each S
 # 17.9 FATCA Deduction
 
 (a) Each Party may make any FATCA Deduction it is required to make by FATCA, and any payment required in connection with that FATCA Deduction, and no Party shall be required to increase any payment in respect of which it makes such a FATCA Deduction or otherwise compensate the recipient of the payment for that FATCA Deduction.
-
-(b) Each Party shall promptly, upon becoming aware that it must make a FATCA Deduction (or that there is any change in the rate or the basis of such FATCA Deduction), notify the Party to whom it is making the payment and, in addition, shall notify the Parent and the Facility Agent and the Facility Agent shall notify the other Senior Finance Parties.

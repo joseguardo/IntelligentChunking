@@ -8,15 +8,13 @@ Subject to clause 15.2 (Market Disruption), if LIBOR or, if applicable, EURIBOR 
 
 (a) If a Market Disruption Event occurs in relation to a Loan for any Interest Period, then the rate of interest on each Lender's share of that Loan for the Interest Period shall be the percentage rate per annum which is the sum of:
 
-(i) the Margin; and
-
-(ii) the rate notified to the Facility Agent by that Lender as soon as practicable and in any event by close of business on the date falling five Business Days after the Quotation Day (or, if earlier, on the date falling five Business Days prior to the date on which interest is due to be paid in respect of that Interest Period), to be that which expresses as a percentage rate per annum the cost to that Lender of funding its participation in that Loan from whatever source it may reasonably select.
+- (i) the Margin; and
+- (ii) the rate notified to the Facility Agent by that Lender as soon as practicable and in any event by close of business on the date falling five Business Days after the Quotation Day (or, if earlier, on the date falling five Business Days prior to the date on which interest is due to be paid in respect of that Interest Period), to be that which expresses as a percentage rate per annum the cost to that Lender of funding its participation in that Loan from whatever source it may reasonably select.
 
 (b) If:
 
-(i) the percentage rate per annum notified by a Lender pursuant to paragraph (a)(ii) above is less than LIBOR or, in relation to any Loan in euro, EURIBOR; or
-
-(ii) a Lender has not notified the Facility Agent of a percentage rate per annum pursuant to paragraph (a)(ii) above,
+- (i) the percentage rate per annum notified by a Lender pursuant to paragraph (a)(ii) above is less than LIBOR or, in relation to any Loan in euro, EURIBOR; or
+- (ii) a Lender has not notified the Facility Agent of a percentage rate per annum pursuant to paragraph (a)(ii) above,
 
 the cost to that Lender of funding its participation in that Loan for that Interest Period shall be deemed, for the purposes of paragraph (a) above, to be LIBOR or in relation to a loan in euro, EURIBOR.
 
@@ -26,7 +24,7 @@ the cost to that Lender of funding its participation in that Loan for that Inter
 
 "Market Disruption Event" means:
 
-(i) at or about noon on the Quotation Day for the relevant Interest Period LIBOR or, if applicable, EURIBOR is to be determined by reference to the
+- (i) at or about noon on the Quotation Day for the relevant Interest Period LIBOR or, if applicable, EURIBOR is to be determined by reference to the
 
 Base Reference Banks and none or only one of the Base Reference Banks supplies a rate to the Facility Agent to determine LIBOR or, if applicable, EURIBOR for the relevant currency and Interest Period; or
 

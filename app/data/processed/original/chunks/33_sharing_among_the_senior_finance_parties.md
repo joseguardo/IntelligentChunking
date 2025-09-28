@@ -28,7 +28,7 @@ amount equal to the appropriate part of its share of the Sharing Payment (togeth
 
 (b) as between the relevant Obligor and each relevant Sharing Senior Finance Party, an amount equal to the relevant Redistributed Amount will be treated as not having been paid by that Obligor.
 
-# 33. Exceptions
+# 33.5 Exceptions
 
 (a) This clause 33 (Sharing Among the Senior Finance Parties) shall not apply to the extent that the Recovering Senior Finance Party would not, after making any payment pursuant to this clause, have a valid and enforceable claim against the relevant Obligor.
 

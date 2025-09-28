@@ -6,19 +6,16 @@ Subject to this clause 28 (Changes to the Lenders) and to clause 29 (Debt Purcha
 
 - (a) assign any of its rights or transfer by way of assignment and assumption any of its rights and obligations; or
 - (b) transfer by novation any of its rights and obligations; or
-- (c) sub-participate all or any of its rights or obligations,
-
-under any Senior Finance Document to another bank or financial institution or to a trust, fund or other entity which is regularly engaged in or established for the purpose of making, purchasing or investing in loans, securities or other financial assets (the "New Lender") provided subject to Clause 28.2(b) (Conditions of Assignment, Transfer or Sub-participation) below always that as a consequence of any such assignment, transfer or sub-participation there are no more than, in aggregate, 6 Term Lenders (the "Syndicate Cap") and each New Lender's Commitments are at least £1,000,000 (or if the New Lenders are Related Funds the aggregate amount of their Commitments is at least £1,000,000). For the avoidance of doubt, for the purposes of this clause 28 (Changes to Lenders), any Affiliate or Related Fund of any Lender shall be treated as being a single Lender (in aggregate) for the purposes of calculating the Syndicate Cap.
+- (c) sub-participate all or any of its rights or obligations, under any Senior Finance Document to another bank or financial institution or to a trust, fund or other entity which is regularly engaged in or established for the purpose of making, purchasing or investing in loans, securities or other financial assets (the "New Lender") provided subject to Clause 28.2(b) (Conditions of Assignment, Transfer or Sub-participation) below always that as a consequence of any such assignment, transfer or sub-participation there are no more than, in aggregate, 6 Term Lenders (the "Syndicate Cap") and each New Lender's Commitments are at least £1,000,000 (or if the New Lenders are Related Funds the aggregate amount of their Commitments is at least £1,000,000). For the avoidance of doubt, for the purposes of this clause 28 (Changes to Lenders), any Affiliate or Related Fund of any Lender shall be treated as being a single Lender (in aggregate) for the purposes of calculating the Syndicate Cap.
 
 # 28.2 Conditions of Assignment, Transfer or Sub-Participation
 
 - (a) An Existing Lender must obtain the prior consent of the Parent (not to be unreasonably withheld or delayed and consent shall be deemed given if no response is received by the Existing Lender within 10 Business Days of consent being requested) before it may make an assignment, sub-participation or transfer in accordance with clause 28.1 (Assignments and Transfers by the Lenders) unless the assignment, transfer or sub-participation is:
-- - (i) to another Lender or an Affiliate of a Lender;
+- (i) to another Lender or an Affiliate of a Lender;
 - (ii) if the Existing Lender is a fund, to a fund which is a Related Fund of the Existing Lender;
 - (iii) to an entity on the Approved List; or
 - (iv) made at a time when an Event of Default is continuing.
-
-(b) If an assignment or transfer in connection with any Senior Finance Document is made at a time when an Event of Default is continuing, the Syndicate Cap shall not apply and there shall be no limit on the number of Lenders. After any such Event of Default has been remedied or waived in writing, the Syndicate Cap shall be increased by the number of New Lenders who have become a New Lender pursuant to clause 28.1 (Assignments and Transfers by the Lenders) above whilst the relevant Event of Default was continuing.
+- (b) If an assignment or transfer in connection with any Senior Finance Document is made at a time when an Event of Default is continuing, the Syndicate Cap shall not apply and there shall be no limit on the number of Lenders. After any such Event of Default has been remedied or waived in writing, the Syndicate Cap shall be increased by the number of New Lenders who have become a New Lender pursuant to clause 28.1 (Assignments and Transfers by the Lenders) above whilst the relevant Event of Default was continuing.
 - (c) Any request for consent made under paragraph (a) above must also be simultaneously sent to Jeremy Morgan at the following address jeremymorgan@sovereigncapital.co.uk.
 - (d) Each assignment or transfer of any Lender's participation other than to an Affiliate or a Related Fund shall be in a minimum amount of £1,000,000 unless the
 
@@ -26,9 +23,9 @@ under any Senior Finance Document to another bank or financial institution or to
 
 (e) an assignment will only be effective on:
 
-1. receipt by the Facility Agent (whether in the Assignment Agreement or otherwise) of written confirmation from the New Lender (in form and substance satisfactory to the Facility Agent) that the New Lender will assume the same obligations to the other Senior Finance Parties and the other Secured Parties as it would have been under if it was an Original Lender;
-2. the New Lender entering into the documentation required for it to accede to the Intercreditor Agreement (which requirement will be satisfied on completion of an assignment using the form of Assignment Agreement attached as schedule 5 (Form of Assignment Agreement));
-3. the performance by the Facility Agent (to the extent it thinks fit) of all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to such assignment to a New Lender, the completion of which the Facility Agent shall promptly notify to the Existing Lender and the New Lender.
+1. (i) receipt by the Facility Agent (whether in the Assignment Agreement or otherwise) of written confirmation from the New Lender (in form and substance satisfactory to the Facility Agent) that the New Lender will assume the same obligations to the other Senior Finance Parties and the other Secured Parties as it would have been under if it was an Original Lender;
+2. (ii) the New Lender entering into the documentation required for it to accede to the Intercreditor Agreement (which requirement will be satisfied on completion of an assignment using the form of Assignment Agreement attached as schedule 5 (Form of Assignment Agreement));
+3. (iii) the performance by the Facility Agent (to the extent it thinks fit) of all necessary "know your customer" or other similar checks under all applicable laws and regulations in relation to such assignment to a New Lender, the completion of which the Facility Agent shall promptly notify to the Existing Lender and the New Lender.
 
 (f) Any assignment or transfer by a Lender of rights and/or obligations (by whatever method) will be deemed to be subject (to the extent possible) to the rights and restrictions contained in the Intercreditor Agreement applicable to the Senior Lenders (as defined in the Intercreditor Agreement). If the New Lender is not already a party to the Intercreditor Agreement as a Senior Lender, then (for the benefit of the Senior Finance Parties) the New Lender agrees to become, with effect from the Transfer Date, a party to and agrees to be bound by the terms of the Intercreditor Agreement as if it had originally been party to the Intercreditor Agreement as a Senior Lender.
 
@@ -36,8 +33,8 @@ under any Senior Finance Document to another bank or financial institution or to
 
 (h) If:
 
-1. a Lender assigns or transfers any of its rights or obligations under the Senior Finance Documents or changes its Facility Office; and
-2. as a result of circumstances existing at the date the assignment, transfer or change occurs, an Obligor would be obliged to make a payment to the New Lender or Lender acting through its new Facility Office under clause 18 (Increased Costs),
+1. (i) a Lender assigns or transfers any of its rights or obligations under the Senior Finance Documents or changes its Facility Office; and
+2. (ii) as a result of circumstances existing at the date the assignment, transfer or change occurs, an Obligor would be obliged to make a payment to the New Lender or Lender acting through its new Facility Office under clause 18 (Increased Costs),
 
 then the New Lender or Lender acting through its new Facility Office is only entitled to receive payment under that clause to the same extent as the Existing Lender or Lender acting through its previous Facility Office would have been if the assignment, transfer or change had not occurred.
 
@@ -82,10 +79,10 @@ Subject to paragraph (b) below, as soon as reasonably practicable after receipt 
 
 (c) Subject to clause 28.12 (Pro Rata Interest Settlement), on the Transfer Date:
 
-1. To the extent that in the Transfer Certificate the Existing Lender seeks to transfer by novation its rights and obligations under the Senior Finance Documents, each of the Obligors and the Existing Lender shall be released from further obligations towards one another under the Senior Finance Documents and their respective rights against one another under the Senior Finance Documents shall be cancelled (being the "Discharged Rights and Obligations");
-2. Each of the Obligors and the New Lender shall assume obligations towards one another and/or acquire rights against one another which differ from the Discharged Rights and Obligations only insofar as that Obligor or other Group Company and the New Lender have assumed and/or acquired the same in place of that Obligor and the Existing Lender;
-3. The Facility Agent, the Arranger, the Security Agent, the New Lender, the other Lenders and any relevant Ancillary Lender shall acquire the same rights and assume the same obligations between themselves and in respect of the Transaction Security as they would have acquired and assumed had the New Lender been an Original Lender with the rights, and/or obligations acquired or assumed by it as a result of the transfer and to that extent the Facility Agent, the Arranger, the Security Agent and any relevant Ancillary Lender and the Existing Lender shall each be released from further obligations to each other under the Senior Finance Documents;
-4. The New Lender shall become a Party as a "Lender".
+1. to the extent that in the Transfer Certificate the Existing Lender seeks to transfer by novation its rights and obligations under the Senior Finance Documents, each of the Obligors and the Existing Lender shall be released from further obligations towards one another under the Senior Finance Documents and their respective rights against one another under the Senior Finance Documents shall be cancelled (being the "Discharged Rights and Obligations");
+2. each of the Obligors and the New Lender shall assume obligations towards one another and/or acquire rights against one another which differ from the Discharged Rights and Obligations only insofar as that Obligor or other Group Company and the New Lender have assumed and/or acquired the same in place of that Obligor and the Existing Lender;
+3. the Facility Agent, the Arranger, the Security Agent, the New Lender, the other Lenders and any relevant Ancillary Lender shall acquire the same rights and assume the same obligations between themselves and in respect of the Transaction Security as they would have acquired and assumed had the New Lender been an Original Lender with the rights, and/or obligations acquired or assumed by it as a result of the transfer and to that extent the Facility Agent, the Arranger, the Security Agent and any relevant Ancillary Lender and the Existing Lender shall each be released from further obligations to each other under the Senior Finance Documents; and
+4. the New Lender shall become a Party as a "Lender".
 
 # 28.6 Procedure for Assignment or Assignment and Assumption
 
@@ -108,7 +105,6 @@ The Facility Agent shall, as soon as reasonably practicable after it has execute
 # 28.8 New CAR Facility Lender
 
 1. Each CAR Facility Lender shall, by countersigning a CAR Facility Establishment Notice and delivering it to the Facility Agent be, deemed to be a party to this agreement as a Lender from the CAR Facility Date and:
-
 1. each of the Obligors will owe obligations to the CAR Facility Lender in accordance with the terms of the Senior Finance Documents;
 2. subject to any limits recorded in the Senior Finance Documents, the guarantees and security recorded in the Senior Finance Documents in favour of the Senior Finance Parties will extend to the CAR Facility Lender and the CAR Facility Loans; and
 3. the Senior Finance Parties in each of their respective capacities shall acquire the rights and assume the obligations between themselves as if the CAR Facility Lender had been an original lender under this agreement in that capacity.
@@ -138,8 +134,6 @@ except that no such charge, assignment or Security shall:
 
 - (i) promptly countersigning Assignment Agreements (although any delay or failure by the Parent to so countersign an Assignment Agreement will not invalidate its operation); and
 - (ii) subject to the Agreed Security Principles taking such steps as the Facility Agent or the Security Agent may request (including re-execution of Transaction Security Documents) for the purpose of ensuring that the New Lender has (and the other Senior Finance Parties continue to have) the benefit of the same security interests under the Transaction Security Documents as existed immediately before the relevant transfer.
-
-UK - 205885966.10    151
 
 # 28.12 Pro Rata Interest Settlement
 

@@ -11,9 +11,7 @@ In this agreement:
 - (c) taking account of any pro forma adjustments for reasonably identifiable, supportable, achievable and sustainable cost synergies and the cost of achieving those savings of pro forma adjustments of a Group Company (or attributable to a business or assets) being acquired during the Relevant Period provided that:
 
 1. (i) such cost savings or cost synergies shall be set out in reasonable detail and certified by the finance director of the Parent in a certificate detailing such pro forma adjustments together with all reasonable detail;
-2. (ii) such cost savings or cost synergies that are greater than 10% of the earnings before interest, tax, depreciation and amortisation (calculated in the same manner as EBITDA) of the company or business being so acquired shall be identified in a report prepared by the Groups Auditors or other applicable due diligence report provider satisfactory to the Facility Agent (acting reasonably) and as verified by the Auditors (or other such report provider) as being reasonable as regards assumptions and methodology of combining the operations of such acquired entity,
-
-UK - 205885966.10 113
+2. (ii) such cost savings or cost synergies that are greater than 10% of the earnings before interest, tax, depreciation and amortisation (calculated in the same manner as EBITDA) of the company or business being so acquired shall be identified in a report prepared by the Groups Auditors or other applicable due diligence report provider satisfactory to the Facility Agent (acting reasonably) and as verified by the Auditors (or other such report provider) as being reasonable as regards assumptions and methodology of combining the operations of such acquired entity.
 
 # Definitions
 
@@ -42,28 +40,26 @@ means, at any time, the aggregate outstanding principal, capital or nominal amou
 
 means the acquisition of a company or any shares or securities or a business or undertaking (or, in each case, any interest in any of them) or the incorporation of a company.
 
-# Capital Expenditure
+Capital Expenditure
 
-means any expenditure or obligation in respect of expenditure (other than expenditure or obligations in respect of Business Acquisitions) which, in accordance with the Accounting Principles, is treated as capital expenditure (and (except for the purposes of paragraph (g) of the definition of "Cashflow" where it shall not be included) including the capital element of any expenditure or obligation incurred in connection with a Finance Lease).
+"Capital Expenditure" means any expenditure or obligation in respect of expenditure (other than expenditure or obligations in respect of Business Acquisitions) which, in accordance with the Accounting Principles, is treated as capital expenditure (and (except for the purposes of paragraph (g) of the definition of "Cashflow" where it shall not be included) including the capital element of any expenditure or obligation incurred in connection with a Finance Lease).
 
-# Cash
-
-means, at any time, cash in hand or at bank and (in the latter case) credited to an account in the name of a Group Company with an Acceptable Bank or Original Lender and to which a Group Company is alone (or together with other Group Companies) beneficially entitled and for so long as:
+"Cash" means, at any time, cash in hand or at bank and (in the latter case) credited to an account in the name of a Group Company with an Acceptable Bank or Original Lender and to which a Group Company is alone (or together with other Group Companies) beneficially entitled and for so long as:
 
 - (a) that cash is repayable within 30 days of demand;
 - (b) repayment of that cash is not contingent on the prior discharge of any other indebtedness of any Group Company or of any other person whatsoever or on the satisfaction of any other condition (other than any condition of a Senior Finance Document);
 - (c) there is no Security over that cash except for Transaction Security or any Permitted Security constituted by a netting or set-off arrangement entered into by Group Companies in the ordinary course of their banking arrangements; and
 - (d) the cash is freely and (except as set out in (a) above) immediately available to be applied in repayment or prepayment of the Facilities.
 
-# Cashflow
-
-means, in respect of any Relevant Period, Consolidated EBITDA for that Relevant Period after:
+"Cashflow" means, in respect of any Relevant Period, Consolidated EBITDA for that Relevant Period after:
 
 - (a) adding the amount of any decrease (and deducting the amount of any increase) in Working Capital for that Relevant Period;
 - (b) adding the amount of any cash receipts (save (i) to the extent that those receipts are in respect of Disposal or insurance claims or proceeds and are required to be used in prepayment of the Facilities in accordance with clause 11 (Mandatory Prepayment and Cancellation) or (ii) are funded or refunded from any CAR Facility Loan) and deducting the amount of any cash payments during that Relevant Period in respect of any Exceptional Items (but not deducting Exceptional items relating to acquisitions made or to be made which are funded from either New Shareholder Injections or cash on the balance sheet at the Closing Date) and not already taken account of in calculating Consolidated EBITDA for any Relevant Period;
 - (c) adding the amount of any cash receipts during that Relevant Period in respect of any Tax rebates or credits and deducting the amount actually paid or due and payable in respect of Taxes during that Relevant Period by any Group Company (including for the avoidance of doubt in connection with any VAT inquiry);
 - (d) adding (to the extent not already taken into account in determining Consolidated EBITDA) the amount of any dividends or other profit distributions received in cash by any Group Company during that Relevant Period from any entity which is not itself a Group Company and deducting (to the extent not already deducted in determining Consolidated EBITDA) the amount of any dividends paid in cash during the Relevant Period by the Parent or to minority shareholders in Group Companies (other than any Permitted Payment);
 - (e) adding the amount of any cash paid to a Group Company in the Relevant Period that represents repayment of any loan made to a Joint Venture;
+
+UK - 205885966.10 115
 
 (f) adding the amount of any increase in provisions, other non-cash debits and other non-cash charges (which are not Current Assets or Current Liabilities) and deducting the amount of any non-cash credits (which are not Current Assets or Current Liabilities) in each case to the extent taken into account in establishing Consolidated EBITDA;
 
@@ -124,29 +120,29 @@ in each case, to the extent added, deducted or taken into account, as the case m
 - (b) liabilities for Tax;
 - (c) Exceptional Items and other non-operating items;
 - (d) insurance claims;
-- (e) liabilities in relation to dividends declared but not paid by the Parent or by a Group Company in favour of a person which is not a Group Company;
+- (e) liabilities in relation to dividends declared but not paid by the Parent or by a Group Company in favour of a person which is not a Group Company; and
 
 (f) amounts owed to the vendor in connection with the Acquisition or any other vendor or third party in connection with a Permitted Acquisition.
 
 # "Debt Service" means, in respect of any Relevant Period, the aggregate of:
 
-- (a) Finance Charges for that Relevant Period;
-- (b) all scheduled repayments of Borrowings (as such scheduled repayments have been adjusted as a result of any mandatory prepayment made during that or any preceding Relevant Period and as a result of any voluntary prepayment made during any preceding Relevant Period) falling due during that Relevant Period but excluding:
-- (i) any amounts falling due under any overdraft or revolving facility (including, without limitation, the Revolving Facility and any Ancillary Facility) and which were available for simultaneous redrawing according to the terms of that facility;
-- (ii) (for the avoidance of doubt), any voluntary prepayment or mandatory prepayment made pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow);
-- (iii) any such obligations owed to any Group Company; and
-- (iv) any prepayment of Borrowings existing on the Closing Date which is required to be repaid under the terms of this agreement;
-- (c) the amount of any cash dividends or other cash distributions (other than yield or interest payments) in respect of the Investor Instruments or the Management Loan Notes paid or made by the Parent in respect of that Relevant Period other than any amounts funded from the Overfund Account; and
-- (d) the amount of the capital element of any payments in respect of that Relevant Period payable under any Finance Lease entered into by any Group Company, and so that no amount shall be included more than once.
+1. Finance Charges for that Relevant Period;
+2. all scheduled repayments of Borrowings (as such scheduled repayments have been adjusted as a result of any mandatory prepayment made during that or any preceding Relevant Period and as a result of any voluntary prepayment made during any preceding Relevant Period) falling due during that Relevant Period but excluding:
+1. any amounts falling due under any overdraft or revolving facility (including, without limitation, the Revolving Facility and any Ancillary Facility) and which were available for simultaneous redrawing according to the terms of that facility;
+2. (for the avoidance of doubt), any voluntary prepayment or mandatory prepayment made pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow);
+3. any such obligations owed to any Group Company; and
+4. any prepayment of Borrowings existing on the Closing Date which is required to be repaid under the terms of this agreement;
+3. the amount of any cash dividends or other cash distributions (other than yield or interest payments) in respect of the Investor Instruments or the Management Loan Notes paid or made by the Parent in respect of that Relevant Period other than any amounts funded from the Overfund Account; and
+4. the amount of the capital element of any payments in respect of that Relevant Period payable under any Finance Lease entered into by any Group Company, and so that no amount shall be included more than once.
 
 # "Earn-Out Consideration" means any deferred consideration incurred by a member of the Group in relation to a Permitted Acquisition where such consideration is payable only upon the acquired entity achieving certain financial performance tests.
 
 # "EBITDA" means, in respect of a Group Company for any period for which it is being calculated, the operating profit of that Group Company before taxation (including the results from discontinued operations):
 
-- (a) before deducting any interest, commission, fees, discounts, prepayment fees, premiums or charges and other finance payments whether paid, payable or capitalised by that Group Company only;
-- (b) not including any interest which has accrued due to that Group Company only;
-- (c) after adding back any amount attributable to the amortisation, depreciation or impairment of assets of that Group Company (determined on an unconsolidated basis) (and taking no account of the reversal of any previous impairment charge made in that period);
-- (d) before taking into account any Exceptional Items;
+1. before deducting any interest, commission, fees, discounts, prepayment fees, premiums or charges and other finance payments whether paid, payable or capitalised by that Group Company only;
+2. not including any interest which has accrued due to that Group Company only;
+3. after adding back any amount attributable to the amortisation, depreciation or impairment of assets of that Group Company (determined on an unconsolidated basis) (and taking no account of the reversal of any previous impairment charge made in that period);
+4. before taking into account any Exceptional Items;
 
 UK - 205885966.10 118
 
@@ -184,7 +180,7 @@ in each case, to the extent added, deducted or taken into account, as the case m
 
 (e) any office relocation costs;
 
-UK - 205885966.10 119
+UK - 205885966.10    119
 
 # Excess Cashflow
 
@@ -270,18 +266,18 @@ The Parent shall ensure that:
 1. Cashflow Cover: Cashflow Cover in respect of any Relevant Period ending on or around or after 30 June 2016 shall not be less than 1:1.
 2. Interest Cover: Interest Cover in respect of any Relevant Period specified in column 1 below shall not be less than the ratio set out in column 2 below opposite that Relevant Period.
 
-| **Column 1**                               | **Column 2** |
-| ------------------------------------------ | ------------ |
-| Relevant Period expiring 30 June 2016      | 1.69:1       |
-| Relevant Period expiring 30 September 2016 | 1.70:1       |
-| Relevant Period expiring 31 December 2016  | 2.01:1       |
-| Relevant Period expiring 31 March 2017     | 2.15:1       |
-| Relevant Period expiring 30 June 2017      | 2.20:1       |
-| Relevant Period expiring 30 September 2017 | 2.26:1       |
-| Relevant Period expiring 31 December 2017  | 2.28:1       |
-| Relevant Period expiring 31 March 2018     | 2.26:1       |
-| Relevant Period expiring 30 June 2018      | 2.34:1       |
-| Relevant Period expiring 30 September 2018 | 2.42:1       |
+| Column 1                                   | Column 2 |
+| ------------------------------------------ | -------- |
+| Relevant Period expiring 30 June 2016      | 1.69:1   |
+| Relevant Period expiring 30 September 2016 | 1.70:1   |
+| Relevant Period expiring 31 December 2016  | 2.01:1   |
+| Relevant Period expiring 31 March 2017     | 2.15:1   |
+| Relevant Period expiring 30 June 2017      | 2.20:1   |
+| Relevant Period expiring 30 September 2017 | 2.26:1   |
+| Relevant Period expiring 31 December 2017  | 2.28:1   |
+| Relevant Period expiring 31 March 2018     | 2.26:1   |
+| Relevant Period expiring 30 June 2018      | 2.34:1   |
+| Relevant Period expiring 30 September 2018 | 2.42:1   |
 
 # Relevant Period Ratios
 
@@ -351,6 +347,8 @@ In any Carry Forward Year, the Permitted Carry Forward Amount shall be treated a
 
 An amount not exceeding 50 per cent of the Scheduled Capex for an Original Financial Year may be used for Capital Expenditure in the immediately preceding Financial Year (the "Prior Financial Year") in addition to the Scheduled Capex which would otherwise be permitted in that Prior Financial Year (such amount the "Carry Back Capex"). The Carry Back Capex shall be deemed to be used after any Permitted Carry Forward Amount and after any Scheduled Capex otherwise permitted to be spent in that Prior Financial Year. The Scheduled Capex for any Financial Year shall be reduced by the amount of any Carry Back Capex relating to such Financial Year.
 
+UK - 205885966.10    125
+
 # 25.3 Financial Testing
 
 (a) Subject to paragraph (b) below, the financial covenants set out in clause 25.2 (Financial Condition) shall be calculated in accordance with the Accounting Principles and tested by reference to each of the financial statements delivered pursuant to paragraphs (a)(i) and (b) of clause 24.1 (Financial Statements) and/or each Compliance Certificate delivered pursuant to clause 24.2 (Provision and Contents of Compliance Certificate).
@@ -377,7 +375,7 @@ in each case making any further adjustment needed to ensure no double counting o
 
 1. must be contributed in cash and received by the Parent no later than the date which is 15 Business Days following the date for delivery of the Compliance Certificate which relates to the Breach Period;
 2. may exceed the amount required to rectify the breach of Financial Covenant (the "Overcure Amount");
-3. 50 per cent of that New Shareholder Injection which is required to remedy the breach of a Financial Covenant must be applied in prepayment of the Facilities in the order set out in clause 11.3(a) (Application of Mandatory Prepayments and Cancellations) immediately if the New Shareholder Injection was made to cure a breach of a Financial Covenant set out in paragraphs (b) (Interest Cover) or (c) (Leverage) of clause 25.2 (Financial Condition). If applied to cure a breach of paragraph (a) (Cashflow), the New Shareholder Injection shall be retained by the Group and may be used for any purpose not prohibited by this agreement; and
+3. 50 per cent of that New Shareholder Injection which is required to remedy the breach of a Financial Covenant must be applied in prepayment of the Facilities in the order set out in clause 11.3(a) (Application of Mandatory Prepayments and Cancellations) immediately if the New Shareholder Injection was made to cure a breach of a Financial Covenant set out in paragraphs (b) (Interest Cover) or (c) (Leverage) of clause 25.2 (Financial Condition). If applied to cure a breach of paragraph (a) (Cashflow), the New Shareholder Injection shall be retained by the Group and may be used for any purpose not prohibited by this agreement;
 4. must be made on the basis that such New Shareholder Injection shall have no cash yield until after the Senior Discharge Date has occurred (as such term is defined in the Intercreditor Agreement).
 
 (c) The contribution of New Shareholder Injections may only be made for the purpose of effecting a cure of a Financial Covenant breach a maximum of three times and not in two successive Relevant Periods and not more than once in each 12 Month period.

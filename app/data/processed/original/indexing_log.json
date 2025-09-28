@@ -1,9 +1,9 @@
 [
   {
-    "timestamp": "2025-09-18T17:01:31.921008",
+    "timestamp": "2025-09-28T18:53:06.895662",
     "operation": "extract_pdf_preview",
     "success": true,
-    "duration": 0.1134178638458252,
+    "duration": 0.05732131004333496,
     "data": {
       "input_path": "data/temp/original_temp.pdf",
       "output_path": "data/processed/original/temp/preview.pdf",
@@ -14,91 +14,91 @@
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.428645",
+    "timestamp": "2025-09-28T18:53:32.573444",
     "operation": "extract_index_openai",
     "success": true,
-    "duration": 34.50740909576416,
+    "duration": 25.677539825439453,
     "data": {
       "pdf_path": "data/processed/original/temp/preview.pdf",
       "model": "gpt-4.1-2025-04-14",
       "index_elements_count": 58,
-      "sub_index_elements_count": 13
+      "sub_index_elements_count": 7
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.449429",
+    "timestamp": "2025-09-28T18:53:32.593502",
     "operation": "split_markdown_to_chunks",
     "success": true,
-    "duration": 0.0196993350982666,
+    "duration": 0.018574953079223633,
     "data": {
       "markdown_path": "data/processed/original/processed_content.md",
       "output_dir": "data/processed/original/chunks",
-      "chunks_created": 101,
+      "chunks_created": 58,
       "structure_sections": 58
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.453733",
+    "timestamp": "2025-09-28T18:53:32.596561",
     "operation": "run_index_and_chunking_pipeline",
     "success": true,
-    "duration": 34.64616012573242,
+    "duration": 25.758254051208496,
     "data": {
       "pdf_path": "data/temp/original_temp.pdf",
       "markdown_path": "data/processed/original/processed_content.md",
       "structure_sections": 58,
-      "chunks_created": 101,
+      "chunks_created": 58,
       "structure_saved": true
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.495367",
+    "timestamp": "2025-09-28T18:53:32.653427",
     "operation": "load_chunks_from_directory",
     "success": true,
-    "duration": 0.0406491756439209,
+    "duration": 0.055938005447387695,
     "data": {
       "chunks_dir": "data/processed/original/chunks",
-      "sections_loaded": 82
+      "sections_loaded": 54
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.504117",
+    "timestamp": "2025-09-28T18:53:32.661718",
     "operation": "process_chunks_rechunk",
     "success": true,
-    "duration": 0.0494232177734375,
+    "duration": 0.06424498558044434,
     "data": {
       "chunks_dir": "data/processed/original/chunks",
-      "input_sections": 82,
+      "input_sections": 54,
       "target_size": 10000,
       "tolerance": 1500,
-      "final_chunks_count": 195,
+      "final_chunks_count": 93,
       "chunk_statistics": {
-        "count": 195,
-        "total_length": 476024,
-        "avg_length": 2441.148717948718,
-        "min_length": 10,
-        "max_length": 11497
+        "count": 93,
+        "total_length": 598741,
+        "avg_length": 6438.075268817204,
+        "min_length": 29,
+        "max_length": 11500
       }
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"
   },
   {
-    "timestamp": "2025-09-18T17:02:06.521150",
+    "timestamp": "2025-09-28T18:53:32.685136",
     "operation": "save_final_chunks",
     "success": true,
-    "duration": 0.0165560245513916,
+    "duration": 0.022906064987182617,
     "data": {
       "output_dir": "data/processed/original/final_chunks",
-      "chunks_saved": 195,
-      "total_characters": 476024
+      "chunks_saved": 93,
+      "total_characters": 598741
     },
     "document_id": "original",
     "processor": "DocumentIndexingPipeline"

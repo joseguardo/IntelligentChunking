@@ -22,13 +22,14 @@ The Facility Agent may (with the consent of the Obligor or in accordance with cl
 
 (c) If the Facility Agent has notified the Lenders that it is willing to make available amounts for the account of a Borrower before receiving funds from the Lenders then if and to the extent that the Facility Agent does so but it proves to be the case that it does not then receive funds from a Lender in respect of a sum which it paid to a Borrower:
 
-(i) the Facility Agent shall notify the Parent of that Lender's identity and the Borrower to whom that sum was made available shall on demand refund it to the Facility Agent; and
-
-(ii) the Lender by whom those funds should have been made available or, if that Lender fails to do so, the Borrower to whom that sum was made available, shall on demand pay to the Facility Agent the amount (as certified by the Facility Agent) which will indemnify the Facility Agent against any funding cost incurred by it as a result of paying out that sum before receiving those funds from that Lender.
+- (i) the Facility Agent shall notify the Parent of that Lender's identity and the Borrower to whom that sum was made available shall on demand refund it to the Facility Agent; and
+- (ii) the Lender by whom those funds should have been made available or, if that Lender fails to do so, the Borrower to whom that sum was made available, shall on demand pay to the Facility Agent the amount (as certified by the Facility Agent) which will indemnify the Facility Agent against any funding cost incurred by it as a result of paying out that sum before receiving those funds from that Lender.
 
 # 34.5 Impaired Agent
 
 (a) If, at any time, the Facility Agent becomes an Impaired Agent, an Obligor or a Lender which is required to make a payment under the Senior Finance Documents to the Facility Agent in accordance with clause 34.1 (Payments to the Facility Agent) may instead either:
+
+# 34.5 Payments
 
 (i) pay that amount direct to the required recipient(s); or
 
@@ -36,13 +37,21 @@ The Facility Agent may (with the consent of the Obligor or in accordance with cl
 
 In each case such payments must be made on the due date for payment under the Senior Finance Documents.
 
-(b) All interest accrued on the amount standing to the credit of the trust account shall be for the benefit of the Recipient Party or the Recipient Parties pro rata to their respective entitlements.
+# (b)
 
-(c) A Party which has made a payment in accordance with this clause 34.5 shall be discharged of the relevant payment obligation under the Senior Finance Documents and shall not take any credit risk with respect to the amounts standing to the credit of the trust account.
+All interest accrued on the amount standing to the credit of the trust account shall be for the benefit of the Recipient Party or the Recipient Parties pro rata to their respective entitlements.
 
-(d) Promptly upon the appointment of a successor Facility Agent in accordance with clause 31.13 (Replacement of the Facility Agent), each Paying Party shall (other than to the extent that that Party has given an instruction pursuant to paragraph (e) below) give all requisite instructions to the bank with whom the trust account is held to transfer the amount (together with any accrued interest) to the successor Facility Agent for distribution to the relevant Recipient Party or Recipient Parties in accordance with clause 34.2 (Distributions by the Facility Agent).
+# (c)
 
-(e) A Paying Party shall, promptly upon request by a Recipient Party and to the extent:
+A Party which has made a payment in accordance with this clause 34.5 shall be discharged of the relevant payment obligation under the Senior Finance Documents and shall not take any credit risk with respect to the amounts standing to the credit of the trust account.
+
+# (d)
+
+Promptly upon the appointment of a successor Facility Agent in accordance with clause 31.13 (Replacement of the Facility Agent), each Paying Party shall (other than to the extent that that Party has given an instruction pursuant to paragraph (e) below) give all requisite instructions to the bank with whom the trust account is held to transfer the amount (together with any accrued interest) to the successor Facility Agent for distribution to the relevant Recipient Party or Recipient Parties in accordance with clause 34.2 (Distributions by the Facility Agent).
+
+# (e)
+
+A Paying Party shall, promptly upon request by a Recipient Party and to the extent:
 
 (i) that it has not given an instruction pursuant to paragraph (d) above; and
 
@@ -66,11 +75,17 @@ UK - 205885966.10 173
 
 (iv) fourthly, in or towards payment pro rata of any other sum due but unpaid under the Senior Finance Documents.
 
-(b) The Facility Agent shall, if so directed by the Majority Lenders and, if that direction affects any payment to the Revolving Facility Lenders, the Majority Revolving Facility Lenders, vary the order set out in paragraphs (a)(ii) to (iv) above.
+# (b)
 
-(c) Paragraphs (a) and (b) above will override any appropriation made by an Obligor.
+The Facility Agent shall, if so directed by the Majority Lenders and, if that direction affects any payment to the Revolving Facility Lenders, the Majority Revolving Facility Lenders, vary the order set out in paragraphs (a)(ii) to (iv) above.
 
-(d) Notwithstanding this clause 34.6, upon the occurrence of any event listed in clause 11.1 (Exit), any proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
+# (c)
+
+Paragraphs (a) and (b) above will override any appropriation made by an Obligor.
+
+# (d)
+
+Notwithstanding this clause 34.6, upon the occurrence of any event listed in clause 11.1 (Exit), any proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
 
 # 34.7 No Set-Off by Obligors
 
@@ -78,25 +93,41 @@ Save where specifically provided for in any Ancillary Facility, all payments to 
 
 # 34.8 Business Days
 
-(a) Any payment under the Senior Finance Documents which is due to be made on a day that is not a Business Day shall be made on the next Business Day in the same calendar month (if there is one) or the preceding Business Day (if there is not).
+# (a)
 
-(b) During any extension of the due date for payment of any principal or Unpaid Sum under this agreement interest is payable on the principal or Unpaid Sum at the rate payable on the original due date.
+Any payment under the Senior Finance Documents which is due to be made on a day that is not a Business Day shall be made on the next Business Day in the same calendar month (if there is one) or the preceding Business Day (if there is not).
+
+# (b)
+
+During any extension of the due date for payment of any principal or Unpaid Sum under this agreement interest is payable on the principal or Unpaid Sum at the rate payable on the original due date.
 
 # 34.9 Currency of Account
 
-(a) Subject to paragraphs (b) to (e) (inclusive) below, the Base Currency is the currency of account and payment for any sum due from an Obligor under any Senior Finance Document.
+# (a)
 
-(b) A repayment or prepayment of a Utilisation or Unpaid Sum or a part of a Utilisation or Unpaid Sum shall be made in the currency in which that Utilisation or Unpaid Sum is denominated, pursuant to this agreement, on its due date.
+Subject to paragraphs (b) to (e) (inclusive) below, the Base Currency is the currency of account and payment for any sum due from an Obligor under any Senior Finance Document.
 
-(c) Each payment of interest shall be made in the currency in which the sum in respect of which the interest is payable was denominated, pursuant to this agreement, when that interest accrued.
+# (b)
 
-(d) Each payment in respect of costs, expenses or Taxes shall be made in the currency in which the costs, expenses or Taxes are incurred.
+A repayment or prepayment of a Utilisation or Unpaid Sum or a part of a Utilisation or Unpaid Sum shall be made in the currency in which that Utilisation or Unpaid Sum is denominated, pursuant to this agreement, on its due date.
 
-(e) Any amount expressed to be payable in a currency other than the Base Currency shall be paid in that other currency.
+# (c)
+
+Each payment of interest shall be made in the currency in which the sum in respect of which the interest is payable was denominated, pursuant to this agreement, when that interest accrued.
+
+# (d)
+
+Each payment in respect of costs, expenses or Taxes shall be made in the currency in which the costs, expenses or Taxes are incurred.
+
+# (e)
+
+Any amount expressed to be payable in a currency other than the Base Currency shall be paid in that other currency.
 
 # 34.10 Change of Currency
 
-(a) Unless otherwise prohibited by law, if more than one currency or currency unit are at the same time recognised by the central bank of any country as the lawful currency of that country, then:
+# (a)
+
+Unless otherwise prohibited by law, if more than one currency or currency unit are at the same time recognised by the central bank of any country as the lawful currency of that country, then:
 
 UK - 205885966.10 174
 

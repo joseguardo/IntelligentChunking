@@ -6,16 +6,19 @@
 
 "Flotation" means:
 
-- (i) a successful application being made for the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to the Official List maintained by the FCA and the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to trading on the London Stock Exchange plc; or
-- (ii) the grant of permission to deal in any part of the issued share capital of any Group Company (or Holding Company of any Group Company) on the Alternative Investment Market or the Main Board or the Growth Market of the ICAP Securities & Derivatives Exchange (ISDX) or on any recognised investment exchange (as that term is used in the Financial Services and Markets Act 2000) or in or on any exchange or market replacing the same or any other exchange or market in any country.
+(i) a successful application being made for the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to the Official List maintained by the FCA and the admission of any part of the share capital of any Group Company (or Holding Company of any Group Company) to trading on the London Stock Exchange plc; or
+
+(ii) the grant of permission to deal in any part of the issued share capital of any Group Company (or Holding Company of any Group Company) on the Alternative Investment Market or the Main Board or the Growth Market of the ICAP Securities & Derivatives Exchange (ISDX) or on any recognised investment exchange (as that term is used in the Financial Services and Markets Act 2000) or in or on any exchange or market replacing the same or any other exchange or market in any country.
 
 "FCA" means the United Kingdom Financial Conduct Authority acting in accordance with Part 6 of the Financial Services and Markets Act 2000.
 
 (b) Upon the occurrence of:
 
-- (i) any Flotation; or
-- (ii) a Change of Control; or
-- (iii) the sale of all or substantially all of the assets of the Group whether in a single transaction or a series of related transactions,
+(i) any Flotation; or
+
+(ii) a Change of Control; or
+
+(iii) the sale of all or substantially all of the assets of the Group whether in a single transaction or a series of related transactions,
 
 the Facilities will be cancelled and all outstanding Utilisations and Ancillary Outstandings, together with accrued interest, and all other amounts accrued under the Senior Finance Documents, shall become immediately due and payable.
 
@@ -120,10 +123,6 @@ to pay amounts due and payable under clause 11.3 (Application of Mandatory Prepa
 
 - (i) interest shall accrue at normal commercial rates on amounts credited to those accounts and that the account holder shall be entitled to receive such
 
-interest (which shall be paid in accordance with the mandate relating to such account) unless a Declared Default is continuing; and
-
-(ii) each such account is subject to the Transaction Security.
-
 # 11.5 Excluded Proceeds
 
 Where Excluded Disposal Proceeds, Excluded Acquisition Proceeds and Excluded Insurance Proceeds include amounts which are intended to be used for a specific purpose within a specified period (as set out in the relevant definitions of "Excluded Disposal Proceeds", "Excluded Acquisition Proceeds" or "Excluded Insurance Proceeds"), the Parent shall ensure that those amounts are used for that purpose and, if requested to do so by the Facility Agent, shall as soon as reasonably practicable after a request deliver a certificate to the Facility Agent confirming the amount (if any) which has been so applied within the requisite time periods provided for in the relevant definition.
@@ -132,18 +131,15 @@ Where Excluded Disposal Proceeds, Excluded Acquisition Proceeds and Excluded Ins
 
 (a) At any time that a Revolving Facility Standstill Period is continuing, the Parent shall ensure that any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time):
 
-(i) pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow); or
-
-(ii) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to,
+- (i) pursuant to clause 11.2 (Disposal, Insurance and Acquisition Proceeds and Excess Cashflow); or
+- (ii) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to,
 
 are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellations) above until such time as the Revolving Facility Standstill Period has ended. If, following the end of the Revolving Facility Standstill Period, the Majority Revolving Facility Lenders are:
 
-(i) not entitled to accelerate under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellation); or
-
-(ii) entitled to enforce under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
+- (i) not entitled to accelerate under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 11.3 (Application of Mandatory Prepayments and Cancellation); or
+- (ii) entitled to enforce under the Senior Finance Documents in accordance with clause 27.20 (Revolving Facility Acceleration) and take enforcement action in accordance with clause 3.9 (Permitted Enforcement: Revolving Facility Lenders) of the Intercreditor Agreement, then the proceeds received shall be applied in accordance with clause 17 (Application of Proceeds) of the Intercreditor Agreement.
 
 (b) The Parent shall ensure that:
 
-(i) if a Significant Disposal occurs it shall promptly notify the Facility Agent and/or Majority Revolving Facility Lenders; and
-
-(ii) any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to, are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in
+- (i) if a Significant Disposal occurs it shall promptly notify the Facility Agent and/or Majority Revolving Facility Lenders; and
+- (ii) any proceeds received (not to exceed an amount equal to the Revolving Facility Commitments at that time) from the proceeds of a Significant Disposal which the Majority Revolving Facility Lenders have not consented to, are paid into a Mandatory Prepayment Account as soon as reasonably practicable after receipt by a Group Company and are not to be applied in

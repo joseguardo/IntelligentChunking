@@ -4,13 +4,19 @@
 
 If it becomes unlawful in any applicable jurisdiction for a Lender to perform any of its obligations as contemplated by this agreement or to fund, issue or maintain its participation in any Utilisation or it becomes unlawful for any Affiliate of a Lender for that Lender to do so:
 
-(a) that Lender shall promptly notify the Facility Agent upon becoming aware of that event;
+1. that Lender shall promptly notify the Facility Agent upon becoming aware of that event;
+2. upon the Facility Agent notifying the Parent, each Available Commitment of that Lender will be immediately cancelled; and
+3. to the extent that the Lender's participation has not been transferred pursuant to clause 40.8 (Replacement of Lender), each Borrower shall repay that Lender's participation in the Utilisations made to that Borrower on the last day of the
 
-(b) upon the Facility Agent notifying the Parent, each Available Commitment of that Lender will be immediately cancelled; and
+(bb) each Lender will be required to make a payment under clause 34.1 (Payments to the Facility Agent) in respect of its participation in the new Revolving Facility Loans only to the extent that its participation in the new Revolving Facility Loans exceeds that Lender's participation in the maturing Revolving Facility Loan and the remainder of that Lender's participation in the new Revolving Facility Loans shall be treated as having been made available and applied by the Borrower in or towards repayment of that Lender's participation in the maturing Revolving Facility Loan.
 
-(c) to the extent that the Lender's participation has not been transferred pursuant to clause 40.8 (Replacement of Lender), each Borrower shall repay that Lender's participation in the Utilisations made to that Borrower on the last day of the
+(c) At any time when a Lender becomes a Defaulting Lender, the maturity date of each of the participations of that Lender in the Revolving Facility Loans then outstanding will be automatically extended to the last day of the Availability Period applicable to the Revolving Facility and will be treated as separate Revolving Facility Loans (the "Separate Loans") denominated in the currency in which the relevant participations are outstanding.
 
-Interest Period for each Utilisation occurring after the Facility Agent has notified the Parent or, if earlier, the date specified by the Lender in the notice delivered to the Facility Agent (being no earlier than the last day of any applicable grace period permitted by law) and that Lender's corresponding Commitment(s) shall be cancelled in the amount of the participations repaid.
+(d) If the Borrower makes a prepayment of a Revolving Facility Utilisation pursuant to clause 10.4 (Voluntary Prepayment of Revolving Facility Utilisations), a Borrower to whom a Separate Loan is outstanding may prepay that Loan by giving not less than 5 Business Days' prior notice to the Facility Agent. The proportion borne by the amount of the prepayment of the Separate Loan to the amount of the Separate Loans shall not exceed the proportion borne by the amount of the prepayment of the Revolving Facility Utilisation to the Revolving Facility Utilisations. The Facility Agent will forward a copy of a prepayment notice received in accordance with this paragraph (d) to the Defaulting Lender concerned as soon as practicable on receipt.
+
+(e) Interest in respect of a Separate Loan will accrue for successive Interest Periods selected by the Borrower by the time and date specified by the Facility Agent (acting reasonably) and will be payable by that Borrower to the Facility Agent (for the account of that Defaulting Lender) on the last day of each Interest Period of that Loan.
+
+(f) The terms of this agreement relating to Revolving Facility Loans generally shall continue to apply to Separate Loans other than to the extent inconsistent with paragraphs (c) to (e) (inclusive) above, in which case those paragraphs shall prevail in respect of any Separate Loan.
 
 # 10.2 Voluntary Cancellation
 
@@ -32,14 +38,13 @@ A Borrower to which a Revolving Facility Utilisation has been made may, if it or
 
 (a) If:
 
-- (i) any sum payable to any Lender by an Obligor is required to be increased under clause 17.2(c) (Tax Gross-up); or
-- (ii) any Lender claims indemnification from the Parent or an Obligor under clause 17.3 (Tax Indemnity) or clause 18.1 (Increased Costs),
+(i) any sum payable to any Lender by an Obligor is required to be increased under clause 17.2(c) (Tax Gross-up); or
 
-the Parent may, whilst the circumstance giving rise to the requirement for that increase or indemnification continues, give the Facility Agent notice (if such circumstances relate to a Lender) of cancellation of the Commitment of that Lender and its intention to procure the repayment of that Lender's participation in the Utilisations; or may, if such circumstances relate to a Lender, instead exercise its rights under clause 40.8 (Replacement of Lender).
+(ii) any Lender claims indemnification from the Parent or an Obligor under clause 17.3 (Tax Indemnity) or clause 18.1 (Increased Costs),
 
-(b) On receipt of a notice referred to in paragraph (a) above in relation to a Lender, the Commitment(s) of that Lender shall immediately be reduced to zero.
+the Parent may, whilst the circumstance giving rise to the requirement for that increase or indemnification continues, give the Facility Agent notice (if such circumstances relate to a Lender) of cancellation of the Commitment of that Lender and its intention to procure the repayment of that Lender's participation in the Utilisations;
 
-(c) On the last day of each Interest Period which ends after the Parent has given notice under paragraph (a) above in relation to a Lender (or, if earlier, the date specified by the Parent in that notice), each Borrower to which a Utilisation is outstanding shall repay that Lender's participation in that Utilisation together with all interest and other amounts accrued under the Senior Finance Documents.
+or may, if such circumstances relate to a Lender, instead exercise its rights under clause 40.8 (Replacement of Lender).
 
 # 10.6 Right of Cancellation in Relation to a Defaulting Lender
 

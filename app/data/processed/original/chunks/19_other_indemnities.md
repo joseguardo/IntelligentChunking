@@ -25,6 +25,12 @@ that Obligor shall as an independent obligation, within three Business Days of d
 
 (b) The Parent shall within 3 Business Days of demand indemnify each Senior Finance Party, each Affiliate of a Senior Finance Party and each officer or employee of a Senior Finance Party or its Affiliate, against any cost, loss or liability incurred by that Senior Finance Party or its Affiliate (or officer or employee of that Senior Finance Party or Affiliate) in connection with or arising out of the Acquisition or the
 
+# 19. Indemnities
+
+# 19.2 Indemnity to the Senior Finance Party
+
+The Parent shall indemnify each Senior Finance Party and its Affiliates against any cost, loss or liability incurred by any of them in connection with the funding of the Acquisition (including but not limited to those incurred in connection with any litigation, arbitration or administrative proceedings or regulatory enquiry concerning the Acquisition), unless such loss or liability is caused by the gross negligence or wilful misconduct of that Senior Finance Party or its Affiliate (or employee or officer of that Senior Finance Party or Affiliate). Any Affiliate or any officer or employee of a Senior Finance Party or its Affiliate may rely on this clause 19.2 subject to clause 1.4 (Third Party Rights) and the provisions of the Third Parties Act.
+
 # 19.3 Indemnity to the Facility Agent
 
 The Parent shall within 3 Business Days of demand, indemnify the Facility Agent against:
@@ -38,7 +44,14 @@ The Parent shall within 3 Business Days of demand, indemnify the Facility Agent 
 
 # 19.4 Indemnity to the Security Agent
 
-- (a) Each Obligor jointly and severally shall within 3 Business Days of demand indemnify the Security Agent and every Receiver and Delegate against any cost, loss or liability incurred by any of them as a result of:
+(a) Each Obligor jointly and severally shall within 3 Business Days of demand indemnify the Security Agent and every Receiver and Delegate against any cost, loss or liability incurred by any of them as a result of:
+
+- (i) any failure by the Parent to comply with its obligations under clause 21 (Costs and Expenses);
+- (ii) acting or relying on any notice, request or instruction which it reasonably believes to be genuine, correct and appropriately authorised;
+- (iii) the taking, holding, protection or enforcement of the Transaction Security;
+- (iv) the exercise of any of the rights, powers, discretions, authorities and remedies vested in the Security Agent and each Receiver and Delegate by the Senior Finance Documents or by law;
+- (v) any default by any Obligor in the performance of any of the obligations expressed to be assumed by it in the Senior Finance Documents; or
+- (vi) acting as Security Agent, Receiver or Delegate under the Senior Finance Documents or which otherwise relates to any of the Charged Property (otherwise, in each case, than by reason of the relevant Security Agent's, Receiver's or Delegate's gross negligence or wilful misconduct).
 
 (b) Each Obligor expressly acknowledges and agrees that the continuation of its indemnity obligations under this clause 19.4 will not be prejudiced by any release or disposal under clause 13 (Distressed Disposals and Appropriation) of the Intercreditor Agreement taking into account the operation of that clause.
 

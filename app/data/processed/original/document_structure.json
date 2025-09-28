@@ -181,12 +181,8 @@
       "sub_sections": null
     },
     {
-      "title": "SCHEDULE 1",
+      "title": "SCHEDULE 1 The Original Parties",
       "sub_sections": [
-        {
-          "title": "The Original Parties",
-          "sub_sections": null
-        },
         {
           "title": "Part 1 – The Original Obligors",
           "sub_sections": null
@@ -202,12 +198,8 @@
       ]
     },
     {
-      "title": "SCHEDULE 2",
+      "title": "SCHEDULE 2 Conditions Precedent",
       "sub_sections": [
-        {
-          "title": "Conditions Precedent",
-          "sub_sections": null
-        },
         {
           "title": "Part 1 – Conditions Precedent to Utilisation of the Agreement",
           "sub_sections": null
@@ -219,12 +211,8 @@
       ]
     },
     {
-      "title": "SCHEDULE 3",
+      "title": "SCHEDULE 3 Requests and Notices",
       "sub_sections": [
-        {
-          "title": "Requests and Notices",
-          "sub_sections": null
-        },
         {
           "title": "Part 1 – Utilisation Request Loans",
           "sub_sections": null
@@ -236,65 +224,38 @@
       ]
     },
     {
-      "title": "SCHEDULE 4",
+      "title": "SCHEDULE 4 Form of Transfer Certificate",
       "sub_sections": [
         {
-          "title": "Form of Transfer Certificate",
-          "sub_sections": null
-        },
-        {
-          "title": "THE SCHEDULE - Commitment/Rights and Obligations to be Transferred",
+          "title": "THE SCHEDULE Commitment/Rights and Obligations to be Transferred",
           "sub_sections": null
         }
       ]
     },
     {
-      "title": "SCHEDULE 5",
+      "title": "SCHEDULE 5 Form of Assignment Agreement",
       "sub_sections": [
         {
-          "title": "Form of Assignment Agreement",
-          "sub_sections": null
-        },
-        {
-          "title": "THE SCHEDULE - Commitment/rights and obligations to be transferred by assignment, release and assumption",
+          "title": "THE SCHEDULE Commitment/rights and obligations to be transferred by assignment, release and assumption",
           "sub_sections": null
         }
       ]
     },
     {
-      "title": "SCHEDULE 6",
-      "sub_sections": [
-        {
-          "title": "Form of Accession Deed",
-          "sub_sections": null
-        }
-      ]
+      "title": "SCHEDULE 6 Form of Accession Deed",
+      "sub_sections": null
     },
     {
-      "title": "SCHEDULE 7",
-      "sub_sections": [
-        {
-          "title": "Form of Resignation Letter",
-          "sub_sections": null
-        }
-      ]
+      "title": "SCHEDULE 7 Form of Resignation Letter",
+      "sub_sections": null
     },
     {
-      "title": "SCHEDULE 8",
-      "sub_sections": [
-        {
-          "title": "Form of Compliance Certificate",
-          "sub_sections": null
-        }
-      ]
+      "title": "SCHEDULE 8 Form of Compliance Certificate",
+      "sub_sections": null
     },
     {
-      "title": "SCHEDULE 9",
+      "title": "SCHEDULE 9 Timetables",
       "sub_sections": [
-        {
-          "title": "Timetables",
-          "sub_sections": null
-        },
         {
           "title": "Part 1 – Loans",
           "sub_sections": null
@@ -302,56 +263,29 @@
       ]
     },
     {
-      "title": "SCHEDULE 10",
+      "title": "SCHEDULE 10 Agreed Security Principles",
+      "sub_sections": null
+    },
+    {
+      "title": "SCHEDULE 11 Forms of Notifiable Debt Purchase Transaction Notice",
       "sub_sections": [
         {
-          "title": "Agreed Security Principles",
+          "title": "Part – 1 Form of Notice on Entering into Notifiable Debt Purchase Transaction",
+          "sub_sections": null
+        },
+        {
+          "title": "Part – 2 Form of Notice on Termination of Notifiable Debt Purchase Transaction/Notifiable Debt Purchase Transaction ceasing to be with Sponsor Affiliate",
           "sub_sections": null
         }
       ]
     },
     {
-      "title": "SCHEDULE 11",
-      "sub_sections": [
-        {
-          "title": "Forms of Notifiable Debt Purchase Transaction Notice",
-          "sub_sections": null
-        },
-        {
-          "title": "Part – 1",
-          "sub_sections": null
-        },
-        {
-          "title": "Form of Notice on Entering into Notifiable Debt Purchase Transaction",
-          "sub_sections": null
-        },
-        {
-          "title": "Part – 2",
-          "sub_sections": null
-        },
-        {
-          "title": "Form of Notice on Termination of Notifiable Debt Purchase Transaction/Notifiable Debt Purchase Transaction ceasing to be with Sponsor Affiliate",
-          "sub_sections": null
-        }
-      ]
+      "title": "SCHEDULE 12 Form of Increase Confirmation",
+      "sub_sections": null
     },
     {
-      "title": "SCHEDULE 12",
-      "sub_sections": [
-        {
-          "title": "Form of Increase Confirmation",
-          "sub_sections": null
-        }
-      ]
-    },
-    {
-      "title": "SCHEDULE 13",
-      "sub_sections": [
-        {
-          "title": "CAR Facility Establishment Notice",
-          "sub_sections": null
-        }
-      ]
+      "title": "SCHEDULE 13 CAR Facility Establishment Notice",
+      "sub_sections": null
     }
   ]
 }

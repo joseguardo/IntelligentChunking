@@ -47,8 +47,6 @@ An Ancillary Facility may be by way of:
 - (iv) may not allow a Lender's Ancillary Commitment to exceed that Lender's Available Commitment relating to the Revolving Facility (before taking into account the effect of the Ancillary Facility on that Available Commitment); and
 - (v) must require that the Ancillary Commitment is reduced to zero, and that all Ancillary Outstandings are repaid not later than the Termination Date applicable to the Revolving Facility (or such earlier date as the Revolving.
 
-# 8. Ancillary Facilities
-
 # 8.4 Repayment of Ancillary Facility
 
 (a) An Ancillary Facility shall cease to be available on the Termination Date applicable to the Revolving Facility or such earlier date on which its expiry date occurs or on which it is cancelled in accordance with the terms of this agreement.

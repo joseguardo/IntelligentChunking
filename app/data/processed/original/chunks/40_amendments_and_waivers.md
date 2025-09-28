@@ -33,13 +33,13 @@ An amendment, waiver or consent in relation to any term of any Senior Finance Do
 - (i) the definition of "CAR Facility Maximum Margin", Clauses 3.4(d) and/or Clauses 3.5 (CAR Facility) and 3.20 (Lender's right in relation to a CAR Facility);
 - (j) clause 2.3 (Senior Finance Parties' Rights and Obligations), clause 11.3 (Application of Mandatory Prepayments and Cancellations), clause 12.10 (Application of Prepayments), clause 26.36 (Guarantors), clause 28 (Changes to the Lenders),
 
-clause 34.6 (Partial Payments), this clause 40 (Amendments and Waivers), clause 44 (Governing Law) or clause 45.1 (Jurisdiction of English Courts)
+# 40. Amendments and Waivers
 
 (k) (other than as expressly permitted by the provision of any Senior Finance Document) which relates to the nature or scope of:
 
-- (i) the guarantee and indemnity granted under clause 22 (Guarantee and Indemnity);
-- (ii) the Charged Property; or
-- (iii) the manner in which the proceeds of enforcement of the Transaction Security are distributed,
+1. the guarantee and indemnity granted under clause 22 (Guarantee and Indemnity);
+2. the Charged Property; or
+3. the manner in which the proceeds of enforcement of the Transaction Security are distributed,
 
 (except in the case of paragraphs (ii) and (iii) above, insofar as it relates to a sale or disposal of an asset which is the subject of the Transaction Security where such sale or disposal is expressly permitted under this agreement or any other Senior Finance Document);
 
@@ -51,12 +51,44 @@ clause 34.6 (Partial Payments), this clause 40 (Amendments and Waivers), clause 
 
 An amendment, waiver or consent in relation to any term of any Senior Finance Document that has the effect of changing or which relates to:
 
-- (a) a Material Event of Default, the definition of "Material Event of Default" or the definitions used therein;
-- (b) the provisions of clause 24.1 (Financial statements) or clause 24.2 (Provision and Contents of Compliance Certificate) which has the effect of delaying the delivery of the financial statements or Compliance Certificate (as the case may be) referred to therein by more than 30 days (beyond the time limits contemplated by those provisions in their original form);
-- (c) the definitions of "Permitted Security" or the provisions of clause 26.15 (Negative Pledge) to the extent that the effect of such amendment or waiver is to permit the incurrence of Security that ranks pari passu or in priority to the Revolving Facility and would be materially adverse to the interests of the Lenders under the Revolving Facility Lenders;
-- (d) clause 27.6 (Insolvency), clause 27.7 (Insolvency Proceedings) or clause 27.8 (Creditors' Process) to the extent such change would be materially adverse to the interest of the Lenders under the Revolving Facility;
-- (e) the definitions of "Change of Control", "Significant Asset" or "Significant Company";
-- (f) clause 4.1(b) (Purpose);
+1. a Material Event of Default, the definition of "Material Event of Default" or the definitions used therein;
+2. the provisions of clause 24.1 (Financial statements) or clause 24.2 (Provision and Contents of Compliance Certificate) which has the effect of delaying the delivery of the financial statements or Compliance Certificate (as the case may be) referred to therein by more than 30 days (beyond the time limits contemplated by those provisions in their original form);
+3. the definitions of "Permitted Security" or the provisions of clause 26.15 (Negative Pledge) to the extent that the effect of such amendment or waiver is to permit the incurrence of Security that ranks pari passu or in priority to the Revolving Facility and would be materially adverse to the interests of the Lenders under the Revolving Facility Lenders;
+4. clause 27.6 (Insolvency), clause 27.7 (Insolvency Proceedings) or clause 27.8 (Creditors' Process) to the extent such change would be materially adverse to the interest of the Lenders under the Revolving Facility;
+5. the definitions of "Change of Control", "Significant Asset" or "Significant Company";
+6. clause 4.1(b) (Purpose);
+
+# 5.2 Further Conditions Precedent
+
+including, for the purposes of clause 5.2 (Further Conditions Precedent) only, any Default that would constitute a drawstop under that clause;
+
+# 6 Utilisation - Loans
+
+# 6.7 Clean Down
+
+# 9.3(c) Voluntary Prepayment of Term Loans
+
+# 11 Mandatory Prepayment and Cancellation
+
+# 27.16 Repudiation and Rescission of Agreements
+
+# 25.2(d) Super Senior EBITDA
+
+the definition of "Adjusted EBITDA" or "Total Net Debt" or, solely for the purposes of determining those ratios, the definitions used or clauses referred to in that paragraph or that definition;
+
+# 26.16 Disposals
+
+to the extent that such amendment or waiver is to permit Significant Disposals which are not permitted by the definition of Permitted Disposal as at the date of this agreement;
+
+# 27.20 Revolving Facility Acceleration
+
+# 40.4 Majority Revolving Facility Lender matters
+
+# 40.6 Other Exceptions
+
+shall require the consent of the Majority Lenders and the Majority Revolving Lenders.
+
+Any waiver of a Material Event of Default shall not require any consent of the Majority Lenders, provided that, where the event or circumstance that caused such Material Event of Default has also resulted in a Default, such Default may only be waived by the Majority Lenders, but for the avoidance of doubt any waiver of such Default by the Majority Lenders will not constitute a waiver of the corresponding Material Event of Default.
 
 # 40.5 Approved List
 
@@ -94,9 +126,8 @@ If:
 
 (unless, in either case, the Parent and the Facility Agent agree to a longer time period in relation to any request):
 
-(i) its Commitment(s) shall not be included for the purpose of calculating the Total Commitments under the relevant Facility/ies when ascertaining whether any relevant percentage (including, for the avoidance of doubt, unanimity) of Total Commitments has been obtained to approve that request; and
-
-(ii) its status as a Lender shall be disregarded for the purpose of ascertaining whether the agreement of any specified group of Lenders has been obtained to approve that request.
+- (i) its Commitment(s) shall not be included for the purpose of calculating the Total Commitments under the relevant Facility/ies when ascertaining whether any relevant percentage (including, for the avoidance of doubt, unanimity) of Total Commitments has been obtained to approve that request; and
+- (ii) its status as a Lender shall be disregarded for the purpose of ascertaining whether the agreement of any specified group of Lenders has been obtained to approve that request.
 
 # 40.8 Replacement of Lender
 
@@ -118,8 +149,6 @@ then the Parent may, on not less than 10 Business Days' prior written notice to 
 (c) A Lender shall perform the checks described in paragraph (b)(v) above as soon as reasonably practicable following delivery of a notice referred to in paragraph (a) above and shall notify the Facility Agent and the Parent when it is satisfied that it has complied with those checks.
 
 (d) Subject to paragraph (e) below, if at any time any Lender becomes a Non-Consenting Lender, the Parent may, on not less than 10 Business Days' prior written notice to the Facility Agent and that Lender, prepay that Lender's participation in all (and not part only) of the Utilisations and cancel all (and not part only) of that Lender's Commitments.
-
-UK - 205885966.10 184
 
 (e) Prepayments made under this clause:
 
@@ -168,8 +197,6 @@ has been obtained to approve any request for a consent, waiver, amendment or oth
 - (i) the Parent shall have no right to replace the Facility Agent or Security Agent;
 - (ii) neither the Facility Agent nor the Defaulting Lender shall have any obligation to the Parent to find a Replacement Lender;
 - (iii) the transfer must take place no later than 90 days after the notice referred to in paragraph (a) above;
-
-UK - 205885966.10 186
 
 (iv) in no event shall the Defaulting Lender be required to pay or surrender to the Replacement Lender any of the fees received by the Defaulting Lender pursuant to the Senior Finance Documents; and
 

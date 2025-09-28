@@ -255,7 +255,7 @@ where failure to do so in the case of paragraphs (a), (b) and (c) above, or in t
 (a) No Obligor shall (and the Parent shall ensure that no other Group Company will) amend, vary, novate, supplement, supersede, waive or terminate any term of a Transaction Document or any other document delivered to the Facility Agent pursuant to clause 5.1 (Initial Conditions Precedent) or clause 30 (Changes to the Obligors) (other than a Service Contract) or enter into any agreement with any shareholders of the Parent (other than as set out in the Equity Documents) or any of their Affiliates which is not a Group Company except in writing and:
 
 - (i) in accordance with clause 40 (Amendments and Waivers); or
-- (ii) to the extent that that amendment, variation, novation, supplementing, waiver or termination is permitted by the Intercreditor Agreement;
+- (ii) to the extent that that amendment, variation, novation, supplementing, superseding, waiver or termination is permitted by the Intercreditor Agreement;
 - (iii) prior to or on the Closing Date, with the prior written consent of the Original Lenders; or
 - (iv) after the Closing Date, in a way which:
 - (A) could not be reasonably expected materially and adversely to affect the interests of the Lenders; and
@@ -301,8 +301,6 @@ No Obligor shall (and the Parent will procure that no other Group Company will) 
 - (b) any Hedging Agreement for the purposes of hedging interest rate liabilities under the CAR Facility (including, without limitation, any hedging entered into pursuant to the Hedging Letter) and any arrangement replacing or extending such Hedging Agreement on terms permitted by the Senior Finance Documents, up to the Termination Date of the CAR Facility and, in each case, entered into with a counterparty which, at the time of entering into such Hedging Agreement, is a Lender;
 - (c) spot and forward delivery foreign exchange contracts entered into in the ordinary course of business and not for speculative purposes;
 
-UK - 205885966.10 137
-
 (d) any Treasury Transaction entered into for the hedging of actual or projected real exposures arising in the ordinary course of trading activities of a Group Company and not for speculative purposes; and
 
 (e) with a Senior Finance Party.
@@ -321,9 +319,8 @@ The Parent shall ensure that all exchange rate and interest rate hedging arrange
 
 (a) Subject to the Agreed Security Principles each Obligor shall (and the Parent shall procure that each other Group Company will) at its own expense promptly do all such acts or execute all such documents (including assignments, transfers, mortgages, charges, notices and instructions) as the Security Agent may reasonably specify (and in such form as the Security Agent may reasonably require in favour of the Security Agent or its nominee(s)):
 
-(i) to perfect the Security created or intended to be created under or evidenced by the Transaction Security Documents (which may include the execution of a mortgage, charge, assignment or other Security over all or any of the assets which are, or are intended to be, the subject of the Transaction Security) or for the exercise of any rights, powers and remedies of the Security Agent or the Senior Finance Parties provided by or pursuant to the Senior Finance Documents or by law;
-
-(ii) to confer on the Security Agent or confer on the Senior Finance Parties Security over any property and assets of that Obligor located in any jurisdiction equivalent or similar to the Security intended to be conferred by or pursuant to the Transaction Security Documents; and/or
+- (i) to perfect the Security created or intended to be created under or evidenced by the Transaction Security Documents (which may include the execution of a mortgage, charge, assignment or other Security over all or any of the assets which are, or are intended to be, the subject of the Transaction Security) or for the exercise of any rights, powers and remedies of the Security Agent or the Senior Finance Parties provided by or pursuant to the Senior Finance Documents or by law;
+- (ii) to confer on the Security Agent or confer on the Senior Finance Parties Security over any property and assets of that Obligor located in any jurisdiction equivalent or similar to the Security intended to be conferred by or pursuant to the Transaction Security Documents; and/or
 
 (iii) to facilitate the realisation of the assets which are, or are intended to be, the subject of the Transaction Security.
 
@@ -347,8 +344,7 @@ Neither the Parent, the Company nor any of their Subsidiaries shall (and the Par
 
 (a) Directly or indirectly (as far as it is aware) use the proceeds from any Loan, or lend, contribute or otherwise make available such proceeds to any Subsidiary, joint venture partner or other person that is the subject of any Sanctions:
 
-(i) to fund any activities or business of or with any person that at the time of such funding is the subject of Sanctions, or fund any activities or business in any country or territory subject to Sanctions or any person located in such a country or territory; or
-
-(ii) in any other manner that would, to its knowledge having made such inquiries as is reasonable in the circumstances, result in a violation of Sanctions by the Group.
+- (i) to fund any activities or business of or with any person that at the time of such funding is the subject of Sanctions, or fund any activities or business in any country or territory subject to Sanctions or any person located in such a country or territory; or
+- (ii) in any other manner that would, to its knowledge having made such inquiries as is reasonable in the circumstances, result in a violation of Sanctions by the Group.
 
 (b) Each Borrower shall promptly notify the Facility Agent of any breach of the undertakings set out in paragraph (a) above (and the steps, if any, being taken to remedy it) upon becoming aware of its occurrence.

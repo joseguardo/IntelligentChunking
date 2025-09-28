@@ -699,6 +699,8 @@ class DocumentIndexingPipeline:
             current_title: Optional[str] = None
             current_parent: Optional[str] = None
             chunks: List[Path] = []
+            intro_buffer: List[str] = []  # Buffer for intro content
+            found_first_section = False  # Track if we've found our first indexed section
 
             def flush_buffer(title: Optional[str], parent: Optional[str], buffer: List[str]):
                 if not buffer or not title:
@@ -725,6 +727,19 @@ class DocumentIndexingPipeline:
                 if header_match:
                     title = header_match.group(1).strip()
                     if title in title_map:
+                        # If this is our first indexed section and we have intro content, save it
+                        if not found_first_section and intro_buffer:
+                            intro_content = normalize_chunk_markdown("".join(intro_buffer))
+                            intro_filename = "0_Intro.md"
+                            intro_filepath = output_path / intro_filename
+                            with open(intro_filepath, "w", encoding="utf-8") as out:
+                                out.write(intro_content)
+                            chunks.append(intro_filepath)
+                            print(f"Saved intro chunk: {intro_filepath}")
+                            intro_buffer = []  # Clear intro buffer
+                    
+                        found_first_section = True
+                        
                         # Flush previous buffer
                         flush_buffer(current_title, current_parent, current_buffer)
                         
@@ -733,9 +748,26 @@ class DocumentIndexingPipeline:
                         current_parent = title_map[title]["parent"]
                         current_buffer = [line]
                     else:
-                        current_buffer.append(line)
+                        if not found_first_section:
+                            intro_buffer.append(line)  # Add to intro if we haven't found first section yet
+                        else:
+                            current_buffer.append(line)  # Add to current section otherwise
                 else:
-                    current_buffer.append(line)
+                    if not found_first_section:
+                        intro_buffer.append(line)  # Add to intro if we haven't found first section yet
+                    else:
+                        current_buffer.append(line)  # Add to current section otherwise
+
+            # Handle remaining content
+            # Save intro if we never found any indexed sections
+            if not found_first_section and intro_buffer:
+                intro_content = normalize_chunk_markdown("".join(intro_buffer))
+                intro_filename = "0_Intro.md"
+                intro_filepath = output_path / intro_filename
+                with open(intro_filepath, "w", encoding="utf-8") as out:
+                    out.write(intro_content)
+                chunks.append(intro_filepath)
+                print(f"Saved intro chunk: {intro_filepath}")
 
             # Don't forget the last buffer
             flush_buffer(current_title, current_parent, current_buffer)

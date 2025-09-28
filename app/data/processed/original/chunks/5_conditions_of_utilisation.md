@@ -12,9 +12,11 @@ Subject to clause 5.1 (Initial Conditions Precedent), the Lenders will only be o
 
 (a) in the case of a Rollover Loan, no Declared Default or Event of Default under clause 27.1 (Non-Payment) (but only where such non-payment relates to payment of interest and/or a principal amount in excess of £25,000), clause 27.6 (Insolvency) or clause 27.7 (Insolvency Proceedings) is continuing or would result from the
 
-# 5. Conditions Precedent
+# 5.2 Conditions Precedent to Utilisation
 
-proposed Loan and, in the case of any other Utilisation no Default is continuing or would result from the proposed Utilisation; and
+(a) The Parent must ensure that:
+
+(i) no Default is continuing or would result from the proposed Loan and, in the case of any other Utilisation no Default is continuing or would result from the proposed Utilisation; and
 
 (b) in relation to any Utilisation on the Closing Date, all the representations and warranties in clause 23 (Representations) or, in relation to any other Utilisation, the Repeating Representations, to be made by each Obligor are true in all material respects.
 
@@ -51,7 +53,3 @@ proposed Loan and, in the case of any other Utilisation no Default is continuing
 (iii) more than 10 Revolving Facility Loans would be outstanding.
 
 (b) Any Loan made by a single Lender under clause 7.2 (Unavailability of a Currency) shall not be taken into account in this clause 5.4.
-
-# 5.4
-
-(c) Any Separate Loan shall not be taken into account in this clause 5.4.

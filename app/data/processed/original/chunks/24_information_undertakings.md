@@ -23,6 +23,10 @@ The Parent shall supply to the Facility Agent in sufficient copies for all the L
 - (ii) notify the Facility Agent of its intention to procure the contribution of a New Shareholder Injection in accordance with the terms of clause 25.4 (Equity Cure);
 - (iii) if there have been any changes to those members of the Group which are Material Companies since the last Compliance Certificate (or in the case of the first Compliance Certificate, since the Closing Date) list all Material Companies (other than the Parent, the Company and the Target) and set out (in reasonable detail) computations which determine those companies' classification as Material Companies;
 
+(iv) any payments made from the Retention Fund (as that term is defined in the Acquisition Agreement).
+
+(c) Each Compliance Certificate shall be signed by the finance director of the Parent (unless the finance director is not available whereby it shall be signed by another executive director) and, if required to be delivered with the consolidated Annual Financial Statements of the Parent, shall be reported on by the Parent's Auditors in the form agreed by the Parent and the Majority Lenders.
+
 # 24.3 Requirements as to Financial Statements
 
 (a) The Parent shall procure that each set of Annual Financial Statements, Quarterly Financial Statements and Monthly Financial Statements includes a balance sheet, profit and loss account (or equivalent income statement) and cashflow statement. In addition the Parent shall procure that:
@@ -109,7 +113,7 @@ The Parent shall, at the request of the Facility Agent, supply to the Facility A
 
 # 24.6 Presentations
 
-Once in every Financial Year, or more frequently if requested to do so by the Facility Agent if the Facility Agent reasonably suspects an Event of Default is continuing or may have occurred or may occur, at least two directors of the Parent (one of whom shall be the finance director) must give a presentation to the Senior Finance Parties about the ongoing business and financial performance of the Group.
+Once in every Financial Year, or more frequently if requested to do so by the Facility Agent if the Facility Agent reasonably suspects an Event of Default is continuing or may have occurred or may occur, at least two directors of the Parent (one of whom shall be the finance director) must give a presentation to the Senior Finance Parties about the on-going business and financial performance of the Group.
 
 # 24.7 Year-end
 
@@ -150,9 +154,3 @@ disposal or insurance claim which will require a prepayment under clause 11.2 (D
 obliges the Facility Agent or any Lender (or, in the case of paragraph (iii) above, any prospective new Lender) to comply with "know your customer" or similar identification procedures in circumstances where the necessary information is not already available to it, each Obligor shall promptly upon the request of the Facility Agent or any Lender supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself or on behalf of any Lender) or any Lender (for itself or, in the case of the event described in paragraph (iii) above, on behalf of any prospective new Lender) in order for the Facility Agent, such Lender or, in the case of the event described in clause paragraph (iii) above, any prospective new Lender to carry out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the transactions contemplated in the Senior Finance Documents.
 
 (b) Each Lender shall promptly upon the request of the Facility Agent supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself) in order for the Facility Agent to carry
-
-out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the transactions contemplated in the Senior Finance Documents.
-
-(c) The Parent shall, by not less than ten Business Days' prior written notice to the Facility Agent, notify the Facility Agent (which shall promptly notify the Lenders) of its intention to request that one of its Subsidiaries becomes an Additional Obligor pursuant to clause 30 (Changes to the Obligors).
-
-(d) Following the giving of any notice pursuant to paragraph (c) above, if the accession of such Additional Obligor obliges the Facility Agent or any Lender to comply with "know your customer" or similar identification procedures in circumstances where the necessary information is not already available to it, the Parent shall promptly upon the request of the Facility Agent or any Lender supply, or procure the supply of, such documentation and other evidence as is reasonably requested by the Facility Agent (for itself or on behalf of any Lender) or any Lender (for itself or on behalf of any prospective new Lender) in order for the Facility Agent or such Lender or any prospective new Lender to carry out and be satisfied it has complied with all necessary "know your customer" or other similar checks under all applicable laws and regulations pursuant to the accession of such Subsidiary to this agreement as an Additional Obligor.
