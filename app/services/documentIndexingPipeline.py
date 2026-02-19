@@ -14,14 +14,15 @@ from textwrap import dedent
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
 
+from pydantic import BaseModel
+from dotenv import load_dotenv
+from openai import OpenAI
+
 try:
-    from dotenv import load_dotenv
-    from openai import OpenAI
-    from pydantic import BaseModel
     from PyPDF2 import PdfReader, PdfWriter
-    DEPENDENCIES_AVAILABLE = True
+    PYPDF2_AVAILABLE = True
 except ImportError:
-    DEPENDENCIES_AVAILABLE = False
+    PYPDF2_AVAILABLE = False
 
 # Import our utils
 from services.utils import (
@@ -108,10 +109,9 @@ class DocumentIndexingPipeline:
             openai_client: Pre-initialized OpenAI client (optional)
             auto_env: Whether to auto-load environment variables
         """
-        if not DEPENDENCIES_AVAILABLE:
+        if not PYPDF2_AVAILABLE:
             raise ImportError(
-                "Required dependencies not available. Install: "
-                "pip install openai python-dotenv PyPDF2 pydantic"
+                "PyPDF2 is required. Install: pip install PyPDF2"
             )
         
         self.model = model

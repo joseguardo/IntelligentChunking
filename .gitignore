@@ -4,3 +4,6 @@ app/__pycache__/
 app/services/__pycache__/
 app/services/excelParser/__pycache__/
 __pycache__/
+
+# Data folder
+data/

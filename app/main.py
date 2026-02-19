@@ -26,6 +26,9 @@ from pathlib import Path
 from typing import Dict, List, Optional
 import traceback
 
+# Base directory (where this file is located)
+BASE_DIR = Path(__file__).resolve().parent
+
 # Import all our modular components
 from services.utils import sanitize_stem, validate_document_id
 from services.llamaparseProcessor import LlamaParseProcessor
@@ -54,8 +57,8 @@ DATA_DIR = Path("data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 EMBEDDING_MODEL = "text-embedding-3-small"
 
-# Mount static files (remove html=True to allow CSS files)
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# Mount static files (using absolute path)
+app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 
 # Initialize global components
 document_explorer = DocumentExplorerAPI(DATA_DIR)
@@ -68,7 +71,7 @@ document_explorer = DocumentExplorerAPI(DATA_DIR)
 @app.get("/")
 def root():
     """Serve the main HTML page."""
-    return FileResponse("static/index.html")
+    return FileResponse(BASE_DIR / "static" / "index.html")
 
 
 @app.get("/health")
